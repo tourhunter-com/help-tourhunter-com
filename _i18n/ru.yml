@@ -1,0 +1,11 @@
+site:
+  name: TourHunter Help Center
+  tagline: All-in-one Booking Platform and Marketplace For Tours & Activities
+  description: Find answers and advice on how to work with TourHunter
+  keywords: Tours, Activities, TourHunter
+
+main:
+  welcomeSection: TourHunter Help Center
+    anchor: 
+    heading: How can we help?
+    p1: Looking for something? Search it here!
