@@ -5,7 +5,7 @@ site:
   keywords: Tours, Activities, TourHunter
 
 main:
-  welcomeSection: TourHunter Help Center
-    anchor: 
+  welcomeSection:
+    anchor: how
     heading: How can we help?
     p1: Looking for something? Search it here!
