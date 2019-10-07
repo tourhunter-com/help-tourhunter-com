@@ -6,7 +6,11 @@ description: >- # this means to ignore newlines until "baseurl:" # wx set actual
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 twitter_username: jekyllrb # wx set actual
-github_username:  jekyll# wx set actual
+github_username:  jekyll # wx set actual
+repository: 4u70m493/help-tourhunter-com
+
+baseurl: ''
+url: ''
 
 # i18n settings
 languages: ["en", "ru"]
@@ -15,8 +19,8 @@ exclude_from_localizations: ["javascript", "images", "css", "docs"] # wx: adapt 
 # Build settings
 theme: jekyll-theme-cayman
 plugins:
-  - jekyll-feed
-  - jekyll-github-metadata
+- jekyll-feed
+- jekyll-github-metadata
 
 # _pages subdir is convenient for storing all pages
 include: ['_pages']
