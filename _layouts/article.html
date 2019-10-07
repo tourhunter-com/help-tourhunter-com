@@ -1,0 +1,54 @@
+{% include header.html %}
+<body>
+    {% include navbar.html %}
+
+    <div class="hero-wrapper">
+        <div class="form-group mx-auto">
+            <input type="text" class="form-control search" placeholder="Search">
+        </div>
+    </div>
+    <main class="p-md-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb bg-transparent">
+                            <li class="breadcrumb-item"><a href="/index.html">TourHunter Help Center</a></li>
+                            <li class="breadcrumb-item"><a href="/category.html">Category</a></li>
+                            <li class="breadcrumb-item active" aria-current="category">Article</li>
+                        </ol>
+                    </nav>
+                    <div class="row card">
+                        <div class="col-md-9 p-4">
+                            <h4>Creating a Tour</h4>
+                            <br>
+                            <p>1. Go to  <b>Manage >  My Tours > + Create Tour</b></p>
+                            <p>2. Fill up all the fields</p>
+                            <p>3. Publish Tour to Marketplace</p>
+                            <img src="{{ '/assets/images/screenshot.png' | absolute_url }}" alt="Image" class="img-fluid mb-4">
+                            <p>4. How you can see the Tour</p>
+                            <p>Tag your product and make it easy to be found in the <a href="#">Marketplace</a> searches. And also make it visible on your website.</p>
+                            <hr>
+                            <h6>Related articles</h6>
+                            <ul class="group-links">
+                                <li><a href="#">Creating a Tour Sechedule and Sessions</a></li>
+                                <li><a href="#">How to setup Net Rates</a></li>
+                                <li><a href="#">How to connect Agents</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 p-4 bg-light">
+                            <h6>Articles in this category</h6>
+                            <ul class="group-links">
+                                <li><a href="#">Creating a Tour Sechedule and Sessions</a></li>
+                                <li><a href="#">How to setup Net Rates</a></li>
+                                <li><a href="#">How to connect Agents</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    {% include footer.html %}
+</body>
+</html>

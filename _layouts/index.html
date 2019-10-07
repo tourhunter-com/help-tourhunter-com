@@ -1,0 +1,58 @@
+
+{% include header.html %}
+
+<body>
+    {% include navbar.html %}
+
+    <div class="hero-wrapper">
+        <h2>{% t site.name %}</h2>
+        <p>{% t site.description %}</p>
+        {% include search.html %}
+    </div>
+    <main class="p-md-5">
+        <div class="container">
+            <div class="row">
+
+                {% assign top_categories = "Getting Started, What's new in TourHunter" | split: ',' %}
+                {% for category in top_categories %}
+                    <div class="col-md-6">
+                        {% capture top_category_name %}
+                        {{ category | first }}
+                        {% endcapture %}
+
+                        <a href="/category.html" class="card card-link">
+                            <div class="card-body text-center" id="#{{ top_category_name | slugize }}">
+                                <h5 class="card-title">
+                                    {{ category }}
+                                </h5>
+                                <p class="card-text">Hit the ground running by completing these simple steps: Create a product, schedule calendar sessions, customise your online storefront and start selling.</p>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+
+                {% assign categories = 'Bookings, Marketplace, Suppliers, Notifications, Billing, Languages, Customers, Agents, For Developers, Account, Admin Panel, Updates' | split: ',' %}
+                {% for category in categories %}
+                    <div class="col-md-3">
+                        {% capture category_name %}
+                            {{ category | first }}
+                        {% endcapture %}
+
+                        <a href="/category.html" class="card card-link">
+                            <div class="card-body text-center" id="#{{ category_name | slugize }}">
+                                <h5 class="card-title">
+                                    {{ category }}
+                                </h5>
+                                <p class="card-text">here be category description</p>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </main>
+
+    {% include footer.html %}
+
+</body>
+</html>
