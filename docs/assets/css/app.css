@@ -1,0 +1,83 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue", "RobotoRegular", Arial;
+    color: #2D4251;
+    background-color: #F1F4F8;
+}
+
+a {
+    color: #3899ed;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+.navbar {
+    background-color: #fff !important;
+}
+
+.dropleft .dropdown-toggle::before {
+    display: none;
+}
+
+.hero-wrapper {
+    padding: 36px 16px;
+    color: #fff;
+    background-color: #39579A;
+    text-align: center;
+}
+
+.hero-wrapper .form-group {
+    max-width: 600px;
+    margin-bottom: 0;
+}
+
+.hero-wrapper .form-group input::placeholder {
+    color: #B4BDC2;
+}
+
+.card {
+    margin: 15px 0;
+    border-color: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 0 #e8eaeb;
+}
+
+.card-link {
+    color: #2D4251;
+    cursor: pointer;
+}
+
+.card-link:hover {
+    color: #2D4251;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.row.card {
+    flex-direction: row;
+}
+
+ul.group-links {
+    margin: 0;
+    padding: 0;
+}
+
+ul.group-links li {
+    list-style-type: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    color: #fff;
+    background-color: #39579A;
+}
