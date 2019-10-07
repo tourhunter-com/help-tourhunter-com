@@ -12,7 +12,7 @@ github_username:  jekyll# wx set actual
 
 # i18n settings
 languages: ["en", "ru"]
-exclude_from_localizations: ["javascript", "images", "css"] # wx: adapt to reflect more of reality
+exclude_from_localizations: ["javascript", "images", "css", "docs"] # wx: adapt to reflect more of reality
 
 # Build settings
 theme: jekyll-theme-cayman
