@@ -77,7 +77,37 @@ ul.group-links li {
 footer {
     display: flex;
     align-items: center;
-    height: 100px;
+    padding: 62px 0;
     color: #fff;
     background-color: #39579A;
+}
+
+@media (min-width: 1200px) {
+    footer .container {
+        max-width: 960px;
+    }
+}
+
+footer .group-links li a {
+    color: #fff;
+}
+
+.socials {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.socials a:hover {
+    background-color: #eee;
 }
