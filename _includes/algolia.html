@@ -2,6 +2,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+<!-- Provider for test helper, to avoid displaying results, when there was no search -->
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch-helper@2.28.0/dist/algoliasearch.helper.min.js"></script>
 
 <script>
     const search = instantsearch({
@@ -31,7 +34,6 @@
 
         return `
     <div class="post-item">
-      <span class="post-meta">${date}</span>
       <h2><a class="post-link" href="${url}">${title}</a></h2>
       {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
       <div class="post-snippet">${content}</div>
@@ -58,6 +60,16 @@
     );
 
     search.start();
+
+    // Hide hits block, if there are no results
+    search.helper.on('result', function(res) {
+        const title = document.querySelector('.search-hits');
+        if (res && res.hits && res.hits.length > 0) {
+            title.style.display = 'block';
+        } else {
+            title.style.display = 'none';
+        }
+    });
 </script>
 
 <style>
