@@ -15,8 +15,8 @@
                             <h4>{{ page.title }}</h4>
                             <p>Categories: </p>
                             {% for category in page.categories %}
-                            {% capture category_slug %}{{category | slugize}}{% endcapture %}
-                            <a href="{{site.baseurl}}/category/{{category_slug}}"> <!-- wx: rm hardcode -->
+                            {% capture category_slug %}{{category.title | slugize}}{% endcapture %}
+                            <a href="{{site.baseurl}}/{{page.lang}}/category/{{category_slug}}"> <!-- wx: rm hardcode -->
                                 {{ category }}
                             </a>
                             {% endfor %}

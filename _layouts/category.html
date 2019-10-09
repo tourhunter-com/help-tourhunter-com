@@ -9,17 +9,26 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2>Category: {{page.category}}</h2>
+                <h2>{{site.data.i18n[page.lang].categories.category}}: {{page.category}}</h2>
             </div>
         </div>
         <div class="row">
             <div class="col">
                 <ul>
-                    {% for post in site.categories[page.category] %}
-                    <li>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </li>
-                    {% endfor %}
+                    {% assign posts=site.categories[page.category] | where:"ref", page.ref | sort: 'lang' %}
+                    {% if posts.size > 0 %}
+                        {% for post in posts %}
+                            {% if post.lang == page.lang %}
+                                <li>
+                                    <a href="{{ post.url }}">{{ post.title }}</a>
+                                </li>
+                            {% else %}
+                                <a href="">{{ site.lang }}</a>
+                            {% endif %}
+                        {% endfor %}
+                    {% else %}
+                        <p>No posts found for language: {{page.lang}} with ref: {{page.ref}}</p>
+                    {% endif %}
                 </ul>
             </div>
         </div>

@@ -15,7 +15,7 @@
             {% for category in site.data.categories.categories %}
             {% capture category_slug %}{{category.title | slugify}}{% endcapture %}
             <div class="col-md-3">
-                <a href="/categories/{{category_slug}}.html" class="card card-link">
+                <a href="/{{page.lang}}/category/{{category_slug}}.html" class="card card-link">
                     <div class="card-body text-center" id="#{{ category_slug }}"> <!-- wx: switch to category slugs in config, bcs otherwise broken links may happen -->
                         <h5 class="card-title">
                             {{ category.title }}
