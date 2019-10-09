@@ -1,12 +1,107 @@
 # TourHunter Help Center
 
 ## Features
-- i18n (multiple languages)
+- i18n (multiple languages) without plugins
+- Categories
+
+## How it works
+
+### Internationalization
+
+Has the following components:
+- fields in front matter
+- directory structure similar for different languages (i.e. you create files for every translation under their own language directory `/en/_posts/post1`, `/ru/_posts/post1`, etc.)
+- config values
+
+#### Fields in front matter to use in layouts (filtering)
+All posts and pages have 2 fields:
+- `ref` (effectively unique id of the page or post)
+- `lang` (2 letter language code in [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) format)
+
+And the layouts use these fields to, for example, show only the language already selected by the reader.
+
+#### Directory structure
+For every supported language you have a dir:
+- en/
+- ru/
+And subdirectories should have the same structure (I've made it default structure for Jekyll, i.e.)
+- `_posts` for posts
+- `_pages` for pages
+- `category` for category pages
+
+#### Config values
+
+There are a few config files for convenience.
+
+**Jekyll config values**
+
+One - common Jekyll config. The part related to i18n is this:
+
+```ruby
+defaults:
+ #languages
+ -
+  scope:
+   path: "en"
+  values:
+   lang: "en"
+ -
+  scope:
+   path: "ru"
+  values:
+   lang: "ru"
+```
+
+This means, that, when you browse files under `en/`, for example, your `site.lang` automatically becomes `en` (and you get all the search results, layouts, etc. for the chosen language).
+
+**i18n configs**
+
+I've put them under `_data/i18n`. They contain translations used in pages, i.e. common lexemes like "Category", section names, etc.
+
+(Your old en.yml, ru.yml, etc.)
+ 
+ Example part of such file:
+ 
+ ```ruby
+main:
+  welcomeSection:
+    anchor: how
+    heading: How can we help?
+    p1: Looking for something? Search it here!
+```
+
+And these values are used in templates like this: 
+```ruby
+{{site.data.i18n[page.lang].categories.category}}:
+```
+
+**Categories config**
+
+Located in `_data/categories.yml`, this is main place to store info about categories. Right now it looks like this:
+
+```ruby
+categories:
+
+  - title:
+      en: "Getting Started"
+      ru: "Начало работы"
+    desc:
+      en: "Getting started desc from _data/categories.yml"
+      ru: "Начало работы... етц"
+```
+
+And that's all. Also check `_layouts` directory contents for understanding, how all these vars are used.
 
 ## How to add new...
 ### Article
 
-1. Create new files for each language: `filename.md` in `_articles` directory. 
+1. Create new files for each language: `filename.md` in `_posts` directory, i.e. 
+
+    ```bash
+    $ touch {en,ru}/_posts/YYYY-MM-DD-new-post.md
+    ```
+    (Note: post naming format is Jekyll requirement.)
+
 2. Add **front matter** ([Documentation on front matter](https://jekyllrb.com/docs/front-matter/))
 Example: 
 ```
@@ -18,20 +113,37 @@ ref: welcome
 lang: fr
 ```
 
+3. Write the post.
+
 [Official Jekyll doc on Posts](https://jekyllrb.com/docs/posts/)
 
 ### Page
-[//] # wx: todo
+
+Basically all the same actions as for `_posts`, just `_pages` subdirectory and slightly other fields in front matter.
 
 ### Category
 1. Add name and description into `_data/categories.yml`
-2. Create new markdown file in `_category` dir (using slug for name, i.e. "Getting Started" -> "getting-started.md"), front matter should contain the following fields:
-```
-layout: category
-category: getting-started
-permalink: /category/getting-started
-```
-3. Regenerate the site
+2. Create new markdown file in `category` dir (using slug for name, i.e. "Getting Started" -> "getting-started.md")
+
+    ```bash
+    $ touch {en,ru}/category/new-category-slug.md
+    ```
+
+3. Front matter should contain the following fields:
+    ```
+    layout: category
+    category: getting-started
+    permalink: /category/getting-started
+    ```
+
+3. Regenerate the site.
+Something similar to:
+
+    ```bash
+    bundle exec jekyll build
+    ```
+
+And we're golden.
 
 ------
 
@@ -42,46 +154,3 @@ permalink: /category/getting-started
 ### Lexeme
 1. `_data/i18n/%lang%.yml` - add new lexeme into the hierarchy;
 2. Reference like this: `site.data.i18n[page.lang].place.in.the.hierarchy.your_lexeme`
-
-### Support for multiple languages
-It works without any special plugins. Here's how:
-
-*In article*: front matter contains 2 mandatory fields: `ref` and `lang`. 
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/tourhunter-com/help/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tourhunter-com/help/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
