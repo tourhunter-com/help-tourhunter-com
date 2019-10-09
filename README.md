@@ -35,7 +35,13 @@ permalink: /category/getting-started
 
 ------
 
-## Development
+# Development
+
+## How to add new...
+
+### Lexeme
+1. `_data/i18n/%lang%.yml` - add new lexeme into the hierarchy;
+2. Reference like this: `site.data.i18n[page.lang].place.in.the.hierarchy.your_lexeme`
 
 ### Support for multiple languages
 It works without any special plugins. Here's how:
