@@ -1,0 +1,43 @@
+top_categories:
+
+  - getting-started:
+      title:
+        en: "Getting Started"
+        ru: "Начало работы"
+      desc:
+        en: "Getting started desc from _data/categories.yml"
+        ru: "Начало работы... етц"
+
+  - what-s-new-in-tourhunter:
+      title:
+        en: "What's new in TourHunter"
+        ru: "Что нового в Турхантере"
+      desc:
+        en: "What is new indeed?"
+        ru: "Что нового, действительно?"
+
+categories:
+
+  - getting-started:
+      title:
+        en: "Getting Started"
+        ru: "Начало работы"
+      desc:
+        en: "Getting started desc from _data/categories.yml"
+        ru: "Начало работы... етц"
+
+  - marketplace:
+        title:
+          en: "Marketplace"
+          ru: "Базар"
+        desc:
+          en: "Marketplace desc from cat.yml"
+          ru: "Описание"
+
+  - bookings:
+        title:
+          en: "Bookings"
+          ru: "Бронирования"
+        desc:
+          en: "Everything about bookings"
+          ru: "Всё о бронированиях"

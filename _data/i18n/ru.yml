@@ -9,3 +9,6 @@ main:
     anchor: чем
     heading: Чем мы можем помочь?
     p1: Ищете что-то? Найдите это здесь!
+
+categories:
+  category: "Категория"
