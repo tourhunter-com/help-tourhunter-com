@@ -1,11 +1,14 @@
-# Official boilerplate
-title: TourHunter Help Center
-email: insert@email.tld # wx: set actual
-description: '' # wx: set actual
+# Jekyll config.
+# NOTE: In dev env you have to restart the dev server for the changes to take place
 
-twitter_username: jekyllrb # wx set actual
-github_username:  jekyll # wx set actual
-repository: 4u70m493/help-tourhunter-com # wx: set actual
+# TODO: change default values to whatever you need below:
+title: TourHunter Help Center
+email: insert@email.tld
+description: ''
+
+twitter_username: jekyllrb
+github_username:  jekyll
+repository: 4u70m493/help-tourhunter-com
 
 # URLs and links
 baseurl: ''
@@ -31,11 +34,14 @@ defaults:
 # Plugin: jekyll-algolia
 # Documentation: https://community.algolia.com/jekyll-algolia/getting-started.html
 
-# Search configuration should be supplied via command line:
+# Search configuration
+# TODO: insert your values
+# List of Jekyll search options is not very big unfortunately.
+# Here it is FYI: https://jekyllrb.com/resources/ (scroll down to "Search")
 algolia:
- application_id: 'QQ327YYWQ0' # wx: change to production
- index_name: 'jekyll_test' # wx: change to another
- search_only_api_key: '6e41c9a35f2ac1f16da5fa890c312332' # "This is the public API key to use in your frontend code."
+ application_id: ''
+ index_name: ''
+ search_only_api_key: '' # "This is the public API key to use in your frontend code."
  # Run indexing like this:
  # $ ALGOLIA_API_KEY='YOUR_KEY_HERE' bundle exec jekyll algolia
  # Or even better, store the key in a file excluded from git
