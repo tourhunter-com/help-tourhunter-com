@@ -1,7 +1,7 @@
 ---
 layout: index
-title: Main
-lang: en
+title: Главная
+lang: ru
 ref: index
 permalink: /
 ---
