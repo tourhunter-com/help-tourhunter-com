@@ -1,3 +1,18 @@
 <div class="form-group mx-auto">
-    <input type="text" class="form-control" placeholder="Search">
+    <div id="search-searchbar"></div>
+    <div class="post-list" id="search-hits">
+        {% for post in site.posts %} <!-- wx: where site.lang == post.lang! -->
+        <div class="post-item">
+            <span class="post-meta">{{ post.date  }}</span>
+            <h2>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </h2>
+<!--            <div class="post-snippet">{{ post.excerpt }}</div> wx: uncomment this after done w/evth else -->
+        </div>
+        {% endfor %}
+    </div>
+
+    {% include algolia.html %}
 </div>

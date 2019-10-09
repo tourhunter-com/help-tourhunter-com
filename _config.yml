@@ -14,7 +14,6 @@ url: 'https://help.tourhunter.com'
 # Permalinks
 permalink: /:category/:title
 
-
 defaults:
  #languages
  -
@@ -27,6 +26,21 @@ defaults:
    path: "ru"
   values:
    lang: "ru"
+
+# We use Algolia search here.
+# Plugin: jekyll-algolia
+# Documentation: https://community.algolia.com/jekyll-algolia/getting-started.html
+
+# Search configuration should be supplied via command line:
+algolia:
+ application_id: 'QQ327YYWQ0' # wx: change to production
+ index_name: 'jekyll_test' # wx: change to another
+ search_only_api_key: '6e41c9a35f2ac1f16da5fa890c312332' # "This is the public API key to use in your frontend code."
+ # Run indexing like this:
+ # $ ALGOLIA_API_KEY='YOUR_KEY_HERE' bundle exec jekyll algolia
+ # Or even better, store the key in a file excluded from git
+
+ # How to keep records in sync with Github Pages: https://community.algolia.com/jekyll-algolia/github-pages.html
 
 # Build settings
 theme: jekyll-theme-cayman
