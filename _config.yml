@@ -14,16 +14,19 @@ url: 'https://help.tourhunter.com'
 # Permalinks
 permalink: /:category/:title
 
-# Collections
-collections:
-  category:
-    output: true #  This allows us to generate pages for each category where we can list all posts under that category.
-    permalink: /category/:name # /getting-started.html
 
-# i18n settings
-#languages: ["en", "ru"]
-#exclude_from_localizations: ["javascript", "images", "css", "docs"]
-# Note: commented out, because jekyll-multiple-languages-plugin was removed, bcs it's unsupported by GH Pages ATM
+defaults:
+ #languages
+ -
+  scope:
+   path: "en"
+  values:
+   lang: "en"
+ -
+  scope:
+   path: "ru"
+  values:
+   lang: "ru"
 
 # Build settings
 theme: jekyll-theme-cayman
@@ -32,9 +35,6 @@ markdown: kramdown
 plugins:
 - jekyll-feed
 - jekyll-github-metadata
-
-# _pages subdir is convenient for storing all pages
-include: ['_pages']
 
 # Exclude from processing.
 # The following items will not be processed, by default.
