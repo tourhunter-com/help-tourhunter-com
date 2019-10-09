@@ -1,3 +1,47 @@
+# TourHunter Help Center
+
+## Features
+- i18n (multiple languages)
+
+## How to add new...
+### Article
+
+1. Create new files for each language: `filename.md` in `_articles` directory. 
+2. Add **front matter** ([Documentation on front matter](https://jekyllrb.com/docs/front-matter/))
+Example: 
+```
+layout: post
+title:  "Bienvenue sur Jekyll !"
+date:   2016-02-29 09:48:44 +0100
+categories: "Marketplace" "Getting Started" (space-separated list of strings)
+ref: welcome
+lang: fr
+```
+
+[Official Jekyll doc on Posts](https://jekyllrb.com/docs/posts/)
+
+### Page
+[//] # wx: todo
+
+### Category
+1. Add name and description into `_data/categories.yml`
+2. Create new markdown file in `_category` dir (using slug for name, i.e. "Getting Started" -> "getting-started.md"), front matter should contain the following fields:
+```
+layout: category
+category: getting-started
+permalink: /category/getting-started
+```
+3. Regenerate the site
+
+------
+
+## Development
+
+### Support for multiple languages
+It works without any special plugins. Here's how:
+
+*In article*: front matter contains 2 mandatory fields: `ref` and `lang`. 
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/tourhunter-com/help/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
