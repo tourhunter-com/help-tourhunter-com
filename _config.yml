@@ -1,23 +1,34 @@
 # Official boilerplate
 title: TourHunter Help Center
 email: insert@email.tld # wx: set actual
-description: >- # this means to ignore newlines until "baseurl:" # wx set actual
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: '' # wx: set actual
+
 twitter_username: jekyllrb # wx set actual
 github_username:  jekyll # wx set actual
-repository: 4u70m493/help-tourhunter-com
+repository: 4u70m493/help-tourhunter-com # wx: set actual
 
+# URLs and links
 baseurl: ''
-url: ''
+url: 'https://help.tourhunter.com'
+
+# Permalinks
+permalink: /:category/:title
+
+# Collections
+collections:
+  category:
+    output: true #  This allows us to generate pages for each category where we can list all posts under that category.
+    permalink: /category/:name # /getting-started.html
 
 # i18n settings
-languages: ["en", "ru"]
-exclude_from_localizations: ["javascript", "images", "css", "docs"] # wx: adapt to reflect more of reality
+#languages: ["en", "ru"]
+#exclude_from_localizations: ["javascript", "images", "css", "docs"]
+# Note: commented out, because jekyll-multiple-languages-plugin was removed, bcs it's unsupported by GH Pages ATM
 
 # Build settings
 theme: jekyll-theme-cayman
+markdown: kramdown
+
 plugins:
 - jekyll-feed
 - jekyll-github-metadata
@@ -45,3 +56,5 @@ exclude:
  - vendor/gems/
  - vendor/ruby/
  - .idea/
+ - CNAME
+ - README.md
