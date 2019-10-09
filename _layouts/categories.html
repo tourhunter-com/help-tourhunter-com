@@ -3,26 +3,25 @@
 
 <body>
     {% include navbar.html %}
-<div class="hero-wrapper">
-    <h2>{{ site.title[site.lang] }}</h2>
-    <p>{{ site.data.i18n.[site.lang].site.description }}
-    {% include search.html %}
-</div>
+    {% include hero.html %}
 <main class="p-md-5">
     <div class="container">
         <div class="row">
-            {% assign categories = 'Bookings, Marketplace, Suppliers, Notifications, Billing, Languages, Customers, Agents, For Developers, Account, Admin Panel, Updates' | split: ',' %}
-            {% for category in categories %}
             <div class="col-md-3">
-                {% capture category_slug %}{{ category | slugify }}{% endcapture %}
-
-                <a href="/{{category_slug}}.html" class="card card-link">
-                    <div class="card-body text-center" id="#{{ category_name | slugize }}">
+                <h3>Categories</h3>
+            </div>
+        </div>
+        <div class="row">
+            {% for category in site.data.categories.categories %}
+            {% capture category_slug %}{{category.title | slugify}}{% endcapture %}
+            <div class="col-md-3">
+                <a href="/categories/{{category_slug}}.html" class="card card-link">
+                    <div class="card-body text-center" id="#{{ category_slug }}"> <!-- wx: switch to category slugs in config, bcs otherwise broken links may happen -->
                         <h5 class="card-title">
-                            {{ category }}
+                            {{ category.title }}
                         </h5>
                         <p class="card-text">
-                            {{site.data.categories[category_slug].desc}}
+                            {{category.desc}}
                         </p>
                     </div>
                 </a>

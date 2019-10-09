@@ -1,0 +1,15 @@
+top_categories:
+
+  - title: "Getting Started"
+    desc: "Getting started desc from _data/categories.yml"
+
+  - title: "What's new in TourHunter"
+    desc: "What is new indeed?"
+
+categories:
+
+- title: "Marketplace"
+  desc: "Marketplace desc from cat.yml"
+
+- title: "Bookings"
+  desc: "Everything about bookings"
