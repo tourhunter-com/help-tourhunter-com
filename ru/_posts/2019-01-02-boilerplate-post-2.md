@@ -6,7 +6,7 @@ categories:
 - "bookings"
 lang: ru
 ref: multilang-article-howto
-permalink: /multilang/
+permalink: /ru/multilang/
 ---
 
 post body 2
