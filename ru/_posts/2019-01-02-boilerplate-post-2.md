@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Как создавать локализованные статьи
+excerpt: "Кусок поста"
 categories: 
 - "getting-started"
 - "bookings"
