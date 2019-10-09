@@ -2,32 +2,26 @@
 {% include header.html %}
 
 <body>
-    {% include navbar.html %}
-<div class="hero-wrapper">
-    <h2>TourHunter Help Center</h2>
-    <p>Find answers and advice on how to get the most out of TourHunter</p>
-    {% include search.html %}
-</div>
+{% include navbar.html %}
+{% include hero.html %}
+{% include breadcrumbs.html %}
 <main class="p-md-5">
     <div class="container">
         <div class="row">
-            {% assign categories = 'Bookings, Marketplace, Suppliers, Notifications, Billing, Languages, Customers, Agents, For Developers, Account, Admin Panel, Updates' | split: ',' %}
-            {% for category in categories %}
-            <div class="col-md-3">
-                {% capture category_name %}
-                {{ category | first }}
-                {% endcapture %}
-
-                <a href="/category.html" class="card card-link">
-                    <div class="card-body text-center" id="#{{ category_name | slugize }}">
-                        <h5 class="card-title">
-                            {{ category }}
-                        </h5>
-                        <p class="card-text">Hit the ground running by completing these simple steps: Create a product, schedule calendar sessions, customise your online storefront and start selling.</p>
-                    </div>
-                </a>
+            <div class="col">
+                <h2>Category: {{page.category}}</h2>
             </div>
-            {% endfor %}
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul>
+                    {% for post in site.categories[page.category] %}
+                    <li>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 </main>
