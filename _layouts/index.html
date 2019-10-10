@@ -1,0 +1,48 @@
+
+{% include header.html %}
+
+<body>
+    {% include navbar.html %}
+    {% include hero.html %}
+    <main class="p-md-5">
+        <div class="container">
+            <div class="row">
+                {% for top_category in site.data.categories.top_categories %}
+                    <div class="col-md-6">
+                        {% capture top_category_slug %}{{top_category.title['en'] | slugify}}{% endcapture %}
+                        <a href="{{site.baseurl}}/{{page.lang}}/category/{{top_category_slug}}" class="card card-link">
+                            <div class="card-body text-center" id="#{{ top_category_slug }}">
+                                <h5 class="card-title">
+                                    {{ top_category.title[page.lang] }}
+                                </h5>
+                                <p class="card-text">
+                                    {{ top_category.desc[page.lang] }}
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+
+                {% assign categories = site.data.categories.categories %}
+                {% for category in categories %}
+                    <div class="col-md-3">
+                        {% capture category_slug %}{{category.title['en'] | slugify}}{% endcapture %}
+
+                        <a href="{{site.baseurl}}/{{page.lang}}/category/{{category_slug}}" class="card card-link">
+                            <div class="card-body text-center" id="#{{ category_name | slugize }}">
+                                <h5 class="card-title">
+                                    {{ category.title[page.lang] }}
+                                </h5>
+                                <p class="card-text">{{category.desc[page.lang]}}</p>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </main>
+
+    {% include footer.html %}
+
+</body>
+</html>

@@ -1,7 +1,80 @@
+# Jekyll config.
+# NOTE: In dev env you have to restart the dev server for the changes to take place
+
+# TODO: change default values to whatever you need below:
+title: TourHunter Help Center
+email: insert@email.tld
+description: ''
+
+twitter_username: jekyllrb
+github_username:  jekyll
+repository: tourhunter-com/help-tourhunter-com
+
+# URLs and links
+baseurl: ''
+url: 'https://help.tourhunter.com'
+
+# Permalinks
+permalink: /:category/:title
+
+defaults:
+ #languages
+ -
+  scope:
+   path: "en"
+  values:
+   lang: "en"
+ -
+  scope:
+   path: "ru"
+  values:
+   lang: "ru"
+
+# We use Algolia search here.
+# Plugin: jekyll-algolia
+# Documentation: https://community.algolia.com/jekyll-algolia/getting-started.html
+
+# Search configuration
+# TODO: insert your values
+# List of Jekyll search options is not very big unfortunately.
+# Here it is FYI: https://jekyllrb.com/resources/ (scroll down to "Search")
+algolia:
+ application_id: ''
+ index_name: ''
+ search_only_api_key: '' # "This is the public API key to use in your frontend code."
+ # Run indexing like this:
+ # $ ALGOLIA_API_KEY='YOUR_KEY_HERE' bundle exec jekyll algolia
+ # Or even better, store the key in a file excluded from git
+
+ # How to keep records in sync with Github Pages: https://community.algolia.com/jekyll-algolia/github-pages.html
+
+# Build settings
 theme: jekyll-theme-cayman
-languages: ["en", "ru"]
-exclude_from_localizations: ["assets", "CNAME"]
-defaultLang: en
-languageNames:
-  ru: Russian
-  en: English
+markdown: kramdown
+
+plugins:
+- jekyll-feed
+- jekyll-github-metadata
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+ - .sass-cache/
+ - .jekyll-cache/
+ - gemfiles/
+ - Gemfile
+ - Gemfile.lock
+ - node_modules/
+ - vendor/bundle/
+ - vendor/cache/
+ - vendor/gems/
+ - vendor/ruby/
+ - .idea/
+ - CNAME
+ - README.md

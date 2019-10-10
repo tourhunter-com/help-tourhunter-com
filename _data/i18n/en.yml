@@ -1,4 +1,4 @@
-site:
+global:
   name: TourHunter Help Center
   tagline: All-in-one Booking Platform and Marketplace For Tours & Activities
   description: Find answers and advice on how to work with TourHunter
@@ -9,3 +9,8 @@ main:
     anchor: how
     heading: How can we help?
     p1: Looking for something? Search it here!
+
+# Everything related to categories
+# NOTE: translations for category name/desc are at: _data/categories.yml
+categories:
+  category: "Category"
