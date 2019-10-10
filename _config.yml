@@ -3,12 +3,13 @@
 
 # TODO: change default values to whatever you need below:
 title: TourHunter Help Center
-email: insert@email.tld
-description: ''
+email: hello@tourhunter.com
+description: 'TourHunter Help Center'
 
-twitter_username: jekyllrb
-github_username:  jekyll
 repository: tourhunter-com/help-tourhunter-com
+
+timezone: UTC
+encoding: "utf-8"
 
 # URLs and links
 baseurl: ''
@@ -78,3 +79,9 @@ exclude:
  - .idea/
  - CNAME
  - README.md
+ - PULL_REQUEST_TEMPLATE.md
+ - ISSUE_TEMPLATE.md
+ - LICENSE.md
+ - CODE_OF_CONDUCT.md
+ - CONTRIBUTING.md
+ - INSTALL.md
