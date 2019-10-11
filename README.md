@@ -1,8 +1,16 @@
-# TourHunter Help Center
+<h1 align="center">TourHunter Help Center</h1>
 
-## Features
-- i18n (multiple languages) without plugins
-- Categories
+Live: https://help.tourhunter.com
+
+The repository is a part of the [TourHunter Organization](https://github.com/tourhunter-com).
+
+## Code of Conduct
+
+This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Contributing
+
+Please read through our [Contributing Guidelines](CONTRIBUTING.md).
 
 ## How it works
 
@@ -59,9 +67,9 @@ This means, that, when you browse files under `en/`, for example, your `site.lan
 I've put them under `_data/i18n`. They contain translations used in pages, i.e. common lexemes like "Category", section names, etc.
 
 (Your old en.yml, ru.yml, etc.)
- 
+
  Example part of such file:
- 
+
  ```ruby
 main:
   welcomeSection:
@@ -70,7 +78,7 @@ main:
     p1: Looking for something? Search it here!
 ```
 
-And these values are used in templates like this: 
+And these values are used in templates like this:
 ```ruby
 {{site.data.i18n[page.lang].categories.category}}:
 ```
@@ -92,12 +100,8 @@ categories:
 
 And that's all. Also check `_layouts` directory contents for understanding, how all these vars are used.
 
-------
-
-# Development
-
 ## How to add new...
 
-### Lexeme
+#### Lexeme
 1. `_data/i18n/%lang%.yml` - add new lexeme into the hierarchy;
 2. Reference like this: `site.data.i18n[page.lang].place.in.the.hierarchy.your_lexeme`
