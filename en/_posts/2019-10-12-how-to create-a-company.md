@@ -2,7 +2,8 @@
 layout: post
 title:  "How to create a company?"
 date:   2019-10-12 06:51:27 +0300
-categories: "Getting Started"
+categories:
+- "getting-started"
 ref: multilang-create-a-company
 lang: en
 ---
