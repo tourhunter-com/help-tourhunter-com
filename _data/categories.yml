@@ -18,13 +18,6 @@ top_categories:
 categories:
 
   - title:
-      en: "Getting Started"
-      ru: "Начало работы"
-    desc:
-      en: "Getting started desc from _data/categories.yml"
-      ru: "Начало работы... етц"
-
-  - title:
       en: "Marketplace"
       ru: "Базар"
     desc:
@@ -37,3 +30,17 @@ categories:
     desc:
       en: "Everything about bookings"
       ru: "Всё о бронированиях"
+
+  - title:
+      en: "Customers"
+      ru: "Клиенты"
+    desc:
+      en: "Setup and manage customers data"
+      ru: "Настройка и работа с профилями клиентов"
+      
+  - title:
+      en: "Agents"
+      ru: "Агенты"
+    desc:
+      en: "Setup and manage customers data""
+      ru: "Настройка и работа с профилями агентов"
