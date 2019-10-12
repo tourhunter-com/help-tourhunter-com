@@ -1,5 +1,5 @@
 ---
 layout: category
-category: "getting-started"
-permalink: /en/category/getting-started
+category: "customers"
+permalink: /en/category/customers
 ---
