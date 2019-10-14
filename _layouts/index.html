@@ -24,10 +24,10 @@
                 {% endfor %}
 
                 {% assign categories = site.data.categories.categories %}
-                {% for category in categories %}
+                {% for c in categories %}
+                    {% assign category = c[1] %}
+                    {% assign category_slug = c[0] %}
                     <div class="col-md-3">
-                        {% capture category_slug %}{{category.title['en'] | slugify}}{% endcapture %}
-
                         <a href="{{site.baseurl}}/{{page.lang}}/category/{{category_slug}}" class="card card-link">
                             <div class="card-body text-center" id="#{{ category_name | slugize }}">
                                 <h5 class="card-title">
