@@ -33,5 +33,14 @@
     </div>
 </footer>
 
-<script src="{{'/assets/js/jquery-3.3.1.slim.min.js' | absolute_url }}"></script>
-<script src="{{'/assets/js/bootstrap.bundle.min.js' | absolute_url }}"></script>
+<script src="{{ '/assets/js/jquery-3.3.1.slim.min.js' | absolute_url }}"></script>
+<script src="{{ '/assets/js/bootstrap.bundle.min.js' | absolute_url }}"></script>
+<script src="{{ '/assets/js/simple-jekyll-search.min.js' | absolute_url }}"></script>
+<script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>',
+    })
+</script>
