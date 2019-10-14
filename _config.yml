@@ -28,24 +28,6 @@ defaults:
   values:
    lang: "ru"
 
-# We use Algolia search here.
-# Plugin: jekyll-algolia
-# Documentation: https://community.algolia.com/jekyll-algolia/getting-started.html
-
-# Search configuration
-# TODO: insert your values
-# List of Jekyll search options is not very big unfortunately.
-# Here it is FYI: https://jekyllrb.com/resources/ (scroll down to "Search")
-algolia:
- application_id: ''
- index_name: ''
- search_only_api_key: '' # "This is the public API key to use in your frontend code."
- # Run indexing like this:
- # $ ALGOLIA_API_KEY='YOUR_KEY_HERE' bundle exec jekyll algolia
- # Or even better, store the key in a file excluded from git
-
- # How to keep records in sync with Github Pages: https://community.algolia.com/jekyll-algolia/github-pages.html
-
 # Build settings
 theme: jekyll-theme-cayman
 markdown: kramdown
