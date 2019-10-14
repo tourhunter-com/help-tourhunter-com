@@ -1,42 +1,32 @@
-{% include header.html %}
-<body>
-{% include navbar.html %}
-<div class="hero-wrapper">
-    {% include search.html %}
-</div>
-<main class="p-md-5">
-    <div class="container">
-        <div class="row">
-            <div class="col">
+---
+layout: base
+---
+<div class="row">
+    <div class="col">
 
-                {% include breadcrumbs.html %}
+        {% include breadcrumbs.html %}
 
-                <div class="row card">
-                    <div class="col-md-9 p-4">
-                        <h4>{{ page.title }}</h4>
-                        <br>
-                        {{ content }}
-                        <hr>
-                        <h6>Related articles</h6> <!-- wx: dynamic -->
-                        <ul class="group-links">
-                            <li><a href="#">Creating a Tour Sechedule and Sessions</a></li>
-                            <li><a href="#">How to setup Net Rates</a></li>
-                            <li><a href="#">How to connect Agents</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 p-4 bg-light">
-                        <h6>Articles in this category</h6> <!-- wx: dynamic -->
-                        <ul class="group-links">
-                            <li><a href="#">Creating a Tour Sechedule and Sessions</a></li>
-                            <li><a href="#">How to setup Net Rates</a></li>
-                            <li><a href="#">How to connect Agents</a></li>
-                        </ul>
-                    </div>
-                </div>
+        <div class="row card">
+            <div class="col-md-9 p-4">
+                <h4>{{ page.title }}</h4>
+                <br>
+                {{ content }}
+                <hr>
+                <h6>Related articles</h6> <!-- wx: dynamic -->
+                <ul class="group-links">
+                    <li><a href="#">Creating a Tour Sechedule and Sessions</a></li>
+                    <li><a href="#">How to setup Net Rates</a></li>
+                    <li><a href="#">How to connect Agents</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 p-4 bg-light">
+                <h6>Articles in this category</h6> <!-- wx: dynamic -->
+                <ul class="group-links">
+                    <li><a href="#">Creating a Tour Sechedule and Sessions</a></li>
+                    <li><a href="#">How to setup Net Rates</a></li>
+                    <li><a href="#">How to connect Agents</a></li>
+                </ul>
             </div>
         </div>
     </div>
-</main>
-{% include footer.html %}
-</body>
-</html>
+</div>
