@@ -5,6 +5,7 @@ excerpt: "Кусок поста"
 categories: 
 - "getting-started"
 - "bookings"
+- "agents"
 lang: ru
 ref: multilang-article-howto
 permalink: /ru/multilang/

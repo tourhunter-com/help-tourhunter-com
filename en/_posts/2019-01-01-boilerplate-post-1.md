@@ -5,6 +5,7 @@ excerpt: "Part of a post"
 categories: 
 - "getting-started"
 - "marketplace"
+- "agents"
 tags: "site-support"
 lang: en
 ref: multilang-article-howto
