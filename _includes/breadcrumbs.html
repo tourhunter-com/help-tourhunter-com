@@ -1,11 +1,11 @@
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb bg-transparent">
-        {% assign site_lang = site.lang %}
+        {% capture i18n_src %}site.data.i18n.{{ page.lang }}{% endcapture %}
         <li class="breadcrumb-item">
             <a href="/{{ site_lang }}">
-                {{ site.data.i18n.site_lang.global.title }}
+                Tourhunter Help Center <!-- wx: localize -->
             </a>
-        </li> <!-- wx: localize this! -->
+        </li>
         {% for cat in site.data.categories.categories %}
         {% assign url_prefix = page.url | slice: 0, cat.size %}
             {% if (url_prefix == cat) and (page.url != cat) %}

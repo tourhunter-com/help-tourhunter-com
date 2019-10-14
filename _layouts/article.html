@@ -22,28 +22,10 @@
                             <br>
                             {{ content }}
                             <hr>
-                            <h6>Related articles</h6>
-                            <ul class="group-links"> <!-- TODO: make them dynamic and reference the values from content -->
-                                <li><a href="#">Creating a Tour Sechedule and Sessions</a></li>
-                                <li><a href="#">How to setup Net Rates</a></li>
-                                <li><a href="#">How to connect Agents</a></li>
-                            </ul>
+                            {% include articles/related.html %}
                         </div>
                         <div class="col-md-3 p-4 bg-light">
-                            <h6>Articles in this category</h6>
-                            <ul class="group-links">
-                                {% for category in page.categories %}
-                                    {% for post in site.categories[category] %}
-                                        {% if post.lang == site.lang %}
-                                            <li>
-                                                <a href="{{ site.baseurl }}{{ post.url }}">
-                                                    {{ post.title }}
-                                                </a>
-                                            </li>
-                                        {% endif %}
-                                    {% endfor %}
-                                {% endfor %}
-                            </ul>
+                            {% include articles/in_category.html %}
                         </div>
                     </div>
                 </div>
