@@ -15,9 +15,6 @@ encoding: "utf-8"
 baseurl: ''
 url: 'https://help.tourhunter.com'
 
-# Permalinks
-permalink: /:category/:title
-
 defaults:
  #languages
  -

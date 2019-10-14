@@ -15,7 +15,7 @@
                         <p>here be category desc</p> <!-- wx: add desc from categories.yml -->
                         <div class="row">
                             <div class="col-md-6">
-                                {% assign posts=site.categories[page.category] | where:"ref", page.ref | sort: 'lang' %}
+                                {% assign posts=site.categories[page.category] | where:"ref", page.ref %}
                                 {% if posts.size > 0 %}
                                 <ul class="group-links">
                                     {% for post in posts %}
