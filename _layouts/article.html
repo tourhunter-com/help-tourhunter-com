@@ -15,9 +15,8 @@
                             <h4>{{ page.title }}</h4>
                             <p>Categories: </p>
                             {% for category in page.categories %}
-                            {% capture category_slug %}{{category.title | slugize}}{% endcapture %}
-                            <a href="{{site.baseurl}}/{{page.lang}}/category/{{category_slug}}">
-                                {{ category }}
+                            <a href="{{site.baseurl}}/{{page.lang}}/category/{{category}}">
+                                {{ site.data.categories.categories[category].title[page.lang] }}
                             </a>
                             {% endfor %}
                             <br>
@@ -31,11 +30,19 @@
                             </ul>
                         </div>
                         <div class="col-md-3 p-4 bg-light">
-                            <h6>Articles in this category</h6> <!-- TODO: and this too -->
+                            <h6>Articles in this category</h6>
                             <ul class="group-links">
-                                <li><a href="#">Creating a Tour Sechedule and Sessions</a></li>
-                                <li><a href="#">How to setup Net Rates</a></li>
-                                <li><a href="#">How to connect Agents</a></li>
+                                {% for category in page.categories %}
+                                    {% for post in site.categories[category] %}
+                                        {% if post.lang == site.lang %}
+                                            <li>
+                                                <a href="{{ site.baseurl }}{{ post.url }}">
+                                                    {{ post.title }}
+                                                </a>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
                             </ul>
                         </div>
                     </div>
