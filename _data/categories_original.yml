@@ -17,32 +17,28 @@ top_categories:
 
 categories:
 
-  marketplace:
-    title:
+  - title:
       en: "Marketplace"
       ru: "Базар"
     desc:
       en: "Marketplace desc from cat.yml"
       ru: "Описание"
 
-  bookings:
-    title:
+  - title:
       en: "Bookings"
       ru: "Бронирования"
     desc:
       en: "Everything about bookings"
       ru: "Всё о бронированиях"
 
-  customers:
-    title:
+  - title:
       en: "Customers"
       ru: "Клиенты"
     desc:
       en: "Setup and manage customers data"
       ru: "Настройка и работа с профилями клиентов"
-
-  agents:
-    title:
+      
+  - title:
       en: "Agents"
       ru: "Агенты"
     desc:
