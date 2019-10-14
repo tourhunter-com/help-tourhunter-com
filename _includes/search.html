@@ -2,15 +2,17 @@
     <div id="search-searchbar"></div>
     <div class="post-list" id="search-hits">
         {% for post in site.posts %} <!-- TODO: where site.lang == post.lang! -->
+        {% if site.lang == post.lang %}
         <div class="post-item">
-            <span class="post-meta">{{ post.date  }}</span>
+            <span class="post-meta">{{ post.date }}</span>
             <h2>
                 <a class="post-link" href="{{ post.url | relative_url }}">
                     {{ post.title | escape }}
                 </a>
             </h2>
-<!--            <div class="post-snippet">{{ post.excerpt }}</div> TODO: uncomment this after done w/evth else -->
+            <div class="post-snippet">{{ post.excerpt }}</div>
         </div>
+        {% endif %}
         {% endfor %}
     </div>
 

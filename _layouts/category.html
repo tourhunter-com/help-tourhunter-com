@@ -1,54 +1,49 @@
-
-{% include header.html %}
-
-<body>
-{% include navbar.html %}
-{% include hero.html %}
-{% include breadcrumbs.html %}
-<main class="p-md-5">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="row card">
-                    <div class="col-md-9 p-4">
-                        <h2>{{site.data.i18n[page.lang].categories.category}}: {{page.category}}</h2>
-                        <p>here be category desc</p> <!-- wx: add desc from categories.yml -->
-                        <div class="row">
-                            <div class="col-md-6">
-                                {% assign posts=site.categories[page.category] | where:"ref", page.ref | sort: 'lang' %}
-                                {% if posts.size > 0 %}
-                                <ul class="group-links">
-                                    {% for post in posts %}
-                                        {% if post.lang == page.lang %}
-                                            <li>
-                                                <a href="{{ post.url }}">{{ post.title }}</a>
-                                            </li>
-                                        {% endif %}
-                                    {% endfor %}
-                                </ul>
-                                {% else %}
-                                    <p>No posts found for language: {{page.lang}} with ref: {{page.ref}}</p>
-                                {% endif %}
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Side menu -->
-                    <div class="col-md-3 p-4 bg-light">
-                        <h6>More categories</h6>
+---
+layout: base
+---
+<div class="row">
+    <div class="col">
+        <div class="row card">
+            <div class="col-md-9 p-4">
+                {% assign category_data = site.data.categories.categories[page.category] %}
+                <h2>{{site.data.i18n[page.lang].categories.category}}: {{ category_data.title[page.lang] }}</h2>
+                <p>
+                    {{ category_data.desc[page.lang] }}
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        {% assign posts=site.categories[page.category] %}
+                        {% if posts.size > 0 %}
                         <ul class="group-links">
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Bookings</a></li>
-                            <li><a href="#">Agents</a></li>
-                            <li><a href="#">Updates</a></li>
+                            {% for post in posts %}
+                                {% if post.lang == page.lang %}
+                                    <li>
+                                        <a href="{{ post.url }}">{{ post.title }}</a>
+                                    </li>
+                                {% endif %}
+                            {% endfor %}
                         </ul>
+                        {% else %}
+                            <p>No posts found for language: {{page.lang}}</p>
+                        {% endif %}
                     </div>
                 </div>
             </div>
+            <!-- Side menu -->
+            <div class="col-md-3 p-4 bg-light">
+                <h6>More categories</h6>
+                <ul class="group-links">
+                    {% for c in site.data.categories.categories %}
+                        {% if c[0] != page.category %}
+                            <li>
+                                <a href="{{ site.baseurl }}/{{ page.lang }}/category/{{ c[0] }}">
+                                    {{ c[1].title[page.lang] }}
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
-</main>
-
-{% include footer.html %}
-
-</body>
-</html>
+</div>

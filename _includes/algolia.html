@@ -14,6 +14,13 @@
     });
 
     const hitTemplate = function(hit) {
+        const search_query = search.helper.state.query;
+
+        if (search_query.length < 1) {
+            // console.log("No search query - no results block.");
+            return ``;
+        }
+
         let date = '';
         if (hit.date) {
             date = moment.unix(hit.date).format('MMM D, YYYY');
@@ -33,12 +40,12 @@
         const content = hit._highlightResult.html.value;
 
         return `
-    <div class="post-item">
-      <h2><a class="post-link" href="${url}">${title}</a></h2>
-      {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
-      <div class="post-snippet">${content}</div>
-    </div>
-  `;
+        <div class="post-item">
+          <h2><a class="post-link" href="${url}">${title}</a></h2>
+          {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+          <div class="post-snippet">${content}</div>
+        </div>
+      `;
     }
 
 
@@ -60,16 +67,6 @@
     );
 
     search.start();
-
-    // Hide hits block, if there are no results
-    search.helper.on('result', function(res) {
-        const title = document.querySelector('.search-hits');
-        if (res && res.hits && res.hits.length > 0) {
-            title.style.display = 'block';
-        } else {
-            title.style.display = 'none';
-        }
-    });
 </script>
 
 <style>
