@@ -6,6 +6,28 @@ The following is a set of guidelines for contributing to TourHunter, which are h
 
 This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md).
 
+## Admin interface
+
+This project has admin interface, accessible locally.
+Run from command line in the project directory:
+
+```bash
+bundle install
+```
+
+then start development server: 
+```bash
+bundle exec jekyll serve
+```
+
+and navigate to
+
+```bash
+http://localhost:4000/admin
+```
+
+to see the content.
+
 ## How to add new...
 ### Article
 
