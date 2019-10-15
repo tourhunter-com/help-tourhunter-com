@@ -1,6 +1,5 @@
 <div class="hero-wrapper">
-    {% capture i18n_src %}site.data.i18n.{{ page.lang }}{% endcapture %}
-    <h2>{{ i18n_src.global.title }}</h2>
-    <p>{{ i18n_src.global.tagline }}</p>
+    <h2>{{ site.data.i18n[page.lang].global.title }}</h2>
+    <p>{{ site.data.i18n[page.lang].global.tagline }}</p>
     {% include search.html %}
 </div>

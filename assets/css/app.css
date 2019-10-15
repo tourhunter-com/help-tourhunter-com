@@ -104,8 +104,11 @@ footer .group-links li a {
     width: 30px;
     height: 30px;
     margin-right: 16px;
+    color: #39579A;
+    text-decoration: none;
     background-color: #fff;
     border-radius: 50%;
+
 }
 
 .socials a:hover {
