@@ -21,6 +21,9 @@ Has the following components:
 - directory structure similar for different languages (i.e. you create files for every translation under their own language directory `/en/_posts/post1`, `/ru/_posts/post1`, etc.)
 - config values
 
+### Search
+[SimpleJekyllSearch documentation](https://github.com/christian-fei/Simple-Jekyll-Search#usage)
+
 #### Fields in front matter to use in layouts (filtering)
 All posts and pages have 2 fields:
 - `ref` (effectively unique id of the page or post)
