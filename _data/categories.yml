@@ -4,16 +4,16 @@ top_categories:
         en: "Getting Started"
         ru: "Начало работы"
       desc:
-        en: "Getting started desc from _data/categories.yml"
-        ru: "Начало работы... етц"
+        en: "Hit the ground running by completing these simple steps: Create a product, schedule calendar sessions, customise your online storefront and start selling online in less than 15 minutes! Let's get started..."
+        ru: "Начните работу, выполнив следующие простые действия: создайте продукт, запланируйте сессии в календаре, настройте свою онлайн витрину и начните продавать онлайн менее чем за 15 минут! Давайте начнем..."
       slug: "getting-started"
 
   -   title:
         en: "What's new in TourHunter"
-        ru: "Что нового в Турхантере"
+        ru: "Что нового в TourHunter"
       desc:
-        en: "What is new indeed?"
-        ru: "Что нового, действительно?"
+        en: "Our Product & Development teams are regularly adding improvements and enhancing TouHunter. You'll find a list of our most recent enhancements here."
+        ru: "Наши команды по продукту и разработке регулярно улучшают и добавляют новые возможности в TouHunter. Вы найдете список наших последних улучшений здесь."
 
 categories:
 
@@ -22,16 +22,16 @@ categories:
       en: "Marketplace"
       ru: "Базар"
     desc:
-      en: "Marketplace desc from cat.yml"
-      ru: "Описание"
+      en: "Edit /_data/categoties.yml"
+      ru: "Edit /_data/categoties.yml"
 
   bookings:
     title:
       en: "Bookings"
       ru: "Бронирования"
     desc:
-      en: "Everything about bookings"
-      ru: "Всё о бронированиях"
+      en: "Edit /_data/categoties.yml"
+      ru: "Edit /_data/categoties.yml"
 
   customers:
     title:

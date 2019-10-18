@@ -2,36 +2,13 @@
 
 First off, thanks for taking the time to contribute!
 
-The following is a set of guidelines for contributing to TourHunter, which are hosted in the [TourHunter Organization](https://github.com/tourhunter-com) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
-
 This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-## Admin interface
-
-This project has admin interface, accessible locally.
-Run from command line in the project directory:
-
-```bash
-bundle install
-```
-
-then start development server: 
-```bash
-bundle exec jekyll serve
-```
-
-and navigate to
-
-```bash
-http://localhost:4000/admin
-```
-
-to see the content.
-
 ## How to add new...
+
 ### Article
 
-1. Create new files for each language: `filename.md` in `_posts` directory, i.e. 
+1. Create new files for each language: `filename.md` in `_posts` directory, i.e.
 
     ```bash
     $ touch {en,ru}/_posts/YYYY-MM-DD-new-post.md
@@ -39,7 +16,7 @@ to see the content.
     (Note: post naming format is Jekyll requirement.)
 
 2. Add **front matter** ([Documentation on front matter](https://jekyllrb.com/docs/front-matter/))
-Example: 
+Example:
 ```
 layout: post
 title:  "Bienvenue sur Jekyll !"
@@ -72,11 +49,15 @@ Basically all the same actions as for `_posts`, just `_pages` subdirectory and s
     permalink: /category/getting-started
     ```
 
-3. Regenerate the site.
-Something similar to:
-
-    ```bash
+3. Rebuild the website:
+    ```
     bundle exec jekyll build
     ```
 
-And we're golden.
+### Lexeme
+1. `_data/i18n/%lang%.yml` - add new lexeme into the hierarchy;
+2. Reference like this: `site.data.i18n[page.lang].place.in.the.hierarchy.your_lexeme`
+
+## Additional information
+
+- https://help.github.com/en/articles/adding-content-to-your-github-pages-site-using-jekyll
