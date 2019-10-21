@@ -1,24 +1,24 @@
 ---
 layout: article
-title:  "How to create a company?"
-date:   2019-10-12 06:51:27 +0300
-categories:
-- "getting-started"
-ref: multilang-create-a-company
+title:  How to create a company?
+excerpt: "Part of a post"
+category: "getting-started"
 lang: en
+ref: how-to-create-a-company
+permalink: /en/category/getting-started/how-to-create-a-company
 ---
 
-##Creating a company
+Creating a company
 
 What you need first is a created account on TourHunter (see also **How to create an account using email?**). 
 
 If you already have an account you can create a company. Just follow the next steps.
 
-###Step 1: Authorizing
+Step 1: Authorizing
 
 Authorize at TourHunter using your email (or facebook, google+ account).
 
-###Step 2: Add a company
+Step 2: Add a company
 
 On the opened page "Dashboard"  you will see:
 * greetings "Hello [username]";
@@ -28,17 +28,17 @@ On the opened page "Dashboard"  you will see:
 
 Click on "+ Add a Company".
 
-###Step 3: Choosing a company type
+Step 3: Choosing a company type
 
 On the page that will appear choose a type of the future company: Supplier or Agent. 
 
 See also **Supplier company**, **Agent company**.
 
-###Step 4: Choosing a subscription type
+Step 4: Choosing a subscription type
 
 On the opened page choose type of the subscription of the future company. You can upgrade or downgrade type of subscription later.
 
-###Step 5: Filling out a company data
+Step 5: Filling out a company data
  
 Fill out the form on the new page which contain:
 * company name;
@@ -48,7 +48,7 @@ Fill out the form on the new page which contain:
 
 After filling out the form click on the "Create company' button.
 
-###Suggestions
+Suggestions
 
 **Creating a company from a landing page**
 
