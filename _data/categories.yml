@@ -56,6 +56,14 @@ categories:
     desc:
       en: "Information about how to be a TourHunter Supplier and cooperate with other companies."
       ru: "Информация о том как быть поставщиком TourHunter и сотрудничать с другими компаниями."
+
+  tours:
+    title:
+      en: "Tours"
+      ru: "Туры"
+    desc:
+      en: "Information about how to create your own tours."
+      ru: "Информация о том как создавать свои туры."
       
   notifications:
     title:
