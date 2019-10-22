@@ -33,12 +33,9 @@ And the layouts use these fields to, for example, show only the language already
 
 #### Directory structure
 For every supported language you have a dir:
-- en/
-- ru/
-And subdirectories should have the same structure (I've made it default structure for Jekyll, i.e.)
-- `_posts` for posts
-- `_pages` for pages
-- `category` for category pages
+- _en/
+- _ru/
+(Under the hood these are [Jekyll collections](https://jekyllrb.com/docs/collections/), see also: `_config.yml`. 
 
 #### Config values
 

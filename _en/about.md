@@ -5,6 +5,3 @@ lang: en
 ref: about
 permalink: /about/
 ---
-
-
-

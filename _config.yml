@@ -15,16 +15,27 @@ encoding: "utf-8"
 baseurl: ''
 url: 'https://help.tourhunter.com'
 
+# Collections
+collections:
+ en:
+  output: true
+  permalink: /en/:path/
+ ru:
+  output: true
+  permalink: /ru/:path/
+
 defaults:
  #languages
  -
   scope:
-   path: "en"
+   path: ""
+   type: "en" # collection, @see https://jekyllrb.com/docs/configuration/front-matter-defaults/
   values:
    lang: "en"
  -
   scope:
-   path: "ru"
+   path: ""
+   type: "ru"
   values:
    lang: "ru"
 
