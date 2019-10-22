@@ -36,6 +36,10 @@ a:hover {
     color: #B4BDC2;
 }
 
+.highlighted {
+    color: yellow;
+}
+
 .card {
     margin: 15px 0;
     border-color: none;
