@@ -8,17 +8,16 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 ### Article
 
-1. Create new files for each language: `filename.md` in `_posts` directory, i.e.
+1. Create new files for each language: `filename.md` in `_lang` directory, i.e.
 
     ```bash
-    $ touch {en,ru}/_posts/YYYY-MM-DD-new-post.md
+    $ touch _{en,ru}/article_name.md
     ```
-    (Note: post naming format is Jekyll requirement.)
 
 2. Add **front matter** ([Documentation on front matter](https://jekyllrb.com/docs/front-matter/))
 Example:
 ```
-layout: post
+layout: article
 title:  "Bienvenue sur Jekyll !"
 date:   2016-02-29 09:48:44 +0100
 categories: "Marketplace" "Getting Started" (space-separated list of strings)
@@ -26,20 +25,15 @@ ref: welcome
 lang: fr
 ```
 
-3. Write the post.
+3. Write the article.
 
-[Official Jekyll doc on Posts](https://jekyllrb.com/docs/posts/)
-
-### Page
-
-Basically all the same actions as for `_posts`, just `_pages` subdirectory and slightly other fields in front matter.
 
 ### Category
 1. Add name and description into `_data/categories.yml`
-2. Create new markdown file in `category` dir (using slug for name, i.e. "Getting Started" -> "getting-started.md")
+2. Create new markdown file in `_lang/category` dir (using slug for name, i.e. "Getting Started" -> "getting-started.md")
 
     ```bash
-    $ touch {en,ru}/category/new-category-slug.md
+    $ touch _{en,ru}/category/new-category-slug.md
     ```
 
 3. Front matter should contain the following fields:
