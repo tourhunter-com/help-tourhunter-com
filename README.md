@@ -103,12 +103,6 @@ categories:
 
 And that's all. Also check `_layouts` directory contents for understanding, how all these vars are used.
 
-## How to add new...
-
-#### Lexeme
-1. `_data/i18n/%lang%.yml` - add new lexeme into the hierarchy;
-2. Reference like this: `site.data.i18n[page.lang].place.in.the.hierarchy.your_lexeme`
-
 ## License
 
 This project is open source and available freely under the [MIT license](LICENSE.md).
