@@ -37,10 +37,34 @@
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | absolute_url }}"></script>
 <script src="{{ '/assets/js/simple-jekyll-search.min.js' | absolute_url }}"></script>
 <script>
+    var search_input = document.getElementById('search-input');
+    
     SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
+        searchInput: search_input,
         resultsContainer: document.getElementById('results-container'),
         json: '/search.json',
-        searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>',
+        templateMiddleware: function(prop, value, template) {
+            if (prop === 'content') {
+                // wx: compare with search_input.value and take substring only so long that it takes a part of the screen...
+                var content = value; // for readability
+                var match = search_input.value;
+
+                var startpos = content.search(match);
+                var endpos = startpos + match.length;
+
+                var substr_start = startpos - 20; // todo: detect meaningful breaks before and after!
+                var substr_end = endpos + 20;
+
+                // first: highlight from pos to endpos
+                // i.e. insert <em class=highlighted></em>
+                var hl_tag_start = "<em class=\"highlighted\">";
+                var hl_tag_end = "</em>";
+
+                // Now split the content string and insert highlighted...
+                return "..." + content.slice(substr_start, startpos) + hl_tag_start + content.slice(startpos, endpos)
+                    + hl_tag_end + content.slice(endpos, substr_end) + "...";
+            }
+        },
+        searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a><p>{content}</p></li>'
     })
 </script>
