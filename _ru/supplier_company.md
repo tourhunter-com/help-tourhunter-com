@@ -1,32 +1,33 @@
 ---
 layout: article
-title: Supplier company
+title: Компания-Туроператор
 excerpt: "Part of a post"
 categories: 
 - "getting-started"
 - "marketplace"
 - "suppliers"
 tags: "site-support"
-lang: en
-ref: multilang-article-howto
-permalink: /en/supplier-company/
+lang: ru
+ref: supplier-company
+permalink: /ru/supplier-company/
 ---
 
-Supplier is one of two types of companies available in the system. Supplier is a tour provider. He can create tours, book his tours, perform a transfer on the "Bookings > Transfer view" section, create tour bookings of other Suppliers.
+### **Определение**
 
-Also accepts bookings from Agents (see also **Agent company**) and other Suppliers. Supplier has the same capabilities as the Premium Agent: book and add tours of other Suppliers to "My tours" in the "Marketplace > Admin view" section, make rates requests to other Suppliers.
+Туроператор - один из двух типов компании, имеющихся в системе. Туроператор - это поставщик туров. Он может создавать туры, делать букинг своих туров, выполнять трансфер на вкладке "Bookings > Transfer view", создавать букинги туров других туроператоров.
 
-Participants in a supplier company are divided into managers and employees, depending on their roles.
+Также принимает букинги от турагентов (см. также **Компания-Турагент**) и других туроператоров. Туроператор имеет те же возможности, что и премиум турагент: выполнять букинг и добавлять в "My tours" туры других туроператоров в "Marketplace > Admin view", делать запросы "Request Rates" другим туроператорам.
 
-List of roles in a supplier company:
-- Manager:
+Участники, состоящие в компании типа "туроператор", делятся, в зависимости от роли, на условные типы "менеджеры" и "сотрудники".
 
+Список ролей в компании типа "туроператор":
+
+- менеджеры:
 1. Manager;
 2. Booking manager;
 3. Accountant.
 
-- Employees:
-
+- сотрудники:
 1. Seller;
 2. Guide;
 3. Coach;
@@ -35,14 +36,14 @@ List of roles in a supplier company:
 6. Captain;
 7. Boatboy.
 
-In addition to these roles, Owner has the ability to create new roles, name them at their discretion and assign them to the manager or employees group.
+Помимо этих ролей, владелец компании имеет возможность создавать новые, называть их на своё усмотрение и назначать любой доступ.
 
-A new user can be invited to employees, for this a future employee is not required to be a user, he will register at the time of accepting the invitation. To invite employees, you need to fill in the data in the "Add User" module in "Manage > Employees > Add new Employee" and send an invitation.
+Нового пользователя можно пригласить в раздел "Employees", для этого будущий сотрудник не обязан являться пользователем, он зарегистрируется во время принятия приглашения. Чтобы пригласить в сотрудники, необходимо заполнить данные в модалке "Add User" в "Manage > Employees > Add new Employee" и отправить приглашение.
 
-In the profile in edit mode for each employee there is the option to enable the checkbox "Show in company profile". If Supplier has enabled checkbox, employee is displayed in the profile of this company in the "Team" block. Only those employees who are already registered in the system or accepted the invitation are displayed.
+В профиле в режиме редактирования для каждого сотруднкиа есть возможность включить чекбокс "Show in company profile". Если туроператор включил чекбокс, то сотрудник отображается в профиле данной компании в блоке "Team". Отображаются только те сотрудники, которые уже зарегистрированы в системе или приняли приглашение.
 
-The interaction between the two Suppliers
+### **Взаимодействие между двумя туроператорами**
 
-Supplier #1 can add Supplier #2 to "My Suppliers". Then Supplier #2 will apear at Supplier#1 in "My Agents" section (if Supplier #2 has public rates). In the "Marketplace", Supplier #2 card will be displayed with the label "My Supplier" for Supplier #1.
+Туроператор#1 может добавить туроператора#2 в "My Suppliers". Тогда у туроператора#1 на вкладке "My Agents", появится компания-туроператор#2 (если сезонные тарифы у туроператора#2 публичные). В "Marketplace" карточка туроператора#2 будет отображаться с лейблом "My Supplier" для туроператора#1.
 
-Supplier #1 will appear at Supplier #2 in "My Agents" section when booking is confirmed from Supplier #1 or Supplier #1 will request rates from Supplier #2 (and they will be confirmed).
+Туроператор#1 появится у туроператора#2 в "My Agents", когда будет подтвержден букинг от туроператора#1 или же туроператор#1 запросит сезонный тариф у туроператора#2 (и они будут подтверждены).

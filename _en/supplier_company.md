@@ -12,6 +12,8 @@ ref: multilang-article-howto
 permalink: /en/supplier-company/
 ---
 
+### **Definition**
+
 Supplier is one of two types of companies available in the system. Supplier is a tour provider. He can create tours, book his tours, perform a transfer on the "Bookings > Transfer view" section, create tour bookings of other Suppliers.
 
 Also accepts bookings from Agents (see also **Agent company**) and other Suppliers. Supplier has the same capabilities as the Premium Agent: book and add tours of other Suppliers to "My tours" in the "Marketplace > Admin view" section, make rates requests to other Suppliers.
@@ -41,8 +43,8 @@ A new user can be invited to employees, for this a future employee is not requir
 
 In the profile in edit mode for each employee there is the option to enable the checkbox "Show in company profile". If Supplier has enabled checkbox, employee is displayed in the profile of this company in the "Team" block. Only those employees who are already registered in the system or accepted the invitation are displayed.
 
-The interaction between the two Suppliers
+### **The interaction between the two Suppliers**
 
-Supplier #1 can add Supplier #2 to "My Suppliers". Then Supplier #2 will apear at Supplier#1 in "My Agents" section (if Supplier #2 has public rates). In the "Marketplace", Supplier #2 card will be displayed with the label "My Supplier" for Supplier #1.
+Supplier#1 can add Supplier#2 to "My Suppliers" section. Then Supplier#2 will apear at Supplier#1 in "My Agents" section (if Supplier#2 has public rates). In the "Marketplace", Supplier#2 card will be displayed with the label "My Supplier" for Supplier#1.
 
-Supplier #1 will appear at Supplier #2 in "My Agents" section when booking is confirmed from Supplier #1 or Supplier #1 will request rates from Supplier #2 (and they will be confirmed).
+Supplier#1 will appear at Supplier#2 in "My Agents" section when booking is confirmed from Supplier#1 or Supplier#1 will request rates from Supplier#2 (and they will be confirmed).
