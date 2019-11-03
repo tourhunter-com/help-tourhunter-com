@@ -9,7 +9,7 @@ categories:
 tags: "site-support"
 lang: en
 ref: multilang-article-howto
-permalink: /en/supplier-company/
+permalink: "/en/:name/"
 ---
 
 ### **Definition**

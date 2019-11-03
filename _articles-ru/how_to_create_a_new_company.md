@@ -1,16 +1,16 @@
 ---
-layout: article
 title: Как создать новую компанию?
-excerpt: "Part of a post"
-categories: 
-- "getting-started"
-- "marketplace"
-- "suppliers"
-- "agents"
-tags: "site-support"
-lang: en
+layout: article
+excerpt: Part of a post
+categories:
+- getting-started
+- marketplace
+- suppliers
+- agents
+tags: site-support
+lang: ru
+permalink: "/ru/:name/"
 ref: company-creation
-permalink: /ru/how-to-create-a-new-company/
 ---
 
 ### **Шаг 1: Авторизация**

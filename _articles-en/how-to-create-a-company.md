@@ -1,11 +1,16 @@
 ---
+title: How to create a company?
 layout: article
-title:  How to create a company?
-excerpt: "Part of a post"
-category: "getting-started"
+excerpt: Part of a post
+categories:
+- getting-started
+- marketplace
+- suppliers
+- agents
 lang: en
+permalink: "/en/:name/"
+category: getting-started
 ref: how-to-create-a-company
-permalink: /en/category/getting-started/how-to-create-a-company
 ---
 
 Creating a company

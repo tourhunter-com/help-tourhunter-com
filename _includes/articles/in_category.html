@@ -1,14 +1,22 @@
 <h6>Articles in this category</h6>
 <ul class="group-links">
-    {% for category in page.categories %}
-        {% for post in site.categories[category] %}
-            {% if post.lang == site.lang %}
-                <li>
-                    <a href="{{ site.baseurl }}{{ post.url }}">
-                        {{ post.title }}
-                    </a>
-                </li>
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
+    {% if page.lang == "en" %}
+        {% assign reviews = site.articles-en %}
+    {% else %}
+        {% assign reviews = site.articles-ru %}
+    {% endif %}
+    {%- for file in reviews -%}
+        {%- for cat in page.categories -%}
+            {%- if file.title == page.title -%}
+                {% break %}
+            {%- else -%}
+                {%- if file.categories contains cat -%}
+                    <li>
+                        <a href="{{file.url}}">{{file.title}}</a>
+                    </li>
+                    {% break %}
+                {%- endif -%}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endfor -%}
 </ul>
