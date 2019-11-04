@@ -23,24 +23,52 @@ collections:
  ru:
   output: true
   permalink: /ru/:path/
+ articles-en:
+  output: true
+  permalink: "/"
+ articles-ru:
+  output: true
+  permalink: "/"
 
 defaults:
  #languages
- -
-  scope:
-   path: ""
-   type: "en" # collection, @see https://jekyllrb.com/docs/configuration/front-matter-defaults/
-  values:
-   lang: "en"
- -
-  scope:
-   path: ""
-   type: "ru"
-  values:
-   lang: "ru"
+  - 
+    scope:
+      path: ""
+      type: "en" # collection, @see https://jekyllrb.com/cs/configuration/front-matter-defaults/
+    values:
+      lang: "en"
+  -
+    scope:
+      path: ""
+      type: "ru"
+    values:
+      lang: "ru"
+  -
+    scope:
+      path: ""
+      type: "articles-en"
+    values:
+      layout: "article"
+      excerpt: ""
+      categories: ["getting-started", "marketplace","suppliers", "agents"]
+      tags: ""
+      lang: "en"
+      permalink: "/en/:name/"
+  -
+    scope:
+      path: ""
+      type: "articles-ru"
+    values:
+      layout: "article"
+      excerpt: ""
+      categories: ["getting-started", "marketplace","suppliers", "agents"]
+      tags: ""
+      lang: "ru"
+      permalink: "/ru/:name/"
 
 # Build settings
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
 markdown: kramdown
 
 plugins:

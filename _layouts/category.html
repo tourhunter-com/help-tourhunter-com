@@ -10,23 +10,25 @@ layout: base
                 <p>
                     {{ category_data.desc[page.lang] }}
                 </p>
-                <div class="row">
-                    <div class="col-md-6">
-                        {% assign pages = site.collections[page.lang] | where: "category", page.category %}
-                        {% if pages.size > 0 %}
-                        <ul class="group-links">
-                            {% for pg in pages %}
-                                {% if pg.lang == page.lang %}
-                                    <li>
-                                        <a href="{{ post.url }}">{{ pg.title }}</a>
-                                    </li>
-                                {% endif %}
-                            {% endfor %}
-                        </ul>
-                        {% else %}
-                            <p>No pages found for language: {{page.lang}}</p>
+                <div class="col-md-6">
+                    {% if page.lang == "en" %}
+                    {% assign pages = site.articles-en %}
+                    {% else %}
+                    {% assign pages = site.articles-ru %}
+                    {% endif %}
+                    {% if pages.size > 0 %}
+                    <ul class="group-links">
+                        {% for pg in pages %}
+                        {% if pg.categories contains page.category %}
+                        <li>
+                            <a href="{{ pg.url }}">{{ pg.title }}</a>
+                        </li>
                         {% endif %}
-                    </div>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p>No pages found for language: {{page.lang}}</p>
+                    {% endif %}
                 </div>
             </div>
             <!-- Side menu -->
@@ -34,13 +36,13 @@ layout: base
                 <h6>More categories</h6>
                 <ul class="group-links">
                     {% for c in site.data.categories.categories %}
-                        {% if c[0] != page.category %}
-                            <li>
-                                <a href="{{ site.baseurl }}/{{ page.lang }}/category/{{ c[0] }}">
-                                    {{ c[1].title[page.lang] }}
-                                </a>
-                            </li>
-                        {% endif %}
+                    {% if c[0] != page.category %}
+                    <li>
+                        <a href="{{ site.baseurl }}/{{ page.lang }}/category/{{ c[0] }}">
+                            {{ c[1].title[page.lang] }}
+                        </a>
+                    </li>
+                    {% endif %}
                     {% endfor %}
                 </ul>
             </div>

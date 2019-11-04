@@ -9,7 +9,7 @@ categories:
 tags: "site-support"
 lang: ru
 ref: supplier-company
-permalink: /ru/supplier-company/
+permalink: /ru/:name/
 ---
 
 ### **Определение**

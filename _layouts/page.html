@@ -12,12 +12,7 @@ layout: base
                 <br>
                 {{ content }}
                 <hr>
-                <h6>Related articles</h6> <!-- wx: dynamic -->
-                <ul class="group-links">
-                    <li><a href="#">Creating a Tour Sechedule and Sessions</a></li>
-                    <li><a href="#">How to setup Net Rates</a></li>
-                    <li><a href="#">How to connect Agents</a></li>
-                </ul>
+                {% include articles/related.html %}
             </div>
             <div class="col-md-3 p-4 bg-light">
                 <h6>Articles in this category</h6> <!-- wx: dynamic -->
@@ -26,6 +21,7 @@ layout: base
                     <li><a href="#">How to setup Net Rates</a></li>
                     <li><a href="#">How to connect Agents</a></li>
                 </ul>
+                <h4>This category list!+++</h4> <!-- wx: dynamic -->
             </div>
         </div>
     </div>

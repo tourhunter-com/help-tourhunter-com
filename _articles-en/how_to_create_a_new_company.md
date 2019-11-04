@@ -10,7 +10,8 @@ categories:
 tags: "site-support"
 lang: en
 ref: company-creation
-permalink: /en/how-to-create-a-new-company/
+permalink: "/en/:name/"
+cat: some
 ---
 
 ### **Step 1: Authorization**
