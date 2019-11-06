@@ -51,7 +51,7 @@ defaults:
     values:
       layout: "article"
       excerpt: ""
-      categories: ["getting-started", "marketplace","suppliers", "agents"]
+      categories: [""]
       tags: ""
       lang: "en"
       permalink: "/en/:name/"
@@ -62,7 +62,7 @@ defaults:
     values:
       layout: "article"
       excerpt: ""
-      categories: ["getting-started", "marketplace","suppliers", "agents"]
+      categories: [""]
       tags: ""
       lang: "ru"
       permalink: "/ru/:name/"

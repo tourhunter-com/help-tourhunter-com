@@ -1,15 +1,13 @@
 ---
 layout: article
-title: Компания-Туроператор
+title: "Компания-Туроператор"
 excerpt: "Part of a post"
 categories: 
-- "getting-started"
-- "marketplace"
-- "suppliers"
-tags: "site-support"
+- getting-started
+- suppliers
 lang: ru
 ref: supplier-company
-permalink: /ru/:name/
+permalink: "/ru/:name/"
 ---
 
 ### **Определение**

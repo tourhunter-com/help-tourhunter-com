@@ -1,13 +1,12 @@
 ---
-title: Как создать новую компанию?
 layout: article
-excerpt: Part of a post
+title: "Как создать новую компанию?"
+excerpt: "Part of a post"
 categories:
 - getting-started
-- marketplace
 - suppliers
 - agents
-tags: site-support
+tags: agent-company
 lang: ru
 permalink: "/ru/:name/"
 ref: company-creation

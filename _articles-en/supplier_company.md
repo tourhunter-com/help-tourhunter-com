@@ -1,15 +1,15 @@
 ---
-layout: article
 title: Supplier company
-excerpt: "Part of a post"
-categories: 
-- "getting-started"
-- "marketplace"
-- "suppliers"
-tags: "site-support"
+layout: article
+excerpt: Part of a post
+categories:
+- getting-started
+- suppliers
+tags:
+- supplier
 lang: en
-ref: multilang-article-howto
 permalink: "/en/:name/"
+ref: supplier-company
 ---
 
 ### **Definition**

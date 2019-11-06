@@ -1,16 +1,17 @@
 ---
-layout: article
 title: How to create a new company?
-excerpt: "Part of a post"
-categories: 
-- "getting-started"
-- "marketplace"
-- "suppliers"
-- "agents"
-tags: "site-support"
+layout: article
+excerpt: Part of a post
+categories:
+- getting-started
+- suppliers
+- agents
+tags:
+- supplier
+- agent
 lang: en
-ref: company-creation
 permalink: "/en/:name/"
+ref: company-creation
 cat: some
 ---
 
