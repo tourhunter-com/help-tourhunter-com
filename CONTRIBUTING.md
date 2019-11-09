@@ -48,7 +48,9 @@ ref: article-name
 permalink: "/ru/:name/"
 ```
 
-3. Write the article.
+3. Put links inside the article on other articles if it's necessary ([Documentation on links](https://jekyllrb.com/docs/liquid/tags/#links)). All links should be relative and not absolute. 
+
+4. Add images or gif-animations ([Documentation on images](https://jekyllrb.com/docs/posts/#including-images-and-resources)). There should not be unnecessary actions and movements of the mouse in the image (gif-animation), only what relates to the explanation. All images and gif-animations shoul be in high resolution.
 
 
 ### Category

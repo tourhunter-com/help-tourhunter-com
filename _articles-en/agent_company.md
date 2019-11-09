@@ -14,11 +14,13 @@ ref: agent-company
 
 ### **Definition**
 
-Agent is one of two types of companies available in the system. Agent is a company selling tours formed by the tour provider - Supplier (see also [*Supplier company*](https://help.tourhunter.com/en/category/getting-started/supplier-company/)).
+Agent is one of two types of companies available in the system. Agent is a company selling tours formed by the tour provider - Supplier (see also [*Supplier company*]({% link _articles-en/supplier_company.md %})).
 
 Agent can create tour bookings of other Suppliers, add Suppliers to "My Suppliers".
 
-Agent have three standard types of a subscriptions there are: Online Agent, Offline Agent, Premium Agent (see also [*Agent's subscriptions*](https://help.tourhunter.com/en/category/billing-payments/agents-subscriptions)).
+Agent have three standard types of a subscriptions there are: Online Agent, Offline Agent, Premium Agent.
+
+![Agent's subscription](/assets/images/agent_company1.png)
 
 ### **Roles**
 
@@ -35,11 +37,19 @@ List of roles in a agent company:
 
 1. Seller.
 
+![Agent's employees](/assets/images/agent_company2.png)
+
 In addition to these roles, Owner has the ability to create new roles, name them at their discretion and assign them to the manager or employees group.
 
 A new user can be invited to employees, for this a future employee is not required to be a user, he will register at the time of accepting the invitation. To invite employees, you need to fill in the data in the "Add User" module in "Manage > Employees > Add new Employee" and send an invitation.
 
+![Agent's subscription](/assets/images/agent_company3.png)
+
 In the profile in edit mode for each employee there is the option to enable the checkbox "Show in company profile". If Agent has enabled checkbox, employee is displayed in the profile of this company in the "Team" block. Only those employees who are already registered in the system or accepted the invitation are displayed.
+
+![Agent's subscription](/assets/images/agent_company4.png)
+
+### **Agent bookings**
 
 Agent can makes bookings for tours in the sections:
 - "Bookings > Manifest view" (only for Premium Agent or Supplier-Agent, those companies who have added foreign tours to the section "My Tours");

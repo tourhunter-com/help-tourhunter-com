@@ -17,7 +17,7 @@ cat: some
 
 ### **Step 1: Authorization**
 
-What you need first is a created account on TourHunter (see also [*How to create an account using email?*](https://help.tourhunter.com/en/how-to-create-an-account-using-email/)). 
+What you need first is a created account on TourHunter. 
 
 If you already have an account you can create a company.
 
@@ -41,7 +41,7 @@ On the page that will appear choose a type of the future company: Supplier or Ag
 
 ![Choose company type](/assets/images/company_creation2.png)
 
-See also [*Supplier company*](https://help.tourhunter.com/en/supplier-company/), [*Agent company*](https://help.tourhunter.com/en/agent-company/).
+See also [*Supplier company*]({% link _articles-en/supplier_company.md %}), [*Agent company*]({% link _articles-en/agent_company.md %}).
 
 ### **Step 4: Choosing a subscription type**
 
