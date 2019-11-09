@@ -1,13 +1,14 @@
 ---
-title: Как создать новую компанию?
 layout: article
-excerpt: Part of a post
+title: "Как создать новую компанию?"
+excerpt: "Part of a post"
 categories:
 - getting-started
-- marketplace
 - suppliers
 - agents
-tags: site-support
+tags:
+- supplier
+- agent
 lang: ru
 permalink: "/ru/:name/"
 ref: company-creation
@@ -15,7 +16,7 @@ ref: company-creation
 
 ### **Шаг 1: Авторизация**
 
-Первое, что вам нужно - это создать аккаунт на TourHunter (см. также [*Как создать аккаунт, используя электронную почту?*](https://help.tourhunter.com/ru/how-to-create-an-account-using-email/)). 
+Первое, что вам нужно - это создать аккаунт на TourHunter. 
 
 Если у вас уже есть аккаунт, вы можете создать компанию.
 
@@ -40,7 +41,7 @@ ref: company-creation
 
 ![Choose company type](/assets/images/company_creation2.png)
 
-См. также: [*Компания-Туроператор*](https://help.tourhunter.com/ru/supplier-company/), [*Компания-Турагент*](https://help.tourhunter.com/ru/agent-company/).
+См. также: [*Компания-Туроператор*]({% link _articles-ru/supplier_company.md %}), [*Компания-Турагент*]({% link _articles-en/agent_company.md %}).
 
 ### **Шаг 4: Выбор подписки**
 

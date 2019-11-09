@@ -8,24 +8,49 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 ### Article
 
-1. Create new files for each language: `filename.md` in `_lang` directory, i.e.
+1. Create new files for each language: `filename.md` or `file_name.md` in `_articles-lang` directory, i.e.
 
     ```bash
-    $ touch _{en,ru}/article_name.md
+    _articles-en/article_name.md
     ```
 
 2. Add **front matter** ([Documentation on front matter](https://jekyllrb.com/docs/front-matter/))
+
 Example:
+
 ```
 layout: article
-title:  "Bienvenue sur Jekyll !"
+title:  "Article name"
 date:   2016-02-29 09:48:44 +0100
-categories: "Marketplace" "Getting Started" (space-separated list of strings)
-ref: welcome
-lang: fr
+excerpt: "Part of a post"
+category: marketplace
+tags:
+- related-article-name1
+- related-article-name2
+lang: en
+ref: article-name
+permalink: "/en/:name/"
 ```
 
-3. Write the article.
+or
+
+```
+layout: article
+title:  Название статьи
+date:   2019-04-11 12:32 +0100
+excerpt: "Part of a post"
+categories:
+- getting-started
+- marketplace
+- agents
+lang: ru
+ref: article-name
+permalink: "/ru/:name/"
+```
+
+3. Put links inside the article on other articles if it's necessary ([Documentation on links](https://jekyllrb.com/docs/liquid/tags/#links)). All links should be relative and not absolute. 
+
+4. Add images or gif-animations ([Documentation on images](https://jekyllrb.com/docs/posts/#including-images-and-resources)). There should not be unnecessary actions and movements of the mouse in the image (gif-animation), only what relates to the explanation. All images and gif-animations shoul be in high resolution.
 
 
 ### Category
