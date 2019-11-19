@@ -1,27 +1,73 @@
 ---
 layout: base
 ---
-<div class="container">
-    <div class="row">
-        <div class="col-md-3">
-            <h3>Categories</h3>
-        </div>
-    </div>
-    <div class="row">
-        {% for category in site.data.categories.categories %}
-        {% capture category_slug %}{{category.title | slugify}}{% endcapture %}
-        <div class="col-md-3">
-            <a href="/{{page.lang}}/category/{{category_slug}}.html" class="card card-link">
-                <div class="card-body text-center" id="#{{ category_slug }}"> <!-- wx: switch to category slugs in config, bcs otherwise broken links may happen -->
-                    <h5 class="card-title">
-                        {{ category.title }}
-                    </h5>
-                    <p class="card-text">
-                        {{category.desc}}
-                    </p>
+<div class="row">
+    <div class="col">
+        <div class="row card">
+            <div class="col-md-9 p-4">
+                {% assign category_data = site.data.categories.categories[page.category] %}
+                <h2 id="title">{{site.data.i18n[page.lang].categories.category}}: {{ category_data.title[page.lang] }}</h2>
+                <p id="desc">
+                    {{ category_data.desc[page.lang] }}
+                </p>
+                <div class="col-md-6">
+                    {% if page.lang == "en" %}
+                    {% assign pages = site.articles-en %}
+                    {% else %}
+                    {% assign pages = site.articles-ru %}
+                    {% endif %}
+                    {% if pages.size > 0 %}
+                    <ul class="group-links">
+                        {% for pg in pages %}
+                        {% if pg.categories contains page.category %}
+                        <li>
+                            <a href="{{ pg.url }}">{{ pg.title }}</a>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p>No pages found for language: {{page.lang}}</p>
+                    {% endif %}
                 </div>
-            </a>
+            </div>
+            <!-- Side menu -->
+            <div class="col-md-3 p-4 bg-light">
+                <h6>More categories</h6>
+                <ul class="group-links">
+                    {% for c in site.data.categories.categories %}
+                    {% if c[0] != page.category %}
+                    <li>
+                        <a href="{{ site.baseurl }}/{{ page.lang }}/category/{{ c[0] }}">
+                            {{ c[1].title[page.lang] }}
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
-        {% endfor %}
     </div>
+    <script>
+      let arr = window.location.pathname.split("/");
+      document.getElementsByClassName("dropdown-item")[0].href="/en/category/"+arr[3];
+      document.getElementsByClassName("dropdown-item")[1].href="/ru/category/"+arr[3];
+      if(window.location.pathname=="/en/category/getting-started"){
+        document.getElementById("title").innerHTML="Category: Getting Started";
+        document.getElementById("desc").innerHTML="Hit the ground running by completing these simple steps: Create a product, schedule calendar sessions, customise your online storefront and start selling online in less than 15 minutes! Let's get started...";
+      }
+      if(window.location.pathname=="/en/category/what-s-new-in-tourhunter"){
+        document.getElementById("title").innerHTML="Category: What's New in Tourhunter";
+        document.getElementById("desc").innerHTML="Our Product & Development teams are regularly adding improvements and enhancing TourHunter. You will find a list of our most recent enhancements here."
+      }
+      if(window.location.pathname=="/ru/category/getting-started"){
+        document.getElementById("title").innerHTML="Категория: Начало работы";
+        document.getElementById("desc").innerHTML="Начните работу, выполнив следующие простые действия: создайте продукт, запланируйте сессии в календаре, настройте свою онлайн витрину и начните продавать онлайн менее чем за 15 минут! Давайте начнем...";
+      }
+      if(window.location.pathname=="/ru/category/what-s-new-in-tourhunter"){
+        document.getElementById("title").innerHTML="Категория: Что нового в TourHunter";
+        document.getElementById("desc").innerHTML="Наши команды по продукту и разработке регулярно улучшают и добавляют новые возможности в TouHunter. Вы найдете список наших последних улучшений здесь."
+      }
+    </script>
 </div>
+
