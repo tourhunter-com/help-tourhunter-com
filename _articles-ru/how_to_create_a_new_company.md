@@ -7,6 +7,7 @@ categories:
 - suppliers
 - agents
 tags:
+- new-company
 - supplier
 - agent
 lang: ru
