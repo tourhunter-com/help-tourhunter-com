@@ -25,7 +25,7 @@ Go to "Manage > My Tours" and click "+ New Tour" button.
 
 Fill up the required fields through the all steps. After filling up a data click on "Next >" or "Save" button for saving a changes.
 
-**General**. 
+**General**
 
 Setup general information as well as:
 
@@ -45,13 +45,13 @@ Setup general information as well as:
 
 ![Creating_a_tour5](/assets/images/creating_a_tour5.png)
 
-**Tour Options**.
+**Tour Options**
 
 Setup different options for the tour (variations of the tour with different settings).
 
 ![Creating_a_tour6](/assets/images/creating_a_tour6.png)
 
-**Availability**. 
+**Availability**
 
 Configure availability details such as: accessibility of sessions and schedules; displaying of available seats in booking; the privacy of the tour (or tour options).
 
@@ -61,7 +61,7 @@ Setup booking limits such as: pre-booking option ("Customers can book not earlie
 
 ![Creating_a_tour8](/assets/images/creating_a_tour8.png)
 
-**Schedules**. 
+**Schedules**
 
 Setup schedules for a tour. The step "Schedules" is displayed only if radiobutton "Availability Type > By date" is selected on the step "Availability".
 
@@ -71,7 +71,7 @@ Setup blocked days for a tour when a customer won't be able to book a tour.
 
 ![Creating_a_tour10](/assets/images/creating_a_tour10.png)
 
-**People & Price**.
+**People & Price**
 
 Setup selling prices for a tour for people categories who will make a booking. Fill out prices for existing people categories or add your own people categories and setup prices for them.
 
@@ -85,7 +85,7 @@ Add fees and taxes if it's necessary.
 
 ![Creating_a_tour13](/assets/images/creating_a_tour13.png)
 
-**Payment & Deposit**.
+**Payment & Deposit**
 
 Setup type of a payment and payment conditions.
 
@@ -95,7 +95,7 @@ Setup cancellation or rescheduling policy.
 
 ![Creating_a_tour15](/assets/images/creating_a_tour15.png)
 
-**Booking Info**.
+**Booking Info**
 
 Setup the fields which will be displayed at the booking modal window and types of that fields:
 
@@ -111,13 +111,13 @@ Setup the fields which will be displayed at the booking modal window and types o
 
 ![Creating_a_tour18](/assets/images/creating_a_tour18.png)
 
-**Extras**.
+**Extras**
 
 Setup additional extra options in due the booking
 
 ![Creating_a_tour19](/assets/images/creating_a_tour19.png)
 
-**Publish**. 
+**Publish**
 
 Setup abilities of a tour for the participants. Just enable checkbox "Publish in marketplace" and configure your tour abilities.
 
