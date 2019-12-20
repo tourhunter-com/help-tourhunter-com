@@ -6,7 +6,7 @@ category: getting-started
 tags:
 - new-company
 lang: en
-permalink: "/en/:name/"
+permalink: "/ru/:name/"
 ref: tour-creation
 cat: some
 ---
@@ -25,7 +25,7 @@ cat: some
 
 Заполнить все требуемые и необходимые поля на каждом шаге настройки тура. Для сохранения данных на текущем шаге, кликнуть на кнопку "Next >" или "Save" внизу страницы.
 
-**General**. 
+**General**
 
 Указать главную информацию, а именно:
 
@@ -45,13 +45,13 @@ cat: some
 
 ![Creating_a_tour5](/assets/images/creating_a_tour5.png)
 
-**Tour Options**.
+**Tour Options**
 
 Добавить различные тур. опции для тура (вариации тура с разными конфигурациями).
 
 ![Creating_a_tour6](/assets/images/creating_a_tour6.png)
 
-**Availability**. 
+**Availability**
 
 Настроить детали доступности, такие как: доступность сеансов и расписаний; отображение свободных мест при букинге; приватность тура (или тур. опций).
 
@@ -61,7 +61,7 @@ cat: some
 
 ![Creating_a_tour8](/assets/images/creating_a_tour8.png)
 
-**Schedules**. 
+**Schedules**
 
 Настроить расписание туров. Шаг "Schedules" отображается только если включена опция "Availability Type > By date" на шаге "Availability".
 
@@ -71,7 +71,7 @@ cat: some
 
 ![Creating_a_tour10](/assets/images/creating_a_tour10.png)
 
-**People & Price**.
+**People & Price**
 
 Настроить цены продаж на тур для категорий людей, которые будут участвовать в букингах. Указать цены для существующих категорий или же добавить собственные категории людей и задать цены для них.
 
@@ -85,7 +85,7 @@ cat: some
 
 ![Creating_a_tour13](/assets/images/creating_a_tour13.png)
 
-**Payment & Deposit**.
+**Payment & Deposit**
 
 Настроить тип оплаты за тур (депозит/полная предоплата/без платы), а так же условия оплаты.
 
@@ -95,7 +95,7 @@ cat: some
 
 ![Creating_a_tour15](/assets/images/creating_a_tour15.png)
 
-**Booking Info**.
+**Booking Info**
 
 Настроить поля, которые будут отображаться в модалке букинга и необходимость заполнения этих полей:
 
@@ -111,13 +111,13 @@ cat: some
 
 ![Creating_a_tour18](/assets/images/creating_a_tour18.png)
 
-**Extras**.
+**Extras**
 
 Добавить экстра опции, которые будут использоваться во время тура.
 
 ![Creating_a_tour19](/assets/images/creating_a_tour19.png)
 
-**Publish**. 
+**Publish**
 
 Настройка возможностей тура для участников. Установить чекбокс "Publish in marketplace" и настроить возможности.
 
