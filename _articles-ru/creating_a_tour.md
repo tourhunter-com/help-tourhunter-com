@@ -5,7 +5,7 @@ excerpt: Part of a post
 category: getting-started
 tags:
 - new-company
-lang: en
+lang: ru
 permalink: "/ru/:name/"
 ref: tour-creation
 cat: some
