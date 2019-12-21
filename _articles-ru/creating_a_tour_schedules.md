@@ -5,7 +5,7 @@ excerpt: Part of a post
 category: getting-started
 tags:
 - schedules
-lang: en
+lang: ru
 permalink: "/ru/:name/"
 ref: schedule-creation
 cat: some
