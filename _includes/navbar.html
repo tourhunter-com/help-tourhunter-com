@@ -27,8 +27,25 @@
             <img src="/assets/images/icon-globe.png" height="24px" width="24px" alt="" srcset="">
         </button>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="/">English</a>
-            <a class="dropdown-item" href="{{ '/ru' | absolute_url }}">Русский</a>
+            {% if page.collection == 'articles-en' or page.collection == 'articles-ru' %}
+                {% capture en-url %}{{ site.articles-en | where: 'ref', page.ref | map: 'url' | first }}{% endcapture %}
+                {% capture ru-url %}{{ site.articles-ru | where: 'ref', page.ref | map: 'url' | first }}{% endcapture %}
+            {% elsif page.collection == 'en' or page.collection == 'ru' %}
+                {% capture en-url %}{{ site.en | where: 'category', page.category | map: 'url' | first }}{% endcapture %}
+                {% capture ru-url %}{{ site.ru | where: 'category', page.category | map: 'url' | first }}{% endcapture %}
+            {% endif %}
+
+            {% if en-url == nil %}
+                <a class="dropdown-item" href="/">English</a>
+            {% else %}
+                <a class="dropdown-item" href="{{ en-url | absolute_url }}">English</a>
+            {% endif %}
+
+            {% if ru-url == nil %}
+                <a class="dropdown-item" href="{{ '/ru' | absolute_url }}">Русский</a>
+            {% else %}
+                <a class="dropdown-item" href="{{ ru-url | absolute_url }}">Русский</a>
+            {% endif %}
         </div>
     </div>
 
