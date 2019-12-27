@@ -3,6 +3,8 @@ title: Создание расписаний тура
 layout: article
 excerpt: Part of a post
 category: getting-started
+subcategories:
+    getting-started: tours
 tags:
 - schedules
 lang: ru

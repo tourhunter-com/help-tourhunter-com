@@ -6,6 +6,8 @@ categories:
 - getting-started
 - suppliers
 - agents
+subcategories:
+    getting-started: agents
 tags:
 - new-company
 - supplier

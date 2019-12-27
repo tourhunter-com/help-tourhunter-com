@@ -10,26 +10,34 @@ layout: base
                 <p>
                     {{ category_data.desc[page.lang] }}
                 </p>
-                <div class="col-md-6">
-                    {% if page.lang == "en" %}
+
+                {% if page.lang == "en" %}
                     {% assign pages = site.articles-en %}
-                    {% else %}
+                {% else %}
                     {% assign pages = site.articles-ru %}
-                    {% endif %}
-                    {% if pages.size > 0 %}
-                    <ul class="group-links">
-                        {% for pg in pages %}
-                        {% if pg.categories contains page.category %}
-                        <li>
-                            <a href="{{ pg.url }}">{{ pg.title }}</a>
-                        </li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                    {% else %}
+                {% endif %}
+
+                {% assign subcategories = pages | where_exp: "item", "item.categories contains page.category" | group_by_exp: "item", "item.subcategories[page.category]" | sort: "name" %}
+                {% if subcategories.size > 0 %}
+                    {% for subcategory in subcategories %}
+                        <div class="row mb-4">
+                            <div class="col-md-12">
+                                {% if subcategory.name %}
+                                    <h3 class="h5">{{ category_data.subcategories[subcategory.name][page.lang] | default: subcategory.name }}</h3>
+                                {% endif %}
+                                <ul class="group-links">
+                                    {% for pg in subcategory.items %}
+                                        <li>
+                                            <a href="{{ pg.url }}">{{ pg.title }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% else %}
                     <p>No pages found for language: {{page.lang}}</p>
-                    {% endif %}
-                </div>
+                {% endif %}
             </div>
             <!-- Side menu -->
             <div class="col-md-3 p-4 bg-light">
