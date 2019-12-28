@@ -27,10 +27,10 @@
             <img src="/assets/images/icon-globe.png" height="24px" width="24px" alt="" srcset="">
         </button>
         <div class="dropdown-menu">
-            {% if page.collection == 'articles-en' or page.collection == 'articles-ru' %}
+            {% if (page.collection == 'articles-en' or page.collection == 'articles-ru') and page.ref %}
                 {% capture en-url %}{{ site.articles-en | where: 'ref', page.ref | map: 'url' | first }}{% endcapture %}
                 {% capture ru-url %}{{ site.articles-ru | where: 'ref', page.ref | map: 'url' | first }}{% endcapture %}
-            {% elsif page.collection == 'en' or page.collection == 'ru' %}
+            {% elsif (page.collection == 'en' or page.collection == 'ru') and page.category %}
                 {% capture en-url %}{{ site.en | where: 'category', page.category | map: 'url' | first }}{% endcapture %}
                 {% capture ru-url %}{{ site.ru | where: 'category', page.category | map: 'url' | first }}{% endcapture %}
             {% endif %}
