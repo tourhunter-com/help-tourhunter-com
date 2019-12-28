@@ -2,35 +2,40 @@
 layout: base
 ---
 <div class="row">
-    {% for top_category in site.data.categories.top_categories %}
-        <div class="col-md-6">
-            {% capture top_category_slug %}{{top_category.title['en'] | slugify}}{% endcapture %}
-            <a href="{{site.baseurl}}/{{page.lang}}/category/{{top_category_slug}}" class="card card-link">
-                <div class="card-body text-center" id="#{{ top_category_slug }}">
-                    <h5 class="card-title">
-                        {{ top_category.title[page.lang] }}
-                    </h5>
-                    <p class="card-text">
-                        {{ top_category.desc[page.lang] }}
-                    </p>
-                </div>
-            </a>
-        </div>
+    {% for t in site.data.categories.categories %}
+        {% assign top_category = t[1] %}
+        {% assign top_category_slug = t[0] %}
+        {% if top_category.top == true %}
+            <div class="col-md-6">
+                <a href="{{site.baseurl}}/{{page.lang}}/category/{{top_category_slug}}" class="card card-link">
+                    <div class="card-body text-center" id="#{{ top_category_slug }}">
+                        <h5 class="card-title">
+                            {{ top_category.title[page.lang] }}
+                        </h5>
+                        <p class="card-text">
+                            {{ top_category.desc[page.lang] }}
+                        </p>
+                    </div>
+                </a>
+            </div>
+        {% endif %}
     {% endfor %}
 
     {% assign categories = site.data.categories.categories %}
     {% for c in categories %}
         {% assign category = c[1] %}
         {% assign category_slug = c[0] %}
-        <div class="col-md-3">
-            <a href="{{site.baseurl}}/{{page.lang}}/category/{{category_slug}}" class="card card-link">
-                <div class="card-body text-center" id="#{{ category_name | slugize }}">
-                    <h5 class="card-title">
-                        {{ category.title[page.lang] }}
-                    </h5>
-                    <p class="card-text">{{category.desc[page.lang]}}</p>
-                </div>
-            </a>
-        </div>
+        {% unless category.top == true %}
+            <div class="col-md-3">
+                <a href="{{site.baseurl}}/{{page.lang}}/category/{{category_slug}}" class="card card-link">
+                    <div class="card-body text-center" id="#{{ category_name | slugize }}">
+                        <h5 class="card-title">
+                            {{ category.title[page.lang] }}
+                        </h5>
+                        <p class="card-text">{{category.desc[page.lang]}}</p>
+                    </div>
+                </a>
+            </div>
+        {% endunless %}
     {% endfor %}
 </div>

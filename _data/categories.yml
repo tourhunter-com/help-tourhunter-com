@@ -1,22 +1,21 @@
-top_categories:
-
-  -   title:
-        en: "Getting Started"
-        ru: "Начало работы"
-      desc:
-        en: "Hit the ground running by completing these simple steps: Create a product, schedule calendar sessions, customise your online storefront and start selling online in less than 15 minutes! Let's get started..."
-        ru: "Начните работу, выполнив следующие простые действия: создайте продукт, запланируйте сессии в календаре, настройте свою онлайн витрину и начните продавать онлайн менее чем за 15 минут! Давайте начнем..."
-      slug: "getting-started"
-
-  -   title:
-        en: "What's new in TourHunter"
-        ru: "Что нового в TourHunter"
-      desc:
-        en: "Our Product & Development teams are regularly adding improvements and enhancing TourHunter. You will find a list of our most recent enhancements here."
-        ru: "Наши команды по продукту и разработке регулярно улучшают и добавляют новые возможности в TouHunter. Вы найдете список наших последних улучшений здесь."
-      slug: "what-s-new-in-tourhunter"
-
 categories:
+  getting-started:
+    top: true
+    title:
+      en: "Getting Started"
+      ru: "Начало работы"
+    desc:
+      en: "Hit the ground running by completing these simple steps: Create a product, schedule calendar sessions, customise your online storefront and start selling online in less than 15 minutes! Let's get started..."
+      ru: "Начните работу, выполнив следующие простые действия: создайте продукт, запланируйте сессии в календаре, настройте свою онлайн витрину и начните продавать онлайн менее чем за 15 минут! Давайте начнем..."
+
+  what-s-new-in-tourhunter:
+    top: true
+    title:
+      en: "What's new in TourHunter"
+      ru: "Что нового в TourHunter"
+    desc:
+      en: "Our Product & Development teams are regularly adding improvements and enhancing TourHunter. You will find a list of our most recent enhancements here."
+      ru: "Наши команды по продукту и разработке регулярно улучшают и добавляют новые возможности в TouHunter. Вы найдете список наших последних улучшений здесь."
 
   marketplace:
     title:
