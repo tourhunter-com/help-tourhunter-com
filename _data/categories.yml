@@ -7,6 +7,16 @@ categories:
     desc:
       en: "Hit the ground running by completing these simple steps: Create a product, schedule calendar sessions, customise your online storefront and start selling online in less than 15 minutes! Let's get started..."
       ru: "Начните работу, выполнив следующие простые действия: создайте продукт, запланируйте сессии в календаре, настройте свою онлайн витрину и начните продавать онлайн менее чем за 15 минут! Давайте начнем..."
+    subcategories:
+      agents:
+        en: "Agents"
+        ru: "Агенты"
+      suppliers:
+        en: "Suppliers"
+        ru: "Поставщики туров"
+      tours:
+        en: "Tours"
+        ru: "Туры"
 
   what-s-new-in-tourhunter:
     top: true

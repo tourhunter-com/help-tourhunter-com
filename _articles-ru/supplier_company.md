@@ -5,6 +5,8 @@ excerpt: "Part of a post"
 categories: 
 - getting-started
 - suppliers
+subcategories:
+    getting-started: suppliers
 lang: ru
 ref: supplier-company
 permalink: "/ru/:name/"

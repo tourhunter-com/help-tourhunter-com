@@ -3,6 +3,8 @@ title: Creating a tour
 layout: article
 excerpt: Part of a post
 category: getting-started
+subcategories:
+    getting-started: tours
 tags:
 - new-company
 lang: en

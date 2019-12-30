@@ -3,6 +3,8 @@ title: Creating a tour session
 layout: article
 excerpt: Part of a post
 category: getting-started
+subcategories:
+    getting-started: tours
 tags:
 - session
 lang: en

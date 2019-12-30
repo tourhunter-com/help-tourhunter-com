@@ -5,6 +5,8 @@ excerpt: Part of a post
 categories:
 - getting-started
 - agents
+subcategories:
+    getting-started: agents
 tags:
 - agent
 lang: en
