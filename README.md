@@ -12,6 +12,10 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 Please read through our [Contributing Guidelines](CONTRIBUTING.md).
 
+## Installation
+
+Please read through our [Installation Instructions](INSTALL.md).
+
 ## How it works
 
 ### Internationalization
@@ -35,7 +39,7 @@ And the layouts use these fields to, for example, show only the language already
 For every supported language you have a dir:
 - _en/
 - _ru/
-(Under the hood these are [Jekyll collections](https://jekyllrb.com/docs/collections/), see also: `_config.yml`. 
+(Under the hood these are [Jekyll collections](https://jekyllrb.com/docs/collections/), see also: `_config.yml`.
 
 #### Config values
 
