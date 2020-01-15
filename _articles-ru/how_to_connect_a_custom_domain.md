@@ -3,8 +3,6 @@ title: Как подключить пользовательский домен?
 layout: article
 excerpt: Part of a post
 category: white-label
-tags:
-- wl
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-connect-a-custom-domain

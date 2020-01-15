@@ -3,8 +3,6 @@ title: How to connect a custom domain?
 layout: article
 excerpt: Part of a post
 category: white-label
-tags:
-- wl
 lang: en
 permalink: "/en/:name/"
 ref: how-to-connect-a-custom-domain

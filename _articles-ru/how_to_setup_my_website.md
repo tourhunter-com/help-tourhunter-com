@@ -3,8 +3,6 @@ title: Как настроить "Мой Вебсайт"?
 layout: article
 excerpt: Part of a post
 category: white-label
-tags:
-- wl
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-setup-my-website
