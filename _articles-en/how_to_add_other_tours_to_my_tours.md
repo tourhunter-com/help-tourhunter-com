@@ -5,7 +5,6 @@ excerpt: "Part of a post"
 categories: 
 - "marketplace"
 - "white-label"
-tags: "how-to-add-other-tours-to-white-label"
 lang: en
 ref: how_to_add_other_tours_to_ my_tours
 permalink: "/en/:name/"

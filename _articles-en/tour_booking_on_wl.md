@@ -3,8 +3,6 @@ title: Tour booking on "White Label"
 layout: article
 excerpt: Part of a post
 category: white-label
-tags:
-- wl
 lang: en
 permalink: "/en/:name/"
 ref: wl-booking

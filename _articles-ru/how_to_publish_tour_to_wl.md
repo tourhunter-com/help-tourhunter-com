@@ -4,7 +4,7 @@ layout: article
 excerpt: Part of a post
 category: white-label
 tags:
-- wl
+- publish
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-publish-tour-to-wl

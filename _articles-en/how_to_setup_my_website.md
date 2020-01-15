@@ -3,8 +3,6 @@ title: How to setup "My Website"?
 layout: article
 excerpt: Part of a post
 category: white-label
-tags:
-- wl
 lang: en
 permalink: "/en/:name/"
 ref: how-to-setup-my-website

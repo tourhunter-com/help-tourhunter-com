@@ -4,7 +4,7 @@ layout: article
 excerpt: Part of a post
 category: white-label
 tags:
-- wl
+- payment-methods
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-setup-payment-methods-for-wl

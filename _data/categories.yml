@@ -10,10 +10,10 @@ categories:
     subcategories:
       agents:
         en: "Agents"
-        ru: "Агенты"
+        ru: "Турагенты"
       suppliers:
         en: "Suppliers"
-        ru: "Поставщики туров"
+        ru: "Туроператоры"
       tours:
         en: "Tours"
         ru: "Туры"
@@ -30,7 +30,7 @@ categories:
   marketplace:
     title:
       en: "Marketplace"
-      ru: "Базар"
+      ru: "Торговая площадка"
     desc:
       en: "Information about the place of buying and selling tours, where suppliers and agents are cooperate."
       ru: "Информация о рынке, где приобретают и продают туры, где сотрудничают поставщики и агенты."
@@ -54,18 +54,18 @@ categories:
   agents:
     title:
       en: "Agents"
-      ru: "Агенты"
+      ru: "Турагенты"
     desc:
       en: "Information about how to be a TourHunter agent and cooperate with other suppliers and agents."
-      ru: "Информация о том как быть агентом TourHunter и сотрудничать с другими поставщиками туров и агентами."
+      ru: "Информация о том как быть Турагентом TourHunter и сотрудничать с другими туроператорами и турагентами."
       
   suppliers:
     title:
       en: "Suppliers"
-      ru: "Поставщики туров"
+      ru: "Туроператоры"
     desc:
       en: "Information about how to be a TourHunter Supplier and cooperate with other companies."
-      ru: "Информация о том как быть поставщиком TourHunter и сотрудничать с другими компаниями."
+      ru: "Информация о том как быть Туроператором TourHunter и сотрудничать с другими компаниями."
 
   tours:
     title:
@@ -134,7 +134,7 @@ categories:
   net-rates:
     title:
       en: "Net Rates"
-      ru: "Ресурсы"
+      ru: "Комплексные цены"
     desc:
       en: "Get all instructions how to setup and manage complex price & rates options for your product."
       ru: "Получите все инструкции о том как настроить и управлять комплексными ценами и вариантами тарифов для вашего продукта."
