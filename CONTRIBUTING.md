@@ -52,6 +52,7 @@ permalink: "/ru/:name/"
 
 4. Add images or gif-animations ([Documentation on images](https://jekyllrb.com/docs/posts/#including-images-and-resources)). There should not be unnecessary actions and movements of the mouse in the image (gif-animation), only what relates to the explanation. All images and gif-animations shoul be in high resolution.
 
+5. The format of images must be png or jpeg. The width of the images and gif-animations should not exceed 750 px.
 
 ### Category
 1. Add name and description into `_data/categories.yml`
