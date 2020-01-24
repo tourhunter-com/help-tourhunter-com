@@ -2,11 +2,16 @@
 title: How to create a booking at "Marketplace" in "List view"?
 layout: article
 excerpt: Part of a post
-category: bookings
+categories: 
+- bookings
+- marketplace
 subcategories:
     bookings: bookings-creation
 tags:
 - booking-lv
+- booking-pos
+- booking-wl
+- booking-mv
 lang: en
 permalink: "/en/:name/"
 ref: how-to-create-a-booking-at-marketplace-in-list-view

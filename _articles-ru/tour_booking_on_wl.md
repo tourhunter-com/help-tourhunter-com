@@ -2,7 +2,16 @@
 title: Букинг тура на "White Label"
 layout: article
 excerpt: Part of a post
-category: white-label
+categories: 
+- bookings
+- white-label
+subcategories:
+    bookings: bookings-creation
+tags:
+- booking-wl
+- booking-pos
+- booking-lv
+- booking-mv
 lang: ru
 permalink: "/ru/:name/"
 ref: wl-booking
