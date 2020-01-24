@@ -2,7 +2,16 @@
 title: Tour booking on "White Label"
 layout: article
 excerpt: Part of a post
-category: white-label
+categories: 
+- bookings
+- white-label
+subcategories:
+    bookings: bookings-creation
+tags:
+- booking-wl
+- booking-pos
+- booking-lv
+- booking-mv
 lang: en
 permalink: "/en/:name/"
 ref: wl-booking

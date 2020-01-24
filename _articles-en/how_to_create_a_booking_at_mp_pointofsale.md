@@ -1,5 +1,5 @@
 ---
-title: How to create a booking at "Marketplace" in "List view"?
+title: How to create a booking at "Marketplace" in "Point-of-sale view"?
 layout: article
 excerpt: Part of a post
 categories: 
@@ -8,15 +8,16 @@ categories:
 subcategories:
     bookings: bookings-creation
 tags:
-- booking-lv
 - booking-pos
+- booking-lv
 - booking-wl
 - booking-mv
 lang: en
 permalink: "/en/:name/"
-ref: how-to-create-a-booking-at-marketplace-in-list-view
+ref: how-to-create-a-booking-at-marketplace-in-pointofsale-view
 cat: some
 ---
+
 
 ## **Step 1**
 
@@ -24,9 +25,9 @@ Go to "Marketplace".
 
 ![How_to_create_a_booking_at_marketplace_in_listview1](/assets/images/how_to_create_a_booking_at_marketplace_in_listview1.png)
 
-And select "List view" on the "Top menu" in the header.
+And select "Point-of-sale" on the "Top menu" in the header.
 
-![How_to_create_a_booking_at_marketplace_in_listview2](/assets/images/how_to_create_a_booking_at_marketplace_in_listview2.png)
+![How_to_create_a_booking_at_marketplace_in_pointofsaleview1](/assets/images/how_to_create_a_booking_at_marketplace_in_pointofsaleview1.png)
 
 ## **Step 2**
 
@@ -54,6 +55,12 @@ Choose date and time and fill out required fields on the opened booking modal wi
 
 ## **Step 6**
 
-Click on "Request booking" button for request a booking.
+Click on "Checkout" button for proceed to payment or click on "Add to Cart" button for add booking to checkout and continue make a bookings.
 
-![How_to_create_a_booking_at_marketplace_in_listview5](/assets/images/how_to_create_a_booking_at_marketplace_in_listview5.png)
+![How_to_create_a_booking_at_marketplace_in_pointofsaleview2](/assets/images/how_to_create_a_booking_at_marketplace_in_pointofsaleview2.png)
+
+## **Step 7**
+
+In the newly opened modal "Checkout", make sure that all the data of the tour booking is correct. Book a tour by clicking on the "Book Now" button or click on the "Continue Shopping" button to add additional booking to the checkout.
+
+![How_to_create_a_booking_at_marketplace_in_pointofsaleview3](/assets/images/how_to_create_a_booking_at_marketplace_in_pointofsaleview3.png)

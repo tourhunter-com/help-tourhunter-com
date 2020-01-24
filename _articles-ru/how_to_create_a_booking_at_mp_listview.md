@@ -1,12 +1,17 @@
 ---
-title: Как создать букинг на "Marketplace" in "List view"?
+title: Как создать букинг на "Marketplace" в режиме "List view"?
 layout: article
 excerpt: Part of a post
-category: bookings
+categories: 
+- bookings
+- marketplace
 subcategories:
     bookings: bookings-creation
 tags:
 - booking-lv
+- booking-pos
+- booking-wl
+- booking-mv
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-create-a-booking-at-marketplace-in-list-view
