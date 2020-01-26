@@ -5,6 +5,9 @@ excerpt: Part of a post
 category: bookings
 subcategories:
     bookings: manifest-view
+tags:
+- assign-role
+- assign-employee
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-assign-resource-for-a-session
