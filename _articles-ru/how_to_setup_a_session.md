@@ -1,39 +1,41 @@
 ---
-title: Создание сессии тура
+title: Как настроить сессию?
 layout: article
 excerpt: Part of a post
-category: getting-started
+category: bookings
 subcategories:
-    getting-started: tours
+    bookings: manifest-view
 tags:
 - creation-session
 - editing-session
 - cancelation-session
 lang: ru
 permalink: "/ru/:name/"
-ref: session-creation
+ref: how-to-setup-a-session
 cat: some
 ---
 
-### **Шаг 1**
+## **Шаг 1**
 
-После того, как создан тур, можно добавить новую сессию тура. 
+Авторизоваться как владелец или сотрудник компании-Туроператора.
 
-Перейти на страницу "Bookings > Manifest view".
+## **Шаг 2**
 
-### **Шаг 2**
+Перейти в "Bookings > Manifest view".
 
-Кликнуть на выпадающее меню "+ Add New" во втором хедере и выбрать "Add new session".
+## **Шаг 3**
 
-![Creating_a_tour_session1](/assets/images/creating_a_tour_session1.png)
+Выбрать сессию, которую необходимо изменить.
 
-### **Шаг 3**
+![How_to_setup_a_session1](/assets/images/how_to_setup_a_session1.png)
 
-Кликнуть на выпадающее меню "Tour" и выбрать нужный тур.
+## **Шаг 4**
 
-![Creating_a_tour_session2](/assets/images/creating_a_tour_session2.png)
+Кликнуть на пункт "Edit Session" в меню-троеточии плашки сессии.
 
-### **Шаг 4**
+![How_to_setup_a_session2](/assets/images/how_to_setup_a_session2.png)
+
+## **Шаг 5**
 
 Настроить поля:
 - "Pick-up" - выбрать пикап-лист из ранее созданных - для создания букингов с указанием места посадки/высадки. Выбор обязателен;
@@ -45,14 +47,18 @@ cat: some
 - "Seats Availability" - количество мест на тур. Доступны четыре опции ("Unlimited" - не ограниченное количество мест; "Limited - fixed limit per session" - с выбором количества мест; "Limited - By resources" - выбор количества мест ограничен количеством ресурсов);
 - "Tour options" - чекбокс(ы) с указанием активных тур. опций. Отображается только если тур имеет тур. опции.
 
-И затем кликнуть на кнопку "Save". Редактирование сессии описано в статье [*"Как настроить сессию?"*]({% link _articles-ru/how_to_setup_a_session.md %}).
+![How_to_setup_a_session3](/assets/images/how_to_setup_a_session3.png)
 
-![Creating_a_tour_session3](/assets/images/creating_a_tour_session3.png)
+## **Шаг 6**
 
-### **Шаг 5**
+Кликнуть на кнопку "Save".
 
-Так же возможно создать сессию из настроек тура.
+## **Шаг 7 (не обязательный)**
 
-Перейти в "Manage > My Tours > Tour settings > Schedules". Кликнуть на кнопку "+ Add New Session" и затем указать всю необходимую информацию. 
+Так же возможно настроить сессию из сетапа тура. Для этого необходимо выполнить следующие шаги:
+1. Перейти в "Manage > My Tours > Tour Setup".
+2. Перейти на шаг сетапа тура "Schedules".
+3. Кликнуть на плашку сессии или в меню-троеточии кликнуть на пункт "Edit".
+4. Настроить нужные поля и кликнуть на кнопку "Save".
 
-![Creating_a_tour_session4](/assets/images/creating_a_tour_session4.png)
+![How_to_setup_a_session4](/assets/images/how_to_setup_a_session4.png)
