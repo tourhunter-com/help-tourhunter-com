@@ -1,5 +1,5 @@
 ---
-title: Создание букинга на прошедшую датуCreating booking in the past
+title: Создание букинга на прошедшую дату
 layout: article
 excerpt: Part of a post
 category: bookings
