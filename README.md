@@ -26,9 +26,11 @@ Has the following components:
 - config values
 
 ### Search
+
 [SimpleJekyllSearch documentation](https://github.com/christian-fei/Simple-Jekyll-Search#usage)
 
 #### Fields in front matter to use in layouts (filtering)
+
 All posts and pages have 2 fields:
 - `ref` (effectively unique id of the page or post)
 - `lang` (2 letter language code in [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) format)
@@ -36,6 +38,7 @@ All posts and pages have 2 fields:
 And the layouts use these fields to, for example, show only the language already selected by the reader.
 
 #### Directory structure
+
 For every supported language you have a dir:
 - _en/
 - _ru/
