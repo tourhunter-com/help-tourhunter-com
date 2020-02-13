@@ -10,7 +10,7 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 1. Create new files for each language: `filename.md` or `file_name.md` in `_articles-lang` directory, i.e.
 
-    ```bash
+    ```
     _articles-en/article_name.md
     ```
 
@@ -19,46 +19,55 @@ This project and everyone participating in it is governed by the [Code of Conduc
 Example:
 
 ```
+title:  Article name
 layout: article
-title:  "Article name"
 date:   2016-02-29 09:48:44 +0100
 excerpt: "Part of a post"
-category: marketplace
+category: bookings
+subcategories:
+	bookings: transfer-view
 tags:
 - related-article-name1
 - related-article-name2
 lang: en
-ref: article-name
 permalink: "/en/:name/"
+ref: article-name
 ```
 
 or
 
 ```
-layout: article
 title:  Название статьи
+layout: article
 date:   2019-04-11 12:32 +0100
 excerpt: "Part of a post"
-categories:
-- getting-started
-- marketplace
-- agents
+category: getting-started
 lang: ru
-ref: article-name
 permalink: "/ru/:name/"
+ref: article-name
 ```
 
-3. Put links inside the article on other articles if it's necessary ([Documentation on links](https://jekyllrb.com/docs/liquid/tags/#links)). All links should be relative and not absolute. 
+3. Put links inside the article on other articles if it's necessary ([Documentation on links](https://jekyllrb.com/docs/liquid/tags/#links)). All links should be relative and not absolute, i.e.
 
-4. Add images or gif-animations ([Documentation on images](https://jekyllrb.com/docs/posts/#including-images-and-resources)). There should not be unnecessary actions and movements of the mouse in the image (gif-animation), only what relates to the explanation. All images and gif-animations shoul be in high resolution.
+    ```
+    ![file_name1](/assets/images/file_name1.png)
+    ```
 
-5. The format of images must be png or jpeg. The width of the images and gif-animations should not exceed 750 px.
+4. Add images or gif-animations ([Documentation on images](https://jekyllrb.com/docs/posts/#including-images-and-resources)): `filename1.png` or `file_name2.jpeg` in `assets/images` directory, i.e.
+
+    ```
+    assets/images/file_name1.jpeg
+    ```
+
+There should not be unnecessary actions and movements of the mouse in the image (gif-animation), only what relates to the explanation. All images and gif-animations shoud be in high resolution.
+
+5. The format of images must be png or jpeg.
 
 ### Category
 1. Add name and description into `_data/categories.yml`
 2. Create new markdown file in `_lang/category` dir (using slug for name, i.e. "Getting Started" -> "getting-started.md")
 
-    ```bash
+    ```
     $ touch _{en,ru}/category/new-category-slug.md
     ```
 
@@ -69,7 +78,23 @@ permalink: "/ru/:name/"
     permalink: /category/getting-started
     ```
 
-3. Rebuild the website:
+4. Change description into `_data/categories.yml` for add subcategory, i.e.
+
+    ```
+  category-name:
+    title:
+      en: "Name of category"
+      ru: "Название категории"
+    desc:
+      en: "Description text."
+      ru: "Текст описания."
+    subcategories:
+      subcategory-name:
+        en: "Name of subcategory"
+        ru: "Название подкатегории"
+    ```
+
+5. Rebuild the website:
     ```
     bundle exec jekyll build
     ```
