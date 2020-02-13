@@ -129,3 +129,7 @@ footer .group-links li a {
 .socials a:hover {
     background-color: #eee;
 }
+
+.article-wrapper p img {
+    max-width: 100%;
+}
