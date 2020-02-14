@@ -2,7 +2,7 @@
 title: How to setup a taxes for a tour?
 layout: article
 excerpt: Part of a post
-category: fees&taxes
+category: fees-taxes
 lang: en
 permalink: "/en/:name/"
 ref: how-to-setup-a-taxes-for-a-tour
