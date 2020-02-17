@@ -5,7 +5,7 @@ excerpt: Part of a post
 category: pick-ups
 lang: en
 permalink: "/en/:name/"
-ref: creating-a-pick-up-list
+ref: creating-a-pick_up-list
 cat: some
 ---
 
@@ -17,13 +17,13 @@ Go to “Manage > Pick-ups > Pick-up Lists”.
 
 Click on the “+ New Pick-up List” button.
 
-![Creating_a_pick-up_list1](/assets/images/creating_a_pick-up_list1.png)
+![Creating_a_pick_up_list1](/assets/images/creating_a_pick_up_list1.png)
 
 ## **Step 3**
 
 Fill the required field “Pick-up List Name”.
 
-![Creating_a_pick-up_list2](/assets/images/creating_a_pick-up_list2.png)
+![Creating_a_pick_up_list2](/assets/images/creating_a_pick_up_list2.png)
 
 Only unique names for the pick-up list. If you try to save a pick-up list with the name that already in use, an error will appear "Pick-up Name ["name"] has already been taken.".
 
@@ -36,7 +36,7 @@ Choose “Pick-up List Type”(only one):
 
 Customers or Agents are allowed to change pick-up time only if you set “Allow Customer to choose a pick-up time” in “Pick-up List Type” dropdown. Suppliers and employees can always change the pick-up time.
 
-![Creating_a_pick-up_list3](/assets/images/creating_a_pick-up_list3.png)
+![Creating_a_pick_up_list3](/assets/images/creating_a_pick_up_list3.png)
 
 ## **Step 5**
 
@@ -44,7 +44,7 @@ Choose “Pick-up Options”(only one of them):
 - "Pick-up time by Area";
 - "Pick-up time by Location".
 
-![Creating_a_pick-up_list4](/assets/images/creating_a_pick-up_list4.png)
+![Creating_a_pick_up_list4](/assets/images/creating_a_pick_up_list4.png)
 
 You can’t save the pick-up list without area (if you choose "Pick-up time by Area"). If you try to save the pick-up list without area, an error will be displayed "Must be added at least one area.". But if the checkbox "Allow customer to request other Area" is turned on, then you can save the pick-up list without area. 
 
