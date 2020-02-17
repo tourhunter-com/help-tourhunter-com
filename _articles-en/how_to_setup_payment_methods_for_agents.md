@@ -2,7 +2,7 @@
 title: How to setup payment methods for Agents?
 layout: article
 excerpt: Part of a post
-category: net rates
+category: net-rates
 lang: en
 permalink: "/en/:name/"
 ref: how-to-setup-payment-methods-for-agents
