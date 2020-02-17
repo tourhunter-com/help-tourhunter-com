@@ -2,7 +2,7 @@
 title: What is net rates?
 layout: article
 excerpt: Part of a post
-category: net rates
+category: net-rates
 lang: en
 permalink: "/en/:name/"
 ref: net-rates
