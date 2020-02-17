@@ -2,7 +2,7 @@
 title: Creating a new net rate
 layout: article
 excerpt: Part of a post
-category: net rates
+category: net-rates
 lang: en
 permalink: "/en/:name/"
 ref: creating-a-new-net-rate
