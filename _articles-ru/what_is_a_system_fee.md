@@ -2,7 +2,7 @@
 title: Что такое системные сборы?
 layout: article
 excerpt: Part of a post
-category: fees & taxes
+category: fees-taxes
 lang: ru
 permalink: "/ru/:name/"
 ref: what-is-a-system-fee
