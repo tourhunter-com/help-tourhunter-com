@@ -26,15 +26,15 @@ Fill the required fields:
 - “Name”;
 - “Photo”;
 - “Quantity type”:
-- "Customer can choose quantity". If this type is selected then in booking modal in the “Extras” will be displayed:
-    - for 1 option - 1 input with “+/-” for extra;
-    - for 2 or more options - inputs with “+/-” for each option;
-- "1 item per booking". If this type is selected then in booking modal in the “Extras” will be displayed:
-    - for 1 option - checkbox with this option;
-    - for 2 or more options - dropdown with these options;
-- "1 item per each participant". If this type is selected then in booking modal in the “Extras” will be displayed:
-    - for 1 option - checkbox with this option;
-    - for 2 or more options - dropdown with options for each participant;
+    - "Customer can choose quantity". If this type is selected then in booking modal in the “Extras” will be displayed:
+      - for 1 option - 1 input with “+/-” for extra;
+      - for 2 or more options - inputs with “+/-” for each option;
+    - "1 item per booking". If this type is selected then in booking modal in the “Extras” will be displayed:
+      - for 1 option - checkbox with this option;
+      - for 2 or more options - dropdown with these options;
+    - "1 item per each participant". If this type is selected then in booking modal in the “Extras” will be displayed:
+      - for 1 option - checkbox with this option;
+      - for 2 or more options - dropdown with options for each participant;
 - “Description”.
 
 ![How_to_setup_and_assign_extras_for_a_tour2](/assets/images/how_to_setup_and_assign_extras_for_a_tour2.png)
