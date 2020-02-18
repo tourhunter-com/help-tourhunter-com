@@ -47,18 +47,18 @@ Set up the following settings:
 - “Taxes” - taxes for this price list;
 - “Pick-ups” - if you managed prices for transfers "Round trip"/"Pick-up only"/"Drop-off only"/"No Transfer", then you can disable extra change in this section;
 - “Payment Rules” - in this section you choose a payment type for a tour:
-- “customer will pay to Agent” - 2 values: 
-    - “Send invoice to Agent” - you choose “before the tours start/after the tour started/after the booking was created/on fixed weekdays/on fixed days of months”;
-    - “Request payment from Agent” -  you choose a day “after invoice was sent”;
-- “customer will pay to Supplier”- 2 values:
-    - “Send invoice to Agent” - you choose “before the tours start/after the tour started/after the booking was created/on fixed weekdays/on fixed days of months”;
-    - “Pay the commission to Agent” - you choose a day “after invoice was sent”;
-“do not track payment” - next changes for Agents:
-    - no permission to track customer payments;
-    - prices for transfer are not shown;
-    - the section “Total Paid” is not displayed in voucher;
-    - price-related data not displayed in modal menu “Checkout”;
-    - when you log into the Suppliers’ "White Label”, prices are hidden.
+    - “customer will pay to Agent” - 2 values: 
+      - “Send invoice to Agent” - you choose “before the tours start/after the tour started/after the booking was created/on fixed weekdays/on fixed days of months”;
+      - “Request payment from Agent” -  you choose a day “after invoice was sent”;
+    - “customer will pay to Supplier”- 2 values:
+      - “Send invoice to Agent” - you choose “before the tours start/after the tour started/after the booking was created/on fixed weekdays/on fixed days of months”;
+      - “Pay the commission to Agent” - you choose a day “after invoice was sent”;
+    - “do not track payment” - next changes for Agents:
+      - no permission to track customer payments;
+      - prices for transfer are not shown;
+      - the section “Total Paid” is not displayed in voucher;
+      - price-related data not displayed in modal menu “Checkout”;
+      - when you log into the Suppliers’ "White Label”, prices are hidden.
 - “Cancellation” - debt formation for an Agent; 
 - “Terms & Conditions” - in view mode there will be text, in edit mode - a text area with the ability to edit, as in the tour setup for “Additional Description”.
 
