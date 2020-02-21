@@ -37,6 +37,16 @@ categories:
     desc:
       en: "Information about the place of buying and selling tours, where suppliers and agents are cooperate."
       ru: "Информация о рынке, где приобретают и продают туры, где сотрудничают поставщики и агенты."
+    subcategories:
+      bookings:
+        en: "Bookings"
+        ru: "Букинги"
+      tours:
+        en: "Tours"
+        ru: "Туры"
+      net-rates:
+        en: "Net rates"
+        ru: "Сезонные тарифы"
 
   bookings:
     title:

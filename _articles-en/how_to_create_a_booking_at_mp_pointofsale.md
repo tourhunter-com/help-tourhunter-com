@@ -2,11 +2,9 @@
 title: How to create a booking at "Marketplace" in "Point-of-sale view"?
 layout: article
 excerpt: Part of a post
-categories: 
-- bookings
-- marketplace
+category: marketplace
 subcategories:
-    bookings: bookings-creation
+    marketplace: bookings
 tags:
 - booking-pos
 - booking-lv
