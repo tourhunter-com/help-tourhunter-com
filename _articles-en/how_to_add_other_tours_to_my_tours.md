@@ -2,9 +2,9 @@
 layout: article
 title: How to add other tours to "My Tours"?
 excerpt: "Part of a post"
-categories: 
-- "marketplace"
-- "white-label"
+category: marketplace
+subcategories:
+    marketplace: tours
 lang: en
 ref: how_to_add_other_tours_to_ my_tours
 permalink: "/en/:name/"

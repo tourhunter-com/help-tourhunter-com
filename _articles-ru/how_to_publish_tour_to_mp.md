@@ -3,6 +3,8 @@ title: Как опубликовать тур на "Marketplace"?
 layout: article
 excerpt: Part of a post
 category: marketplace
+subcategories:
+    marketplace: tours
 tags:
 - publish
 lang: ru

@@ -2,11 +2,9 @@
 title: Как создать букинг на "Marketplace" в режиме "Point-of-sale view"?
 layout: article
 excerpt: Part of a post
-categories: 
-- bookings
-- marketplace
+category: marketplace
 subcategories:
-    bookings: bookings-creation
+    marketplace: bookings
 tags:
 - booking-pos
 - booking-lv

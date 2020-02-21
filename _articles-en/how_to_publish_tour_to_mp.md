@@ -3,6 +3,8 @@ title: How to publish a tour to "Marketplace"?
 layout: article
 excerpt: Part of a post
 category: marketplace
+subcategories:
+    marketplace: tours
 tags:
 - publish
 lang: en

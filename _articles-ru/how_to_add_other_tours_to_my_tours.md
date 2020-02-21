@@ -2,9 +2,9 @@
 layout: article
 title: Как добавить чужой тур в "My Tours"?
 excerpt: "Part of a post"
-categories: 
-- "marketplace"
-- "white-label"
+category: marketplace
+subcategories:
+    marketplace: tours
 lang: ru
 permalink: "/ru/:name/"
 ref: how_to_add_other_tours_to_ my_tours
