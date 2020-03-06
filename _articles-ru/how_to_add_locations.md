@@ -1,5 +1,5 @@
 ---
-title: Как добавить место?
+title: Как добавить новое место?
 layout: article
 excerpt: Part of a post
 category: pick-ups
