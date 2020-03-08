@@ -3,6 +3,8 @@ title: Как изменить пароль?
 layout: article
 excerpt: Part of a post
 category: account
+subcategories:
+    account: my-account
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-change-a-passport

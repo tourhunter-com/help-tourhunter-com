@@ -3,6 +3,8 @@ title: How to edit my profile at TourHunter?
 layout: article
 excerpt: Part of a post
 category: account
+subcategories:
+    account: my-profile
 lang: en
 permalink: "/en/:name/"
 ref: how-to-edit-my-profile-at-tourhunter
