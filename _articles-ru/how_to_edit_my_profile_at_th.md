@@ -3,6 +3,8 @@ title: Как редактировать профиль на TourHunter?
 layout: article
 excerpt: Part of a post
 category: account
+subcategories:
+    account: my-profile
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-edit-my-profile-at-tourhunter

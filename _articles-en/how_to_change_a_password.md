@@ -3,6 +3,8 @@ title: How to change a password?
 layout: article
 excerpt: Part of a post
 category: account
+subcategories:
+    account: my-account
 lang: en
 permalink: "/en/:name/"
 ref: how-to-change-a-passport

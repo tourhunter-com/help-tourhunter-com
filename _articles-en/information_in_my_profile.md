@@ -3,6 +3,8 @@ title: Information in my profile
 layout: article
 excerpt: Part of a post
 category: account
+subcategories:
+    account: my-profile
 lang: en
 permalink: "/en/:name/"
 ref: information-in-my-profile

@@ -3,6 +3,8 @@ title: Информация в профиле
 layout: article
 excerpt: Part of a post
 category: account
+subcategories:
+    account: my-profile
 lang: ru
 permalink: "/ru/:name/"
 ref: information-in-my-profile

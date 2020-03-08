@@ -124,7 +124,14 @@ categories:
       ru: "Профиль"
     desc:
       en: "Information about account settings, service options, changing password or email."
-      ru: "Информация о настройках учетной записи, опциях обслуживания, смене пароля или электронной почты."        
+      ru: "Информация о настройках учетной записи, опциях обслуживания, смене пароля или электронной почты."
+    subcategories:
+      my-profile:
+        en: "My profile"
+        ru: "Мой профиль"
+      my-account:
+        en: "My account"
+        ru: "Мой аккаунт"      
       
   billing-payments:
     title:

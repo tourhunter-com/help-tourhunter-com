@@ -3,6 +3,8 @@ title: Как создать аккаунт, используя Google+?
 layout: article
 excerpt: Part of a post
 category: account
+subcategories:
+    account: my-account
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-create-an-account-using-google
