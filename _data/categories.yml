@@ -117,6 +117,13 @@ categories:
     desc:
       en: "You didn't setup your notifications yet? Get all instructions here about messages and notifications!"
       ru: "Вы еще не настроили себе уведомления о событиях? Получите все необходимые инструкции здесь о сообщениях и уведомлениях!"     
+    subcategories:
+      pending-requests:
+        en: "Pending requests"
+        ru: "Запросы, ожидающие действий"
+      messages:
+        en: "Messages"
+        ru: "Сообщения"
       
   account:
     title:
