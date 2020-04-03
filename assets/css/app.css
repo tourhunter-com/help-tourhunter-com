@@ -59,6 +59,8 @@ a:hover {
 
 .card-title {
     font-size: 18px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 .card-text {
@@ -132,4 +134,33 @@ footer .group-links li a {
 
 .article-wrapper p img {
     max-width: 100%;
+}
+
+.card h2 {
+    font-size: 24px;
+}
+
+.article-wrapper h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.article-wrapper h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.card-body {
+    min-height: 157px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 350px) {
+    .navbar .btn-group {
+        margin-left: auto;
+    }
 }
