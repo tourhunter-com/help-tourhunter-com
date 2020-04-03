@@ -7,13 +7,12 @@ layout: base
         <div class="row card">
             <div class="col-md-9 p-4 article-wrapper">
                 <h4>{{ page.title }}</h4>
-                <p>Categories: </p>
-                {% for category in page.categories %}
-                <a href="{{site.baseurl}}/{{page.lang}}/category/{{category}}">
-                    {{ site.data.categories.categories[category].title[page.lang] }}
-                </a>
-                {% endfor %}
-                <br>
+                <p>Categories: {% for category in page.categories %}
+                    <a href="{{site.baseurl}}/{{page.lang}}/category/{{category}}">
+                        {{ site.data.categories.categories[category].title[page.lang] }}
+                    </a>
+                    {% endfor %}
+                </p>
                 {{ content }}
                 <hr>
                 {% include articles/related.html %}
