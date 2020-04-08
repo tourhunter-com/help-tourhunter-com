@@ -35,35 +35,82 @@ Select “Date” - period, seasonal rules will be applied to.
 
 ### **Step 5**
 
-Set up the following settings:
-- “Prices & Rates” - in this section will be displayed tours with its options. Down below will be displayed 3 columns:
-	- “Participants” - participants category’ name (with age);
-	- “Selling price” - tour price for this participants category for Agent, who made its price list;
-	- “Net Rate” / “Commission” - dropdown. “$” or “%”;
-- “Special Rates”;
-- “Extras” - same functions as in “Prices & Rates”. The fields “Net Rates” can’t be blank;
-- “Fees” - fees for this price list;
-- “Taxes” - taxes for this price list;
-- “Pick-ups” - if you managed prices for transfers "Round trip"/"Pick-up only"/"Drop-off only"/"No Transfer", then you can disable extra change in this section;
-- “Payment Rules” - in this section you choose a payment type for a tour:
-	- “customer will pay to Agent” - 2 values: 
-		- “Send invoice to Agent” - you choose “before the tours start/after the tour started/after the booking was created/on fixed weekdays/on fixed days of months”;
-		- “Request payment from Agent” -  you choose a day “after invoice was sent”;
-	- “customer will pay to Supplier”- 2 values:
-		- “Send invoice to Agent” - you choose “before the tours start/after the tour started/after the booking was created/on fixed weekdays/on fixed days of months”;
-		- “Pay the commission to Agent” - you choose a day “after invoice was sent”;
-	- “do not track payment” - next changes for Agents:
-		- no permission to track customer payments;
-		- prices for transfer are not shown;
-		- the section “Total Paid” is not displayed in voucher;
-		- price-related data not displayed in modal menu “Checkout”;
-		- when you log into the Suppliers’ "White Label”, prices are hidden;
-- “Cancellation” - debt formation for an Agent; 
-- “Terms & Conditions” - in view mode there will be text, in edit mode - a text area with the ability to edit, as in the tour setup for “Additional Description”.
+Indicate selling price and net rate (or commission) for a tours per each category participant for pricing seasonal rules. Make sure that net rate is not greater than selling price or commission less or equal to 100%.
 
 ![Creating_a_new_pricing_seasonal_rules4](/assets/images/creating_a_new_pricing_seasonal_rules4.png)
 
 ### **Step 6**
 
-Click on the “Save” button.
+Create special prices and conditions for them at "Special Price" tab by clicking on "+ Add New Special Rates" button.
+
+![Creating_a_new_pricing_seasonal_rules5](/assets/images/creating_a_new_pricing_seasonal_rules5.png)
+
+![Creating_a_new_pricing_seasonal_rules6](/assets/images/creating_a_new_pricing_seasonal_rules6.png)
+
+### **Step 7**
+
+Indicate selling price and net rate (or commission) for extras which will be used for pricing seasonal rules. Make sure that net rate is not greater than selling price or commission less or equal to 100%.
+
+![Creating_a_new_pricing_seasonal_rules7](/assets/images/creating_a_new_pricing_seasonal_rules7.png)
+
+### **Step 8**
+
+Indicate which types of fees will be applied for tours.
+
+Click on existing buttons for turning off actual fee for tour.
+
+![Creating_a_new_pricing_seasonal_rules8](/assets/images/creating_a_new_pricing_seasonal_rules8.png)
+
+### **Step 9**
+
+Indicate which types of taxes will be applied for tours.
+
+Click on existing buttons for turning off actual taxes for tour.
+
+![Creating_a_new_pricing_seasonal_rules9](/assets/images/creating_a_new_pricing_seasonal_rules9.png)
+
+### **Step 10**
+
+Setup extra charge for transfer.
+
+Click on "Included"/"Excluded" button for turning on (turning off) extra charge for transfers.
+
+![Creating_a_new_pricing_seasonal_rules10](/assets/images/creating_a_new_pricing_seasonal_rules10.png)
+
+### **Step 11**
+
+Setup payment rules.
+
+Choose a payment type for a tour:
+- “customer will pay to Agent” - there are 2 values: 
+    - “Send invoice to Agent” - indicate time of sending invoice: "hour" or "days" or "month" and also choose: "before the tours start", or "after the tour started", or "after the booking was created", or "on fixed weekdays", or "on fixed days of months";
+    - “Request payment from Agent” - indicate time of sending invoice “after invoice was sent”;
+- “customer will pay to Supplier”- there are 2 values:
+    - “Send invoice to Agent” - indicate time of sending invoice: "hour" or "days" or "month" and also choose: "before the tours start", or "after the tour started", or "after the booking was created", or "on fixed weekdays", or "on fixed days of months";
+	- “Pay the commission to Agent” - indicate time of sending invoice “after invoice was sent”;
+- “do not track payment” - next changes for Agents:
+	- no permission to track customer payments;
+	- prices for transfer are not shown;
+	- the section “Total Paid” is not displayed in voucher;
+	- price-related data not displayed in modal menu “Checkout”;
+	- when you log into the Suppliers’ "White Label”, prices are hidden.
+
+![Creating_a_new_pricing_seasonal_rules11](/assets/images/creating_a_new_pricing_seasonal_rules11.png)
+
+### **Step 12**
+
+Setup cancellation policy - debt formation for an Agent.
+
+![Creating_a_new_pricing_seasonal_rules12](/assets/images/creating_a_new_pricing_seasonal_rules12.png)
+
+### **Step 13**
+
+Setup terms & conditions for pricing seasonal rules if it's necessary.
+
+![Creating_a_new_pricing_seasonal_rules13](/assets/images/creating_a_new_pricing_seasonal_rules13.png)
+
+### **Step 14**
+
+Click on "Save" button for update your pricing seasonal rules.
+
 
