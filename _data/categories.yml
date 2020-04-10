@@ -250,4 +250,12 @@ categories:
       ru: "Купоны"
     desc:
       en: "Get all information about a discount for your tours. Make a sale of your product."
-      ru: "Получите всю информацию о скидках на ваши туры. Сделайте распродажу своего продукта."      
+      ru: "Получите всю информацию о скидках на ваши туры. Сделайте распродажу своего продукта."
+
+  glossary:
+    title:
+      en: "Glossary"
+      ru: "Глоссарий"
+    desc:
+      en: "A brief description of the concepts used in the articles."
+      ru: "Краткое описание понятий, которые используются в статьях."       
