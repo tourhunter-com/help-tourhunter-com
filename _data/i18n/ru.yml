@@ -9,6 +9,24 @@ main:
     anchor: чем
     heading: Чем мы можем помочь?
     p1: Ищете что-то? Найдите это здесь!
+    searchbar: Чем я могу вам помочь?
+    noresults: результатов не найдено
 
 categories:
   category: "Категория"
+  categs: "категории"
+  morecategories: Больше категорий
+
+footer:
+  contribute: Способствовать
+  reqnewfeature: Запросить новую функцию
+  reportabug: Сообщить об ошибке
+  askaquestion: Задайте вопрос
+  helpwitharticles: Помощь со статьями
+  helpwithtranslations: Помощь с переводами
+  about: Около
+  jobs: работы
+  
+articles:
+  related: Статьи по Теме
+  inthiscategory: Статьи в этой категории
