@@ -33,7 +33,7 @@ categories:
   marketplace:
     title:
       en: "Marketplace"
-      ru: "Торговая площадка"
+      ru: "Маркетплейс"
     desc:
       en: "Information about the place of buying and selling tours, where suppliers and agents are cooperate."
       ru: "Информация о рынке, где приобретают и продают туры, где сотрудничают поставщики и агенты."
@@ -51,7 +51,7 @@ categories:
   bookings:
     title:
       en: "Bookings"
-      ru: "Бронирования"
+      ru: "Букинги"
     desc:
       en: "Here you can find answers on how to manage a bookings for a tours."
       ru: "Здесь вы найдете информацию о том как управлять бронированием туров."
@@ -183,7 +183,7 @@ categories:
   net-rates:
     title:
       en: "Net Rates"
-      ru: "Комплексные цены"
+      ru: "Сезонные тарифы"
     desc:
       en: "Get all instructions how to setup and manage complex price & rates options for your product."
       ru: "Получите все инструкции о том как настроить и управлять комплексными ценами и вариантами тарифов для вашего продукта."
@@ -239,7 +239,7 @@ categories:
   tags:
     title:
       en: "Tags"
-      ru: "Тэги"
+      ru: "Теги"
     desc:
       en: "Information about marking your bookings with tags. You can easy understand their status."
       ru: "Информация о маркировке ваших бронирований тегами. Вы можете легко понять их статус."

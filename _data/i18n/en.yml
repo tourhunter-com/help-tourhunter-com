@@ -9,7 +9,7 @@ main:
     anchor: how
     heading: How can we help?
     p1: Looking for something? Search it here!
-    searchbar: What can I help you with?
+    searchbar: What can we help you with?
     noresults: No results found
 
 # Everything related to categories
