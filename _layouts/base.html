@@ -12,15 +12,28 @@
 <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
 
 <!-- Configuration -->
+{% if page.lang == "en" %}
 <script>
 window.simpleJekyllSearch = new SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  json: '/search.json',
+  json: '/searchen.json',
   noResultsText: '',
   searchResultTemplate: '<li class="list-group list-group-flush"><a class="list-group-item" href="{url}?query={query}" title="{desc}">{title}</a></li>',
   fuzzy: true
 })
 </script>
+{% else %}
+<script>
+window.simpleJekyllSearch = new SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/searchru.json',
+  noResultsText: '',
+  searchResultTemplate: '<li class="list-group list-group-flush"><a class="list-group-item" href="{url}?query={query}" title="{desc}">{title}</a></li>',
+  fuzzy: true
+})
+</script>
+{%- endif -%}
 </body>
 </html>
