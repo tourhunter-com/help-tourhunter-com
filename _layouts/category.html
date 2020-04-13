@@ -3,6 +3,7 @@ layout: base
 ---
 <div class="row">
     <div class="col">
+	 {% include breadcrumbs.html %}
         <div class="row card">
             <div class="col-md-9 p-4">
                 {% assign category_data = site.data.categories.categories[page.category] %}
@@ -41,7 +42,7 @@ layout: base
             </div>
             <!-- Side menu -->
             <div class="col-md-3 p-4 bg-light">
-                <h6>More categories</h6>
+                <h6>{{ site.data.i18n[page.lang].categories.morecategories }}</h6>
                 <ul class="group-links">
                     {% for c in site.data.categories.categories %}
                     {% if c[0] != page.category %}

@@ -1,16 +1,1424 @@
----
----
 [
-  {% for post in site.posts %}
-  {
+    {
+      "title"    : "About",
+      "url"      : "/about/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
 
-    "title"    : "{{ post.title | strip_html | escape }}",
-    "url"      : "{{ site.baseurl }}{{ post.url }}",
-    "category" : "{{post.categories | join: ', '}}",
-    "tags"     : "{{ post.tags | join: ', ' }}",
-    "date"     : "{{ post.date }}",
-    "description" : "{{post.description | strip_html | strip_newlines | escape }}",
-    "content"  : "{{ post.content | strip_html | strip_newlines | escape }}"
-  } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+    {
+      "title"    : "Agent company",
+      "url"      : "/en/agent-company/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Agent recent bookings",
+      "url"      : "/en/agent-recent-bookings/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Booking acceptance messages",
+      "url"      : "/en/booking-acceptance-messages/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Booking editing messages",
+      "url"      : "/en/booking-editing-messages/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Bookings data export",
+      "url"      : "/en/bookings-data-export/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Booking requests",
+      "url"      : "/en/bookings-requests/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating a customer",
+      "url"      : "/en/creating-a-customer/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating a job instructions",
+      "url"      : "/en/creating-a-job-instructions/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating a new pricing seasonal rules",
+      "url"      : "/en/creating-a-new-pricing-seasonal-rules/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating a participants category",
+      "url"      : "/en/creating-a-participants-category/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating a role",
+      "url"      : "/en/creating-a-role/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating a tour",
+      "url"      : "/en/creating-a-tour/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating a tour schedules",
+      "url"      : "/en/creating-a-tour-schedules/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating booking in the past",
+      "url"      : "/en/creating-bookings-in-the-past/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating coupons for a tours",
+      "url"      : "/en/creating-coupons-for-a-tours/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating a custom &quot;Manifest view&quot;",
+      "url"      : "/en/creating-custom-manifest-view/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating a new net rates",
+      "url"      : "/en/creating-net-rates/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating pick-up list",
+      "url"      : "/en/creating-pick-up-list/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating tags for a bookings",
+      "url"      : "/en/creating-tags-for-a-bookings/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to add a Supplier?",
+      "url"      : "/en/how-to-add-a-supplier/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to add a transfer resource?",
+      "url"      : "/en/how-to-add-a-transfer-resource/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to add an Agent?",
+      "url"      : "/en/how-to-add-an-agent/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to add areas?",
+      "url"      : "/en/how-to-add-areas/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to add locations?",
+      "url"      : "/en/how-to-add-locations/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to add other tours to &quot;My Tours&quot;?",
+      "url"      : "/en/how-to-add-other-tours-to-my-tours/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to add price for a pick-up and drop-off?",
+      "url"      : "/en/how-to-add-price-for-pick-up-list/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to assign employee for a session?",
+      "url"      : "/en/how-to-assign-employee-for-a-session/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to assign resource for a session?",
+      "url"      : "/en/how-to-assign-resource-for-a-session/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to cancel a booking?",
+      "url"      : "/en/how-to-cancel-a-booking/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to cancel a session?",
+      "url"      : "/en/how-to-cancel-a-session/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to change a booking status?",
+      "url"      : "/en/how-to-change-a-booking-status/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to change a password?",
+      "url"      : "/en/how-to-change-a-password/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to change an email?",
+      "url"      : "/en/how-to-change-an-email/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to change the language for a company?",
+      "url"      : "/en/how-to-change-the-language-for-a-company/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to clone a pick-up list?",
+      "url"      : "/en/how-to-clone-a-pick-up-list/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to connect a custom domain?",
+      "url"      : "/en/how-to-connect-a-custom-domain/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to connect a telegram bot?",
+      "url"      : "/en/how-to-connect-a-telegram-bot/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to create a booking at &quot;Bookings&quot; in &quot;Manifest view&quot;?",
+      "url"      : "/en/how-to-create-a-booking-at-bookings-manifestview/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to create a booking at &quot;Marketplace&quot; in &quot;List view&quot;?",
+      "url"      : "/en/how-to-create-a-booking-at-mp-listview/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to create a booking at &quot;Marketplace&quot; in &quot;Point-of-sale view&quot;?",
+      "url"      : "/en/how-to-create-a-booking-at-mp-pointofsale/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to create a new company?",
+      "url"      : "/en/how-to-create-a-new-company/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to create a resource?",
+      "url"      : "/en/how-to-create-a-resource/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating a tour session",
+      "url"      : "/en/how-to-create-a-tour-session/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to create an account using an email?",
+      "url"      : "/en/how-to-create-an-account-using-email/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to create an account using Facebook?",
+      "url"      : "/en/how-to-create-an-account-using-facebook/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to create an account using Google+?",
+      "url"      : "/en/how-to-create-an-account-using-google/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to delete a location?",
+      "url"      : "/en/how-to-delete-a-location/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to delete a pick-up list?",
+      "url"      : "/en/how-to-delete-a-pick-up-list/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to delete an area?",
+      "url"      : "/en/how-to-delete-an-area/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to disconnect a custom domain?",
+      "url"      : "/en/how-to-disconnect-a-custom-domain/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to edit a booking?",
+      "url"      : "/en/how-to-edit-a-booking/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to edit a customer profile?",
+      "url"      : "/en/how-to-edit-a-customer/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to edit my profile at TourHunter?",
+      "url"      : "/en/how-to-edit-my-profile-at-th/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to export a pick-up list?",
+      "url"      : "/en/how-to-export-a-pick-up-list/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to export customers?",
+      "url"      : "/en/how-to-export-customers/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to get a bookings database from my Supplier?",
+      "url"      : "/en/how-to-get-a-booking-database-from-my-supplier/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to get a booking voucher?",
+      "url"      : "/en/how-to-get-a-booking-voucher/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to get a booking&#39;s database?",
+      "url"      : "/en/how-to-get-a-bookings-database/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to get an Agent bookings database?",
+      "url"      : "/en/how-to-get-an-agent-bookings-database/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to invite an employee?",
+      "url"      : "/en/how-to-invite-an-employee/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to login at &quot;White Label&quot;?",
+      "url"      : "/en/how-to-login-at-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to merge customers?",
+      "url"      : "/en/how-to-merge-customers/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to pay for subscription by bank transfer?",
+      "url"      : "/en/how-to-pay-for-subscription-by-bank-transfer/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to pay for subscription by PayPal?",
+      "url"      : "/en/how-to-pay-for-subscription-by-paypal/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to publish a tour to &quot;Marketplace&quot;?",
+      "url"      : "/en/how-to-publish-tour-to-mp/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to publish tour to &quot;White Label&quot;?",
+      "url"      : "/en/how-to-publish-tour-to-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to remove a Supplier from the list of my Suppliers?",
+      "url"      : "/en/how-to-remove-a-supplier-from-my-suppliers/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to remove an Agent?",
+      "url"      : "/en/how-to-remove-an-agent/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to request net rates?",
+      "url"      : "/en/how-to-request-net-rates/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to request other area?",
+      "url"      : "/en/how-to-request-other-area/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to request other location?",
+      "url"      : "/en/how-to-request-other-location/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to restore a password?",
+      "url"      : "/en/how-to-restore-a-password/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to restrict an access to “White Label”?",
+      "url"      : "/en/how-to-restrict-an-access-to-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to see an Agent requests?",
+      "url"      : "/en/how-to-see-agent-requests/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to see bookings at transfer view?",
+      "url"      : "/en/how-to-see-booking-at-transferview/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to send a notification about booking that had been changed?",
+      "url"      : "/en/how-to-send-a-notification/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to send a message or upload an image for a booking?",
+      "url"      : "/en/how-to-send-message-image-for-a-booking/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to send net rates?",
+      "url"      : "/en/how-to-send-net-rates/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup a session?",
+      "url"      : "/en/how-to-setup-a-session/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup an Agent profile?",
+      "url"      : "/en/how-to-setup-an-agent-profile/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup &amp; assign extras for a tour?",
+      "url"      : "/en/how-to-setup-assign-extras-for-a-tour/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup company details?",
+      "url"      : "/en/how-to-setup-company-details/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup displaying notifications for a company?",
+      "url"      : "/en/how-to-setup-displaying-notifications-for-company/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup fees for a tour?",
+      "url"      : "/en/how-to-setup-fees-for-a-tour/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup &quot;My Website&quot;?",
+      "url"      : "/en/how-to-setup-my-website/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup names for resources?",
+      "url"      : "/en/how-to-setup-names-for-resources/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup names for sessions?",
+      "url"      : "/en/how-to-setup-names-for-sessions/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup names for staff?",
+      "url"      : "/en/how-to-setup-names-for-staff/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup names for tours?",
+      "url"      : "/en/how-to-setup-names-for-tours/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup payment methods for an agents?",
+      "url"      : "/en/how-to-setup-payment-methods-for-agents/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup payment methods for &quot;White Label&quot;?",
+      "url"      : "/en/how-to-setup-payment-methods-for-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup permissions for a role?",
+      "url"      : "/en/how-to-setup-permissions-for-a-role/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup regional settings for a company?",
+      "url"      : "/en/how-to-setup-regional-settings-for-a-company/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to setup taxes for a tour?",
+      "url"      : "/en/how-to-setup-taxes-for-a-tour/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to sort a bookings?",
+      "url"      : "/en/how-to-sort-a-bookings/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "How to use coupons for a bookings?",
+      "url"      : "/en/how-to-use-coupons-for-a-bookings/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Import database of customers",
+      "url"      : "/en/import-database-of-customers/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Information in my profile",
+      "url"      : "/en/information-in-my-profile/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Job instruction requests",
+      "url"      : "/en/job-instruction-requests/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Managing a billing",
+      "url"      : "/en/managing-a-billing/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Admin view at &quot;Marketplace&quot;",
+      "url"      : "/en/mp-admin-view/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "List view at &quot;Marketplace&quot;",
+      "url"      : "/en/mp-list-view/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Point of sale view at &quot;Marketplace&quot;",
+      "url"      : "/en/mp-point-of-sale-view/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Net rates requests",
+      "url"      : "/en/net-rates-requests/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Pick-up and drop-off sessions",
+      "url"      : "/en/pickup-and-dropoff-sessions/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Private and group tranfer",
+      "url"      : "/en/private-and-group-transfer/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Session messages",
+      "url"      : "/en/session-messages/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Shared resources",
+      "url"      : "/en/shared-resources/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Subscription notifications",
+      "url"      : "/en/subscription-messages/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Supplier company",
+      "url"      : "/en/supplier-company/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Suppliers recent bookings",
+      "url"      : "/en/suppliers-recent-bookings/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Tour booking on &quot;White Label&quot;",
+      "url"      : "/en/tour-booking-on-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Tour catalogue and tour selection on &quot;White Label&quot;",
+      "url"      : "/en/tour-catalogue-on-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Transfers messages",
+      "url"      : "/en/transfers-messages/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Types of customer views",
+      "url"      : "/en/types-of-customer-views/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "What is net rates?",
+      "url"      : "/en/what-is-net-rates/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "What is system fee?",
+      "url"      : "/en/what-is-system-fee/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "What is &quot;White Label&quot;?",
+      "url"      : "/en/what-is-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Компания-Турагент",
+      "url"      : "/ru/agent-company/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Последние букинги Турагента",
+      "url"      : "/ru/agent-recent-bookings/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Сообщения о подтверждении букингов",
+      "url"      : "/ru/booking-acceptance-messages/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Сообщения об изменении букингов",
+      "url"      : "/ru/booking-editing-messages/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Экспорт данных из букингов",
+      "url"      : "/ru/bookings-data-export/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Запросы на подтверждение букингов",
+      "url"      : "/ru/bookings-requests/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание клиента",
+      "url"      : "/ru/creating-a-customer/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание должностных инструкций",
+      "url"      : "/ru/creating-a-job-instructions/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание сезонных правил ценообразования",
+      "url"      : "/ru/creating-a-new-pricing-seasonal-rules/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание категории участника туров",
+      "url"      : "/ru/creating-a-participants-category/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание роли",
+      "url"      : "/ru/creating-a-role/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание тура",
+      "url"      : "/ru/creating-a-tour/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание расписаний тура",
+      "url"      : "/ru/creating-a-tour-schedules/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание букинга на прошедшую дату",
+      "url"      : "/ru/creating-bookings-in-the-past/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание купонов для туров",
+      "url"      : "/ru/creating-coupons-for-a-tours/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание пользовательского раздела &quot;Manifest view&quot;",
+      "url"      : "/ru/creating-custom-manifest-view/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание новых сезонных тарифов",
+      "url"      : "/ru/creating-net-rates/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание пикап-листа",
+      "url"      : "/ru/creating-pick-up-list/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание тегов для букингов",
+      "url"      : "/ru/creating-tags-for-a-bookings/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как добавить Туроператора?",
+      "url"      : "/ru/how-to-add-a-supplier/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как добавить трансфер ресурс?",
+      "url"      : "/ru/how-to-add-a-transfer-resource/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как добавить Турагента?",
+      "url"      : "/ru/how-to-add-an-agent/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как добавить новый район?",
+      "url"      : "/ru/how-to-add-areas/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как добавить новое место?",
+      "url"      : "/ru/how-to-add-locations/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как добавить чужой тур в &quot;My Tours&quot;?",
+      "url"      : "/ru/how-to-add-other-tours-to-my-tours/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как добавить цену за посадку и высадку?",
+      "url"      : "/ru/how-to-add-price-for-pick-up-list/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как назначить сотрудника на сессиию?",
+      "url"      : "/ru/how-to-assign-employee-for-a-session/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как назначить ресурс на сессию?",
+      "url"      : "/ru/how-to-assign-resource-for-a-session/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как отменить букинг?",
+      "url"      : "/ru/how-to-cancel-a-booking/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как закрыть сессию?",
+      "url"      : "/ru/how-to-cancel-a-session/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как изменить статус букинга?",
+      "url"      : "/ru/how-to-change-a-booking-status/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как изменить пароль?",
+      "url"      : "/ru/how-to-change-a-password/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как изменить почту?",
+      "url"      : "/ru/how-to-change-an-email/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как изменить язык для компании?",
+      "url"      : "/ru/how-to-change-the-language-for-a-company/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как копировать пикап-лист?",
+      "url"      : "/ru/how-to-clone-a-pick-up-list/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как подключить пользовательский домен?",
+      "url"      : "/ru/how-to-connect-a-custom-domain/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как подключить телеграмм-бот?",
+      "url"      : "/ru/how-to-connect-a-telegram-bot/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как создать букинг в &quot;Bookings&quot; в режиме &quot;Manifest view&quot;?",
+      "url"      : "/ru/how-to-create-a-booking-at-bookings-manifestview/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как создать букинг на &quot;Marketplace&quot; в режиме &quot;List view&quot;?",
+      "url"      : "/ru/how-to-create-a-booking-at-mp-listview/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как создать букинг на &quot;Marketplace&quot; в режиме &quot;Point-of-sale view&quot;?",
+      "url"      : "/ru/how-to-create-a-booking-at-mp-pointofsale/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как создать новую компанию?",
+      "url"      : "/ru/how-to-create-a-new-company/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание ресурса",
+      "url"      : "/ru/how-to-create-a-resource/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Создание сессии тура",
+      "url"      : "/ru/how-to-create-a-tour-session/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как создать аккаунт, используя почту?",
+      "url"      : "/ru/how-to-create-an-account-using-email/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как создать аккаунт, используя Facebook?",
+      "url"      : "/ru/how-to-create-an-account-using-facebook/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как создать аккаунт, используя Google+?",
+      "url"      : "/ru/how-to-create-an-account-using-google/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как удалить локацию?",
+      "url"      : "/ru/how-to-delete-a-location/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как удалить пикап-лист?",
+      "url"      : "/ru/how-to-delete-a-pick-up-list/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как удалить район?",
+      "url"      : "/ru/how-to-delete-an-area/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как отключить пользовательский домен?",
+      "url"      : "/ru/how-to-disconnect-a-custom-domain/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как отредактировать букинг?",
+      "url"      : "/ru/how-to-edit-a-booking/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как отредактировать профиль клиента?",
+      "url"      : "/ru/how-to-edit-a-customer/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как редактировать профиль на TourHunter?",
+      "url"      : "/ru/how-to-edit-my-profile-at-th/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как экспортировать пикап-лист?",
+      "url"      : "/ru/how-to-export-a-pick-up-list/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как экспортировать профили клиентов?",
+      "url"      : "/ru/how-to-export-customers/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как получить базу букингов Туроператора?",
+      "url"      : "/ru/how-to-get-a-booking-database-from-my-supplier/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как получить ваучер букинга?",
+      "url"      : "/ru/how-to-get-a-booking-voucher/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как получить базу данных букингов?",
+      "url"      : "/ru/how-to-get-a-bookings-database/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как получить базу букингов Турагента?",
+      "url"      : "/ru/how-to-get-an-agent-bookings-database/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как пригласить сотрудника?",
+      "url"      : "/ru/how-to-invite-an-employee/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как авторизоваться на &quot;White Label&quot;?",
+      "url"      : "/ru/how-to-login-at-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как объединить профили клиентов?",
+      "url"      : "/ru/how-to-merge-customers/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как оплатить подписку с помощью банковского платежа?",
+      "url"      : "/ru/how-to-pay-for-subscription-by-bank-transfer/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как оплатить подписку с помощью PayPal?",
+      "url"      : "/ru/how-to-pay-for-subscription-by-paypal/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как опубликовать тур на &quot;Marketplace&quot;?",
+      "url"      : "/ru/how-to-publish-tour-to-mp/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как опубликовать тур на &quot;White Label&quot;?",
+      "url"      : "/ru/how-to-publish-tour-to-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как удалить Туроператора?",
+      "url"      : "/ru/how-to-remove-a-supplier-from-my-suppliers/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как удалить Турагента?",
+      "url"      : "/ru/how-to-remove-an-agent/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как запросить сезонные тарифы?",
+      "url"      : "/ru/how-to-request-net-rates/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как запросить другой район?",
+      "url"      : "/ru/how-to-request-other-area/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как запросить другое место?",
+      "url"      : "/ru/how-to-request-other-location/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как восстановить пароль?",
+      "url"      : "/ru/how-to-restore-a-password/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как ограничить доступ к “White Label”?",
+      "url"      : "/ru/how-to-restrict-an-access-to-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как просмотреть запросы от Турагентов?",
+      "url"      : "/ru/how-to-see-agent-requests/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как посмотреть букинги в Transfer view?",
+      "url"      : "/ru/how-to-see-booking-at-transferview/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как отправить уведомление об изменении букинга?",
+      "url"      : "/ru/how-to-send-a-notification/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как отправить сообщение или подгрузить изображение в букинге?",
+      "url"      : "/ru/how-to-send-message-image-for-a-booking/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как отправить сезонные тарифы?",
+      "url"      : "/ru/how-to-send-net-rates/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить сессию?",
+      "url"      : "/ru/how-to-setup-a-session/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить профиль Турагента?",
+      "url"      : "/ru/how-to-setup-an-agent-profile/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить и привязать экстра к туру?",
+      "url"      : "/ru/how-to-setup-assign-extras-for-a-tour/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить детали компании?",
+      "url"      : "/ru/how-to-setup-company-details/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить отображение уведомлений для компании?",
+      "url"      : "/ru/how-to-setup-displaying-notifications-for-company/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить сборы для тура?",
+      "url"      : "/ru/how-to-setup-fees-for-a-tour/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить &quot;Мой Вебсайт&quot;?",
+      "url"      : "/ru/how-to-setup-my-website/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить названия для ресурсов?",
+      "url"      : "/ru/how-to-setup-names-for-resources/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить названия для сессий?",
+      "url"      : "/ru/how-to-setup-names-for-sessions/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить названия для сотрудников?",
+      "url"      : "/ru/how-to-setup-names-for-staff/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить названия для туров?",
+      "url"      : "/ru/how-to-setup-names-for-tours/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить методы оплаты для турагентов?",
+      "url"      : "/ru/how-to-setup-payment-methods-for-agents/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить методы оплаты для &quot;White Label&quot;?",
+      "url"      : "/ru/how-to-setup-payment-methods-for-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить ограничения для роли?",
+      "url"      : "/ru/how-to-setup-permissions-for-a-role/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как установить региональные настройки для компании?",
+      "url"      : "/ru/how-to-setup-regional-settings-for-a-company/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как настроить налоги для тура?",
+      "url"      : "/ru/how-to-setup-taxes-for-a-tour/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как отсортировать букинги?",
+      "url"      : "/ru/how-to-sort-a-bookings/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Как использовать купоны при букингах?",
+      "url"      : "/ru/how-to-use-coupons-for-a-bookings/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Импорт данных клиентов",
+      "url"      : "/ru/import-database-of-customers/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Информация в профиле",
+      "url"      : "/ru/information-in-my-profile/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Запрос на принятие должностной инструкции",
+      "url"      : "/ru/job-instruction-requests/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Управление счетом",
+      "url"      : "/ru/managing-a-billing/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Вид отображения страницы &quot;Marketplace - Admin view&quot;",
+      "url"      : "/ru/mp-admin-view/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Вид отображения страницы &quot;Marketplace - List view&quot;",
+      "url"      : "/ru/mp-list-view/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Вид отображения страницы &quot;Marketplace - Point-of-sale&quot;",
+      "url"      : "/en/mp-point-of-sale-view/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Запрос тарифов",
+      "url"      : "/ru/net-rates-requests/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Трансфер сессии",
+      "url"      : "/ru/pickup-and-dropoff-sessions/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Приватный и групповой трансфер",
+      "url"      : "/ru/private-and-group-transfer/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Сообщения из сессий",
+      "url"      : "/ru/session-messages/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Общие ресурсы",
+      "url"      : "/ru/shared-resources/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Уведомления по подписке",
+      "url"      : "/ru/subscription-messages/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Компания-Туроператор",
+      "url"      : "/ru/supplier-company/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Последние букинги Туроператора",
+      "url"      : "/ru/suppliers-recent-bookings/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Букинг тура на &quot;White Label&quot;",
+      "url"      : "/ru/tour-booking-on-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Каталог туров и выбор тура на &quot;White Label&quot;",
+      "url"      : "/ru/tour-catalogue-on-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Cообщения о трансфере",
+      "url"      : "/ru/transfers-messages/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Виды отображения страницы с клиентами",
+      "url"      : "/ru/types-of-customer-views/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Что такое сезонные тарифы?",
+      "url"      : "/ru/what-is-net-rates/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Что такое системные сборы?",
+      "url"      : "/ru/what-is-system-fee/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } ,
+  
+    {
+      "title"    : "Что такое &quot;White Label&quot;?",
+      "url"      : "/ru/what-is-wl/",
+      "date"     : "2020-04-12 10:27:24 +0000"
+    } 
+  
 ]

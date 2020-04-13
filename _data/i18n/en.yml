@@ -9,8 +9,26 @@ main:
     anchor: how
     heading: How can we help?
     p1: Looking for something? Search it here!
+    searchbar: What can I help you with?
+    noresults: No results found
 
 # Everything related to categories
 # NOTE: translations for category name/desc are at: _data/categories.yml
 categories:
   category: "Category"
+  categs: "Categories"
+  morecategories: More categories
+
+footer:
+  contribute: Contribute
+  reqnewfeature: Request a New Feature
+  reportabug: Report a Bug
+  askaquestion: Ask a Question
+  helpwitharticles: Help with Articles
+  helpwithtranslations: Help with Translations
+  about: About
+  jobs: Jobs
+  
+articles:
+  related: Related articles
+  inthiscategory: Articles in this category
