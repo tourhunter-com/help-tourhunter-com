@@ -7,26 +7,26 @@ global:
 main:
   welcomeSection:
     anchor: чем
-    heading: Чем мы можем помочь?
+    heading: Чем мы можем вам помочь?
     p1: Ищете что-то? Найдите это здесь!
-    searchbar: Чем я могу вам помочь?
-    noresults: результатов не найдено
+    searchbar: Чем мы можем вам помочь?
+    noresults: Результатов не найдено
 
 categories:
   category: "Категория"
-  categs: "категории"
+  categs: "Категории"
   morecategories: Больше категорий
 
 footer:
-  contribute: Способствовать
+  contribute: Внести свой вклад
   reqnewfeature: Запросить новую функцию
   reportabug: Сообщить об ошибке
-  askaquestion: Задайте вопрос
+  askaquestion: Задать вопрос
   helpwitharticles: Помощь со статьями
   helpwithtranslations: Помощь с переводами
-  about: Около
-  jobs: работы
+  about: О нас
+  jobs: Вакансии
   
 articles:
-  related: Статьи по Теме
+  related: Статьи по теме
   inthiscategory: Статьи в этой категории
