@@ -20,7 +20,8 @@ window.simpleJekyllSearch = new SimpleJekyllSearch({
   json: '/searchen.json',
   noResultsText: '',
   searchResultTemplate: '<li class="list-group list-group-flush"><a class="list-group-item" href="{url}?query={query}" title="{desc}">{title}</a></li>',
-  fuzzy: true
+  fuzzy: true,
+  success: function(){}
 })
 </script>
 {% else %}
@@ -31,7 +32,8 @@ window.simpleJekyllSearch = new SimpleJekyllSearch({
   json: '/searchru.json',
   noResultsText: '',
   searchResultTemplate: '<li class="list-group list-group-flush"><a class="list-group-item" href="{url}?query={query}" title="{desc}">{title}</a></li>',
-  fuzzy: true
+  fuzzy: true,
+  success: function(){}
 })
 </script>
 {%- endif -%}
