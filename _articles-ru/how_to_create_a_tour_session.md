@@ -2,13 +2,13 @@
 title: Создание сессии тура
 layout: article
 excerpt: Part of a post
-category: getting-started
+categories: 
+- getting-started
+- tours
 subcategories:
     getting-started: tours
 tags:
-- creation-session
-- editing-session
-- cancelation-session
+- tour-creation
 lang: ru
 permalink: "/ru/:name/"
 ref: session-creation
@@ -16,8 +16,6 @@ cat: some
 ---
 
 ### **Шаг 1**
-
-После того, как создан тур, можно добавить новую сессию тура. 
 
 Перейти на страницу "Bookings > Manifest view".
 
@@ -43,9 +41,9 @@ cat: some
   - "Customer can choose a time" - пользователь может выбрать время начала тура из установленного этой опцией диапазона. При выборе "Customer can choose a time", если пользователь выполняет букинг на время, которое не доступно, тогда отображается сообщение с ошибкой "Start time must be in specified interval";
   - "Start time is flexible" - время начала тура не определено (тур может начаться в любое время). В модалке букинга, вместо указания времени отобразится надпись "N/A";
 - "Seats Availability" - количество мест на тур. Доступны четыре опции ("Unlimited" - не ограниченное количество мест; "Limited - fixed limit per session" - с выбором количества мест; "Limited - By resources" - выбор количества мест ограничен количеством ресурсов);
-- "Tour options" - чекбокс(ы) с указанием активных тур. опций. Отображается только если тур имеет тур. опции.
+- "Tour options" - чекбоксы с указанием активных тур. опций. Отображается только если тур имеет тур. опции.
 
-И затем кликнуть на кнопку "Save". Редактирование сессии описано в статье [*"Как настроить сессию?"*]({% link _articles-ru/how_to_setup_a_session.md %}).
+И затем кликнуть на кнопку "Save".
 
 ![Creating_a_tour_session3](/assets/images/creating_a_tour_session3.png)
 

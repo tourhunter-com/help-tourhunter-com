@@ -6,7 +6,7 @@ category: marketplace
 subcategories:
     marketplace: tours
 tags:
-- publish
+- tour-creation
 lang: en
 permalink: "/en/:name/"
 ref: how-to-publish-tour-to-mp
@@ -15,15 +15,11 @@ cat: some
 
 ## **Step 1**
 
-Follow the instructions in the article [*"Creating a Tour"*]({% link _articles-en/creating_a_tour.md %}).
+Go to the tour setup. At the last step in "Publish" turn on the checkbox "Publish in marketplace".
+
+The checkbox "Publish in marketplace" is turned off by default during the tour creation. While it’s turned on, the tour is published to "Marketplace".
 
 ## **Step 2**
-
-At the last step in "Publish" turn on the checkbox "Publish in marketplace".
-
-When you create a tour, the checkbox "Publish in marketplace" is turned off by default. And while it’s turned on, the tour is published to "Marketplace".
-
-## **Step 3**
 
 Setup an additional information such as:
 - type of a tour;
@@ -38,6 +34,6 @@ Setup an additional information such as:
 
 ![How_to_publish_a_tour_to_mp1](/assets/images/how_to_publish_a_tour_to_mp1.png)
 
-## **Step 4**
+## **Step 3**
 
 Publish a tour by clicking on "Save" button at the last tour setup step "Publish".

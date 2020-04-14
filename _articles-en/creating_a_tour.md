@@ -2,23 +2,18 @@
 title: Creating a tour
 layout: article
 excerpt: Part of a post
-categories: 
+categories:
 - getting-started
 - tours
 subcategories:
-    getting-started: tours
+getting-started: tours
 tags:
-- creation-session
-- editing-session
-- cancelation-session
-- schedules
 - tour-creation
 lang: en
-permalink: "/en/:name/"
+permalink: "/en/:name"
 ref: tour-creation
 cat: some
 ---
-
 ### **Step 1**
 
 Check your company type. Only Supplier can create tours.
@@ -81,7 +76,7 @@ Turn on "Yes" radiobutton for add some options of a tour. Click on "+ Add Tour O
 
 ![Creating_a_tour6](/assets/images/creating_a_tour6.png)
 
-Turn on checkboxes with common settings for all tour options in those tour. The settings which has not been selected will be different for tour options. 
+Turn on checkboxes with common settings for all tour options in those tour. The settings which has not been selected will be different for tour options.
 
 ![Creating_a_tour23](/assets/images/creating_a_tour23.png)
 
@@ -153,7 +148,7 @@ If some conditions are set then the price for participants may be different from
 
 **Add fees and taxes** on the step "People & Price".
 
-Configure additional charges for participants such as fees or taxes. Before the add fee or tax they are must be created at "Manage > Fees & Taxes" section. 
+Configure additional charges for participants such as fees or taxes. Before the add fee or tax they are must be created at "Manage > Fees & Taxes" section.
 
 Click on "Select Fees & Taxes" button for add those to the tour.
 
@@ -177,7 +172,7 @@ Payment conditions affect on the payment process in "Checkout" modal window:
 
 **Setup cancellation or rescheduling policy.**
 
-Configure cancellation fee for customers which will be charged due to booking cancellation. 
+Configure cancellation fee for customers which will be charged due to booking cancellation.
 
 Configure rescheduling fee for customers which will be charged due to session recheduling.
 
@@ -207,7 +202,7 @@ Click on "Save" button for saving a changes or click on "Next >" button for savi
 
 **Setup additional extra options in due the booking** on the step "Extras".
 
-Before the add extras they are must be created at "Manage > Extras" section. 
+Before the add extras they are must be created at "Manage > Extras" section.
 
 ![Creating_a_tour19](/assets/images/creating_a_tour19.png)
 
@@ -215,7 +210,7 @@ Click on "Save" button for saving a changes or click on "Next >" button for savi
 
 ### **Step 11**
 
-**Setup abilities of a tour for the participants and publish a tour** on ste step "Publish". 
+**Setup abilities of a tour for the participants and publish a tour** on ste step "Publish".
 
 Enable checkboxes "Publish in marketplace" and "Publish to my website" for publish the tour at TourHunter environment.
 

@@ -6,9 +6,7 @@ category: bookings
 subcategories:
     bookings: manifest-view
 tags:
-- creation-session
-- editing-session
-- cancelation-session
+- tour-creation
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-setup-a-session
@@ -53,7 +51,7 @@ cat: some
 
 Кликнуть на кнопку "Save".
 
-## **Шаг 7 (не обязательный)**
+## **Рекомендации**
 
 Так же возможно настроить сессию из сетапа тура. Для этого необходимо выполнить следующие шаги:
 1. Перейти в "Manage > My Tours > Tour Setup".

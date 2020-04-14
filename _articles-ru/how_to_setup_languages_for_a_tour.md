@@ -2,7 +2,11 @@
 title: Как установить языки для тура?
 layout: article
 excerpt: Part of a post
-category: languages
+categories:
+- languages
+- tours
+tags:
+- tour-creation
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-setup-languages-for-a-tour

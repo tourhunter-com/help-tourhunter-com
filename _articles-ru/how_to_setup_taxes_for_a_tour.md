@@ -3,6 +3,8 @@ title: Как настроить налоги для тура?
 layout: article
 excerpt: Part of a post
 category: fees-taxes
+tags:
+- tour-creation
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-setup-taxes-for-a-tour
@@ -37,5 +39,5 @@ cat: some
 
 ### **Шаг 5**
 
-Добавить налог на шаге создания тура в “People & Price”. Больше о том, как создать тур в статье [*“Cоздание тура”*]({% link _articles-ru/creating_a_tour.md %}).
+Добавить налог на шаге создания тура в “People & Price”.
 

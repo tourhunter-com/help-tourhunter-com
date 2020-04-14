@@ -3,6 +3,8 @@ title: How to setup fees for a tour?
 layout: article
 excerpt: Part of a post
 category: fees-taxes
+tags:
+- tour-creation
 lang: en
 permalink: "/en/:name/"
 ref: how-to-setup-fees-for-a-tour
@@ -40,4 +42,4 @@ Click on the "Add" button.
 
 ### **Step 5**
 
-Add fee on the tour creation step “People & Price”. More about creating a tour - in the article [*“Creating a tour”*]({% link _articles-en/creating_a_tour.md %}).
+Add fee on the tour creation step “People & Price”.

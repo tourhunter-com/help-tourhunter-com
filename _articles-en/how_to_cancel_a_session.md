@@ -6,9 +6,7 @@ category: bookings
 subcategories:
     bookings: manifest-view
 tags:
-- creation-session
-- editing-session
-- cancelation-session
+- tour-creation
 lang: en
 permalink: "/en/:name/"
 ref: how-to-cancel-a-session
@@ -25,7 +23,7 @@ Go to "Bookings > Manifest view".
 
 ## **Step 3**
 
-Choose your session which is need to be canceled.
+Choose session which is need to be canceled.
 
 ![How_to_setup_a_session1](/assets/images/how_to_setup_a_session1.png)
 
@@ -41,11 +39,11 @@ In the opened modal window click on "Cancel this session" button.
 
 ![How_to_cancel_a_session1](/assets/images/how_to_cancel_a_session1.png)
 
-And then confirm your request by clicking on "Yes" button.
+And then confirm request by clicking on "Yes" button.
 
 ![How_to_cancel_a_session2](/assets/images/how_to_cancel_a_session2.png)
 
-You can also cancel the session from the tour setup. Label "Cancelled" displays for the canceled session.
+Сancel the session may be performed from the tour setup. Label "Cancelled" displays for the canceled session.
 
 ![How_to_cancel_a_session3](/assets/images/how_to_cancel_a_session3.png)
 
