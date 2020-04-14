@@ -10,7 +10,7 @@ getting-started: tours
 tags:
 - tour-creation
 lang: en
-permalink: "/en/:name"
+permalink: "/en/:name/"
 ref: tour-creation
 cat: some
 ---
