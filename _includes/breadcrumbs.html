@@ -1,0 +1,26 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb bg-transparent">
+        {% capture i18n_src %}site.data.i18n.{{ page.lang }}{% endcapture %}
+        <li class="breadcrumb-item">
+            <a href="/{{ site_lang }}">
+                TourHunter Help Center <!-- wx: localize -->
+            </a>
+        </li>
+        {% for cat in site.data.categories.categories %}
+        {% assign url_prefix = page.url | slice: 0, cat.size %}
+            {% if (url_prefix == cat) and (page.url != cat) %}
+                <li class="breadcrumb-item">
+                    <a href="{{ site.baseurl }}/category/{{ cat }}">
+                        {{ cat.title[site.lang] }}
+                    </a>
+                </li>
+            {% endif %}
+        {% endfor %}
+
+        <li class="breadcrumb-item active" aria-current="category">
+            <a href="{{ page.url | prepend: site.baseurl }}">
+                {{ page.title }}
+            </a>
+        </li>
+    </ol>
+</nav>
