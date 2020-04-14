@@ -2,13 +2,13 @@
 title: Creating a tour session
 layout: article
 excerpt: Part of a post
-category: getting-started
+categories: 
+- getting-started
+- tours
 subcategories:
     getting-started: tours
 tags:
-- creation-session
-- editing-session
-- cancelation-session
+- tour-creation
 lang: en
 permalink: "/en/:name/"
 ref: session-creation
@@ -17,7 +17,7 @@ cat: some
 
 ### **Step 1**
 
-When you have your own tour you can add new sessions for him. Go to "Bookings > Manifest view" section.
+Go to "Bookings > Manifest view" section.
 
 ### **Step 2**
 
@@ -27,7 +27,7 @@ Click on "+ Add New" dropdown on the second header and select "Add new session" 
 
 ### **Step 3**
 
-Click on dropdown "Tour" and choose a tour you needed.
+Click on dropdown "Tour" and choose a tour.
 
 ![Creating_a_tour_session2](/assets/images/creating_a_tour_session2.png)
 
@@ -43,12 +43,12 @@ Setup fields, such as:
 - "Seats Availability" - the number of seats on the tour. Four options are available ("Unlimited"; "Limited - fixed limit per session" with the choice of the number of seats; "Limited - By resources");
 - "Tour options" - checkboxes with the specified tour options. Displays only if the tour have an options.
 
-And then click on "Save" button. Session editing describes in [*"How to setup a session?"*]({% link _articles-en/how_to_setup_a_session.md %}).
+And then click on "Save" button.
 
 ![Creating_a_tour_session3](/assets/images/creating_a_tour_session3.png)
 
 ### **Step 5**
 
-You can also create a session from tour setup. Go to "Manage > My Tours > Tour settings > Schedules". Click on "+ Add New Session" and then setup all required data. 
+Сreate a session from tour setup - go to "Manage > My Tours > Tour settings > Schedules". Click on "+ Add New Session" and then setup all required data. 
 
 ![Creating_a_tour_session4](/assets/images/creating_a_tour_session4.png)

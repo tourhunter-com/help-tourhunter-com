@@ -6,9 +6,7 @@ category: bookings
 subcategories:
     bookings: manifest-view
 tags:
-- creation-session
-- editing-session
-- cancelation-session
+- tour-creation
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-cancel-a-session
@@ -31,7 +29,7 @@ cat: some
 
 ## **Шаг 4**
 
-кликнуть на пункт "Edit Session" в меню-троеточии плашки сессии.
+Кликнуть на пункт "Edit Session" в меню-троеточии плашки сессии.
 
 ![How_to_setup_a_session2](/assets/images/how_to_setup_a_session2.png)
 

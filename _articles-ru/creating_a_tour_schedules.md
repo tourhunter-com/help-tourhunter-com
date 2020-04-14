@@ -2,11 +2,13 @@
 title: Создание расписаний тура
 layout: article
 excerpt: Part of a post
-category: getting-started
+categories: 
+- getting-started
+- tours
 subcategories:
     getting-started: tours
 tags:
-- schedules
+- tour-creation
 lang: ru
 permalink: "/ru/:name/"
 ref: schedule-creation
@@ -15,19 +17,17 @@ cat: some
 
 ### **Шаг 1**
 
-После того, как создан тур, можно добавить новое расписание тура. 
-
 Перейти на страницу "Bookings > Manifest view".
 
 ### **Шаг 2**
 
-Кликнуть на выпадающее меню "+ Add New" во втором хедере и выбрать "Add new schedule".
+Кликнуть на выпадающее меню "+ Add New" во втором хедере и выбрать пункт меню "Add new schedule".
 
 ![Creating_a_tour_schedules1](/assets/images/creating_a_tour_schedules1.png)
 
 ### **Шаг 3**
 
-Кликнуть на выпадающее меню "Tour" и выбрать нужный тур.
+Кликнуть на выпадающее меню "Tour" и выбрать нужный тур из списка.
 
 ![Creating_a_tour_schedules3](/assets/images/creating_a_tour_schedules3.png)
 

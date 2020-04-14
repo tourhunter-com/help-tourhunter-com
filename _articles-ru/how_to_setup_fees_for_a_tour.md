@@ -3,6 +3,8 @@ title: Как настроить сборы для тура?
 layout: article
 excerpt: Part of a post
 category: fees-taxes
+tags:
+- tour-creation
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-setup-fees-for-a-tour
@@ -40,4 +42,4 @@ cat: some
 
 ### **Шаг 5**
 
-Добавить сбор на шаге создания тура в “People & Price”. Больше о том, как создать тур - в статье [*“Создание тура”*]({% link _articles-ru/creating_a_tour.md %}).
+Добавить сбор на шаге создания тура в “People & Price”.

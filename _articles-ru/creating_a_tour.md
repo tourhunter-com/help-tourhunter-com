@@ -8,10 +8,6 @@ categories:
 subcategories:
     getting-started: tours
 tags:
-- creation-session
-- editing-session
-- cancelation-session
-- schedules
 - tour-creation
 lang: ru
 permalink: "/ru/:name/"

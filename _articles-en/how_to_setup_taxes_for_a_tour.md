@@ -3,6 +3,8 @@ title: How to setup taxes for a tour?
 layout: article
 excerpt: Part of a post
 category: fees-taxes
+tags:
+- tour-creation
 lang: en
 permalink: "/en/:name/"
 ref: how-to-setup-taxes-for-a-tour
@@ -37,4 +39,4 @@ Click on the "Add" button.
 
 ### **Step 5**
 
-Add tax on the tour creation step “People & Price”. More about creating a tour in the article [*“Creating a tour”*]({% link _articles-en/creating_a_tour.md %}).
+Add tax on the tour creation step “People & Price”.

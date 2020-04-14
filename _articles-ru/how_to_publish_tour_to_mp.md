@@ -6,7 +6,7 @@ category: marketplace
 subcategories:
     marketplace: tours
 tags:
-- publish
+- tour-creation
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-publish-tour-to-mp
@@ -15,7 +15,7 @@ cat: some
 
 ## **Шаг 1**
 
-Следовать инструкциям в статье [*"Создание тура"*]({% link _articles-ru/creating_a_tour.md %}).
+Перейти в настройки тура в раздел "Manage > My Tours > Tour settings".
 
 ## **Шаг 2**
 

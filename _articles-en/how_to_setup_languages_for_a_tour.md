@@ -2,7 +2,11 @@
 title: How to setup languages for a tour?
 layout: article
 excerpt: Part of a post
-category: languages
+categories:
+- languages
+- tours
+tags:
+- tour-creation
 lang: en
 permalink: "/en/:name/"
 ref: how-to-setup-languages-for-a-tour

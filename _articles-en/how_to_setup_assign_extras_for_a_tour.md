@@ -3,6 +3,8 @@ title: How to setup & assign extras for a tour?
 layout: article
 excerpt: Part of a post
 category: extras
+tags:
+- tour-creation
 lang: en
 permalink: "/en/:name/"
 ref: how-to-setup-and-assign-extras-for-a-tour
@@ -53,4 +55,4 @@ Click on the “Save” button.
 
 ### **Step 6**
 
-Add extra on the tour creation step in “Extras” section. More about creating a tour in the article [*“Creating a Tour”*]({% link _articles-en/creating_a_tour.md %}).
+Add extra on the tour creation step “Extras”.

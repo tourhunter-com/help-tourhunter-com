@@ -3,6 +3,8 @@ title: Как настроить и привязать экстра к туру?
 layout: article
 excerpt: Part of a post
 category: extras
+tags:
+- tour-creation
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-setup-and-assign-extras-for-a-tour
@@ -53,4 +55,4 @@ cat: some
 
 ### **Шаг 6**
 
-Добавить экстра на шаге создания тура в “Extras”. Больше о том, как создать тур в статье [*“Создание тура”*]({% link _articles-ru/creating_a_tour.md %}).
+Добавить экстра на шаге создания тура “Extras”.
