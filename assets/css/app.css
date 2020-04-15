@@ -87,18 +87,22 @@ footer {
     color: #fff;
     background-color: #39579A;
 }
+
 .form-search {
     position: relative;
 }
+
 .form-search .form-control {
     padding: 10px 30px;
 }
+
 .form-search .fa-search {
     position: absolute;
     color: #aaa;
     top: 10px;
     left: 10px;
 }
+
 @media (min-width: 1200px) {
     footer .container {
         max-width: 960px;
@@ -151,7 +155,7 @@ footer .group-links li a {
 }
 
 .card-body {
-    min-height: 157px;
+    min-height: 180px;
 }
 
 .card {
