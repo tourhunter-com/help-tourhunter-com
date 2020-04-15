@@ -2,23 +2,20 @@
 title: Supplier company
 layout: article
 excerpt: Part of a post
-categories:
-- getting-started
-- suppliers
-subcategories:
-    getting-started: suppliers
+category: suppliers
 tags:
-- supplier
+- company-creation
 lang: en
 permalink: "/en/:name/"
 ref: supplier-company
+cat: some
 ---
 
 ### **Definition**
 
 Supplier is one of two types of companies available in the system. Supplier is a tour provider. He can create tours, book his tours, perform a transfer on the "Bookings > Transfer view" section, create tour bookings of other Suppliers.
 
-Also accepts bookings from Agents (see also [*Agent company*]({% link _articles-en/agent_company.md %})) and other Suppliers. Supplier has the same capabilities as the Premium Agent: book and add tours of other Suppliers to "My tours" in the "Marketplace > Admin view" section, make rates requests to other Suppliers.
+Also accepts bookings from Agents and other Suppliers. Supplier has the same capabilities as the Agent Premium: book and add tours of other Suppliers to "My tours" in the "Marketplace > Admin view" section, make rates requests to other Suppliers.
 
 Supplier have four types of subscription there are: Flex, Pro, Business, Enterprise. Аnd also have custom-tailored solution.
 
@@ -26,9 +23,9 @@ Supplier have four types of subscription there are: Flex, Pro, Business, Enterpr
 
 ### **Roles**
 
-Participants in a supplier company are divided into managers and employees, depending on their roles.
+Participants in a Supplier company are divided into managers and employees, depending on their roles.
 
-List of roles in a supplier company:
+List of roles in a Supplier company:
 - Manager:
 
 1. Manager;
@@ -47,13 +44,13 @@ List of roles in a supplier company:
 
 ![Supplier's subscription](/assets/images/supplier_company2.png)
 
-In addition to these roles, Owner has the ability to create new roles, name them at their discretion and assign them to the manager or employees group.
+In addition to these roles, owner has the ability to create new roles, name them at their discretion and assign them to the manager or employees group.
 
 A new user can be invited to employees, for this a future employee is not required to be a user, he will register at the time of accepting the invitation. To invite employees, you need to fill in the data in the "Add User" module in "Manage > Employees > Add new Employee" and send an invitation.
 
 ![Agent's subscription](/assets/images/agent_company3.png)
 
-In the profile in edit mode for each employee there is the option to enable the checkbox "Show in company profile". If Supplier has enabled checkbox, employee is displayed in the profile of this company in the "Team" block. Only those employees who are already registered in the system or accepted the invitation are displayed.
+In the profile in edit mode for each employee there is the option to enable the checkbox "Show in company profile". If company user has enabled checkbox, employee is displayed in the profile of this company in the "Team" block. Only those employees who are already registered in the system or accepted the invitation are displayed.
 
 ![Agent's subscription](/assets/images/agent_company4.png)
 

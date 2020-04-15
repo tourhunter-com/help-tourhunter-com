@@ -6,7 +6,7 @@ categories:
 - getting-started
 - tours
 subcategories:
-getting-started: tours
+    getting-started: tours
 tags:
 - tour-creation
 lang: en
