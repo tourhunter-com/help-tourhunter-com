@@ -38,3 +38,4 @@ _site/
 _algolia_api_key
 
 CNAME
+_includes/breadcrumbs.html
