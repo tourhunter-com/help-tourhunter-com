@@ -3,6 +3,8 @@ title: How to add locations?
 layout: article
 excerpt: Part of a post
 category: pick-ups
+tags:
+- pick-ups
 lang: en
 permalink: "/en/:name/"
 ref: how-to-add-locations

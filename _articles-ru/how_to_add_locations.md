@@ -3,6 +3,8 @@ title: Как добавить новое место?
 layout: article
 excerpt: Part of a post
 category: pick-ups
+tags:
+- pick-ups
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-add-locations

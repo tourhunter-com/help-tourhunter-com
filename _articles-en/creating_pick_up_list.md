@@ -3,6 +3,8 @@ title: Creating pick-up list
 layout: article
 excerpt: Part of a post
 category: pick-ups
+tags:
+- pick-ups
 lang: en
 permalink: "/en/:name/"
 ref: creating-pick-up-list
@@ -21,7 +23,7 @@ Click on the “+ New Pick-up List” button.
 
 ### **Step 3**
 
-Fill the required field “Pick-up List Name”. Only unique names for the pick-up list.
+Fill the required field “Pick-up List Name”. Only unique names for the pick-up list may be indicated.
 
 ![Creating_a_pick_up_list2](/assets/images/creating_a_pick_up_list2.png)
 
@@ -44,19 +46,28 @@ Choose “Pick-up Options”:
 
 ![Creating_a_pick_up_list4](/assets/images/creating_a_pick_up_list4.png)
 
-You can’t save the pick-up list without area (if you choose "Pick-up time by Area"). If you try to save the pick-up list without area, an error will be displayed "Must be added at least one area.". But if the checkbox "Allow customer to request other Area" is turned on, then you can save the pick-up list without area. 
+## **Step 6**
 
-Same with locations, you can’t save the pick-up list without location (if you choose "Pick-up time by Location"). If you try to save the pick-up list without location, an error will be displayed "Must be added at least one location.". And if the checkbox "Allow customer to request other location" is turned on, you can save the pick-up list without a location.
+Open a modal for add areas or locations (depends on previous step) by clicking on the button.
 
-### **Step 6**
+![Creating_a_pick_up_list5](/assets/images/creating_a_pick_up_list5.png)
 
-Add pick-up list to a session/schedule on tour setup step in “Schedule”.
+## **Step 7**
 
-How to create sessions describes in the article [*“Creating a tour session”*]({% link _articles-en/how_to_create_a_tour_session.md %}). 
+Choose area (location) which was created before, fill out pick-up time and price at the opened modal.
 
-How to create schedules describes in the article [*“Creating a tour schedules”*]({% link _articles-en/creating_a_tour_schedules.md %}).
+![Creating_a_pick_up_list6](/assets/images/creating_a_pick_up_list6.png)
 
-### **Step 7**
+If a area (or location) has a price then price type must be selected:
+- "Per vehicle - private transfer". If this option is selected then max seats count must be indicated also;
+- "Per person - group transfer". If this option is selected then max seats is unlimited.
 
-Click on the “Save” button.
+![Creating_a_pick_up_list7](/assets/images/creating_a_pick_up_list7.png)
 
+### **Step 8**
+
+Click on the “Save” button. Pick-up list can’t be saved without any area or location. But if the checkbox "Allow customer to request other Area" ("Allow customer to request other Location") is turned on, then pick-up list can be saved without them. 
+
+### **Step 9**
+
+Add pick-up list to a session or schedule on tour setup step “Schedule”.
