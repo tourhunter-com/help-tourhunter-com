@@ -9,7 +9,7 @@
     </div>
 </main>
 {% include footer.html %}
-<script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
 
 <!-- Configuration -->
 {% if page.lang == "en" %}
@@ -21,7 +21,7 @@ window.simpleJekyllSearch = new SimpleJekyllSearch({
   noResultsText: '',
   searchResultTemplate: '<li class="list-group list-group-flush"><a class="list-group-item" href="{url}?query={query}" title="{desc}">{title}</a></li>',
   fuzzy: true,
-  success: function(){}
+  success: function(){},
 })
 </script>
 {% else %}
@@ -33,7 +33,7 @@ window.simpleJekyllSearch = new SimpleJekyllSearch({
   noResultsText: '',
   searchResultTemplate: '<li class="list-group list-group-flush"><a class="list-group-item" href="{url}?query={query}" title="{desc}">{title}</a></li>',
   fuzzy: true,
-  success: function(){}
+  success: function(){},
 })
 </script>
 {%- endif -%}
