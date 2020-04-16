@@ -17,15 +17,15 @@ After a user submits a job instruction for an employee, in the “Top menu > Pen
 
 The notification card is as follows below:
 
-![Job_description_requests1](/assets/images/job_description_requests1.png)
+![Job_instruction_requests1](/assets/images/job_instruction_requests1.png)
 
 When you click on the link, the employee’s profile opens with the first tab “Public info” displayed. When you go to the tab “Job Instructions”, a card with a job instruction is displayed. By clicking on the card, a block with the job instruction text appears below.
 
-![Job_description_requests2](/assets/images/job_description_requests2.png)
+![Job_instruction_requests2](/assets/images/job_instruction_requests2.png)
 
 The employee may accept the job instruction by clicking on the “Accept” button. If the employee agrees, then for the job instruction the label changes from “Pending” to “Accepted”. 
 
-![Job_description_requests3](/assets/images/job_description_requests3.png)
+![Job_instruction_requests3](/assets/images/job_instruction_requests3.png)
 
 ### **Update Job Instruction**
 

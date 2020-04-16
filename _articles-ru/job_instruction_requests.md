@@ -17,15 +17,15 @@ cat: some
 
 Уведомление выглядит следующим образом:
 
-![Job_description_requests1](/assets/images/job_description_requests1.png)
+![Job_instruction_requests1](/assets/images/job_instruction_requests1.png)
 
 При клике по ссылке открывается профиль сотрудника с первой вкладкой “Public info”. При переходе на вкладку “Job Instructions” отображается карточка с должностной инструкцией. При клике на карточку, появляется блок с текстом должностной инструкции.
 
-![Job_description_requests2](/assets/images/job_description_requests2.png)
+![Job_instruction_requests2](/assets/images/job_instruction_requests2.png)
 
 Сотрудник может принять должностную инструкцию, кликнув на кнопку “Accept”. Если сотрудник соглашается, то для должностной инструкции метка меняется с “Pending” на “Accepted”. 
 
-![Job_description_requests3](/assets/images/job_description_requests3.png)
+![Job_instruction_requests3](/assets/images/job_instruction_requests3.png)
 
 ### **Обновление должностных инструкций**
 
