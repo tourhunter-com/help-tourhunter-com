@@ -3,6 +3,8 @@ title: How to add price for a pick-up and drop-off?
 layout: article
 excerpt: Part of a post
 category: pick-ups
+tags:
+- pick-ups
 lang: en
 permalink: "/en/:name/"
 ref: how-to-add-price-for-a-pick-up-drop-off

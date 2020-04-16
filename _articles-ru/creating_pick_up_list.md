@@ -3,6 +3,8 @@ title: Создание пикап-листа
 layout: article
 excerpt: Part of a post
 category: pick-ups
+tags:
+- pick-ups
 lang: ru
 permalink: "/ru/:name/"
 ref: creating-pick-up-list
@@ -32,33 +34,41 @@ cat: some
 - "Allow customer to choose a pick-up time" -  разрешить клиенту выбирать время сбора при букинге; 
 - "Fixed time before tour starts" - разница, между началом тура и его длительностью.
 
-Клиенту и турагентам разрешено менять время сбора только если включено “Allow Customer to choose a pick-up time” в выпадающем меню “Pick-up List Type”. Туроператор и его сотрудники всегда могут изменять время сбора.
+Клиенту и Турагентам разрешено менять время сбора только если включено “Allow Customer to choose a pick-up time” в выпадающем меню “Pick-up List Type”. Туроператор и его сотрудники всегда могут изменять время сбора.
 
 ![Creating_a_pick_up_list3](/assets/images/creating_a_pick_up_list3.png)
 
 ### **Шаг 5**
 
-Выбрать “Pick-up Options”:
-- "Pick-up time by Area";
-- "Pick-up time by Location".
+Выбрать опцию в выпадающем списке “Pick-up Options”:
+- "Pick-up time by Area" - время сбора по району;
+- "Pick-up time by Location" - время сбора по местонахождению.
 
 ![Creating_a_pick_up_list4](/assets/images/creating_a_pick_up_list4.png)
 
-Нельзя сохранить пикап-лист не указав район (при выборе "Pick-up time by Area"). Если попытаться сохранить пикап-лист без указания район, отобразится ошибка "Must be added at least one area.". Но если включен чекбокс "Allow customer to request other Area", тогда пикап-лист можно сохранить без района.
-
-Нельзя сохранить пикап-лист не указав местонахождение (при выборе "Pick-up time by Location"). Если попытаться сохранить пикап-лист без указания местонахождения, отобразится ошибка "Must be added at least one location.". Но если включен чекбокс "Allow customer to request other Location", тогда пикап-лист можно сохранить без местонахождения
-
 ### **Шаг 6**
 
-Добавить пикап-лист к сессии/расписанию на шаге создания тура в разделе “Schedule”.
+Открыть модалку для добавления района или местонахождения (в зависимости от выбора на предыдущем шаге) по клику на соответствующую кнопку. 
 
-Подробнее о создании сессий описано в разделе [*“Создание сессии тура”*]({% link _articles-ru/how_to_create_a_tour_session.md %}).
-
-Подробнее о создании расписаний описано в разделе [*“Создание расписаний тура"*]({% link _articles-ru/creating_a_tour_schedules.md %}).
+![Creating_a_pick_up_list5](/assets/images/creating_a_pick_up_list5.png)
 
 ### **Шаг 7**
 
-Кликнуть на кнопку “Save”.
+Выбрать название района или места из предварительно созданных, время сбора, цену в открывшейся модалке.
 
+![Creating_a_pick_up_list6](/assets/images/creating_a_pick_up_list6.png)
 
+Если район (или местонахождение) имеет цену, то необходимо дополнительно выбрать тип цен:
+- "Per vehicle - private transfer". Если выбрана эта опция, то дополнительно требуется указать максимальное количество занимаемых мест в трансфер ресурсе;
+- "Per person - group transfer". Если выбрана эта опция, то максимальное количество мест в трансфер ресурсе не ограничено.
+
+![Creating_a_pick_up_list7](/assets/images/creating_a_pick_up_list7.png)
+
+### **Шаг 8**
+
+Кликнуть на кнопку “Save” для сохранения пикап листа. Пикап лист не может быть сохранен указанных районов (или мест). Но, если включен чекбокс "Allow customer to request other Area" ("Allow customer to request other Location"), пикап лист может быть сохранен без йказания районов (мест).
+
+### **Шаг 9**
+
+Добавить пикап-лист к сессии/расписанию на шаге создания тура “Schedule”.
 
