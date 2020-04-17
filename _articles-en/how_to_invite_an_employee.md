@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: getting-started
 subcategories:
     getting-started: employees
+tags:
+- employee-settings
 lang: en
 permalink: "/en/:name/"
 ref: how-to-invite-an-employee
@@ -14,8 +16,6 @@ cat: some
 ### **Step 1**
 
 Go to "Manage > Employees".
-
-From this page, you can see company employees and invite new ones, both registered and unregistered on the website.
 
 ### **Step 2**
 
@@ -29,11 +29,16 @@ Fill the required fields "Name" and "E-mail" in the appeared window.
 
 ![How_to_invite_an_employee2](/assets/images/how_to_invite_an_employee2.png)
 
-E-mail of a new User is checked with data in "Personal Info". If there is a match, then appears an error "User with this e-mail is already invited to the current company".
-If there is no match, then after you click on "+ Create Password" appears two fields "Password" and "Confirm password", so you can create a password for a new user.
+E-mail of a new user is checked with data in "Personal Info". Users that already exist can not be invited twice.
+
+If there is no match, then after click on "+ Create Password" two fields "Password" and "Confirm password" appears. So new user can get a password.
 
 ### **Step 4**
 
-Assign a role.
+Select a role in the dropdown or click on "+ New Role" to add new role for employee who will be invited.
 
-By default in drop-down "Role" displayed value "Please select". More about roles and how to create and assign them you can get to know in the article [*"Creating a role"*]({% link _articles-en/creating_a_role.md %}).
+By default in drop-down "Role" displayed value "Please select".
+
+### **Step 5**
+
+Click on "Add" button to invite an employee.

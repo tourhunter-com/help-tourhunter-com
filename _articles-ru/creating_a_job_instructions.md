@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: getting-started
 subcategories:
     getting-started: employees
+tags:
+- employee-settings
 lang: ru
 permalink: "/ru/:name/"
 ref: creating-a-job-instructions
@@ -39,6 +41,13 @@ cat: some
 ### **Шаг 5**
 
 **Подтверждение (для сотрудника).**
+
+Следовать этим шагам:
 - Перейти в "Top menu > Pending actions";
-- Кликнуть "View job instruction "[job instruction name]";
+- Кликнуть кнопку "View job instruction";
+
+![Creating_a_job_instruction3](/assets/images/creating_a_job_instruction3.png)
+
 - Кликнуть на кнопку "Accept".
+
+![Job_instruction_requests2](/assets/images/job_instruction_requests2.png)
