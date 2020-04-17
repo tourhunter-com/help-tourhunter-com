@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: getting-started
 subcategories:
     getting-started: employees
+tags:
+- employee-settings
 lang: en
 permalink: "/en/:name/"
 ref: creating-a-job-instructions
@@ -42,5 +44,10 @@ Save job instruction:
 
 Follow these steps:
 - Go to "Top menu > Pending actions".
-- Click on the "View job instruction "[job instruction name]" button.
+- Click on the "View job instruction" link.
+
+![Creating_a_job_instruction3](/assets/images/creating_a_job_instruction3.png)
+
 - Click on the "Accept" button.
+
+![Job_instruction_requests2](/assets/images/job_instruction_requests2.png)
