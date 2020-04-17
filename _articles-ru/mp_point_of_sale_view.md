@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: marketplace
 subcategories:
     marketplace: tours
+tags:
+- tours-list
 lang: en
 permalink: "/en/:name/"
 ref: point-of-sale-view
@@ -26,7 +28,7 @@ cat: some
 
 ![Point-of-sale_view1](/assets/images/point_of_sale_view1.png)
 
-В режиме отображения "Point-of-sale" букинг создается через модалку "Checkout". "Point-of-sale view" отличается от вида отображения "List view" тем, что в первом не отображаются вкладки в левом боковом меню (фильтры и кнопки "Liked", "My tours" и основной хедер сайта остаются).
+В режиме отображения "Point-of-sale" букинг создается через корзину. Вид "Point-of-sale view" отличается от вида отображения "List view" тем, что в первом не отображаются вкладки в левом боковом меню (фильтры и кнопки "Liked", "My tours" и основной хедер сайта остаются).
 
 ![Point-of-sale_view2](/assets/images/point_of_sale_view2.png)
 

@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: marketplace
 subcategories:
     marketplace: tours
+tags:
+- tours-list
 lang: ru
 permalink: "/ru/:name/"
 ref: list-view
