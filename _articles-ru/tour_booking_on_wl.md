@@ -1,17 +1,10 @@
 ---
-title: Букинг тура на "White Label"
+title: Как создать букинг на "White Label"
 layout: article
 excerpt: Part of a post
-categories: 
-- bookings
-- white-label
-subcategories:
-    bookings: bookings-creation
+category: white-label
 tags:
-- booking-wl
-- booking-pos
-- booking-lv
-- booking-mv
+- tour-booking
 lang: ru
 permalink: "/ru/:name/"
 ref: wl-booking
@@ -20,7 +13,7 @@ cat: some
 
 ### **Шаг 1**
 
-Выполнить, при необходимости, авторизацию как Турагент или пользователь системы (см. также [*"Как авторизоваться на "White Label?"*]({% link _articles-ru/how_to_login_at_wl.md %})).
+Выполнить, при необходимости, авторизацию как Турагент или пользователь системы.
 
 ### **Шаг 2**
 
@@ -38,7 +31,7 @@ cat: some
 
 ### **Шаг 4**
 
-В открывшейся модалке букинг указать персональные данные участников тура в обязательных и не обязательных полях. 
+В открывшейся модалке букинга указать персональные данные участников тура в обязательных и не обязательных полях. 
 
 ![Tour_booking_on_wl3](/assets/images/tour_booking_on_wl3.png)
 
@@ -48,6 +41,6 @@ cat: some
 
 ### **Шаг 6**
 
-Во вновь открывшейся модалке "Checkout", убедиться, что все данные по туру верны. Совершить букинг тура по клику на кнопку "Book Now" или кликнуть кнопку "Add to Cart" для добавления дополнительного букинга в корзину.
+Во вновь открывшейся корзине, убедиться, что все данные по туру верны. Совершить букинг тура по клику на кнопку "Book Now" или кликнуть кнопку "Add to Cart" для добавления дополнительного букинга в корзину.
 
 ![Tour_booking_on_wl4](/assets/images/tour_booking_on_wl4.png)

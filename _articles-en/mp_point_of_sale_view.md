@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: marketplace
 subcategories:
     marketplace: tours
+tags:
+- tours-list
 lang: en
 permalink: "/en/:name/"
 ref: point-of-sale-view

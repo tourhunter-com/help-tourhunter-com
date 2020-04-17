@@ -3,6 +3,8 @@ title: Каталог туров и выбор тура на "White Label"
 layout: article
 excerpt: Part of a post
 category: white-label
+tags:
+- tours-list
 lang: ru
 permalink: "/ru/:name/"
 ref: wl-catalogue

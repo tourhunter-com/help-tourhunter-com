@@ -7,10 +7,7 @@ categories:
 subcategories:
     bookings: bookings-creation
 tags:
-- booking-pos
-- booking-lv
-- booking-wl
-- booking-mv
+- tour-booking
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-create-a-booking-at-bookings-in-manifest-view
@@ -41,7 +38,7 @@ cat: some
 
 ## **Шаг 5**
 
-Выбрать пользователя который выполняет бронирование в блоке "Booked By". Там же разрешается создать нового Турагента.
+Выбрать пользователя, который выполняет букинг в блоке "Booked By". Там же разрешается создать нового Турагента.
 
 ![How_to_create_a_booking_at_bookings_manifestview3](/assets/images/how_to_create_a_booking_at_bookings_manifestview3.png)
 

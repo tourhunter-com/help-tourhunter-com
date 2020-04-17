@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: marketplace
 subcategories:
     marketplace: tours
+tags:
+- tours-list
 lang: ru
 permalink: "/ru/:name/"
 ref: admin-view
@@ -26,11 +28,11 @@ cat: some
 
 ![Admin_view1](/assets/images/admin_view1.png)
 
-Также, в блоке тура имеется кнопка "Add to my tours"/"Remove from my tours". Она влияет на то, будет ли отображаться тур в разделах “Bookings > Manifest view” и “Manage > My Tours”. Кнопка "Add to my tours"/"Remove from my tours" доступна только для Туроператорв и Премиум турагентов.
+Также, в блоке тура имеется кнопка "Add to my tours"/"Remove from my tours". Она влияет на то, будет ли отображаться тур в разделах “Bookings > Manifest view” и “Manage > My Tours”. Кнопка "Add to my tours"/"Remove from my tours" доступна только для Туроператоров и Турагента с Премиум подпиской.
 
 ![Admin_view2](/assets/images/admin_view2.png)
 
-Кнопка “Modify price” также доступна только для Премиум турагентов и туроператоров. Это опция для изменения стоимости тура (если есть доступ “can change selling price” в его профиле). Стоимость зависит от настроек в разделе “Regional Settings”. В предварительном просмотре указана “Advertised price”.
+Кнопка “Modify price” также доступна только для Туроператоров и Турагента с Премиум подпиской. Это опция для изменения стоимости тура (если есть доступ “can change selling price” в его профиле). Стоимость зависит от настроек в разделе “Regional Settings”. В предварительном просмотре указана “Advertised price”.
 
 ![Admin_view3](/assets/images/admin_view3.png)
 
