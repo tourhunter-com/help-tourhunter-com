@@ -1,17 +1,10 @@
 ---
-title: Tour booking on "White Label"
+title: How to create a booking at "White Label"
 layout: article
 excerpt: Part of a post
-categories: 
-- bookings
-- white-label
-subcategories:
-    bookings: bookings-creation
+category: white-label
 tags:
-- booking-wl
-- booking-pos
-- booking-lv
-- booking-mv
+- tour-booking
 lang: en
 permalink: "/en/:name/"
 ref: wl-booking
@@ -20,7 +13,7 @@ cat: some
 
 ### **Step 1**
 
-Perform, if it's needed, authorization as an Agent or as system user (see also [*"How to login at "White Label?"*]({% link _articles-en/how_to_login_at_wl.md %})).
+Perform, if it's needed, authorization as an Agent or as system user.
 
 ### **Step 2**
 

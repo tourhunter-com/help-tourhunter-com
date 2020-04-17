@@ -6,16 +6,12 @@ category: marketplace
 subcategories:
     marketplace: bookings
 tags:
-- booking-pos
-- booking-lv
-- booking-wl
-- booking-mv
+- tour-booking
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-create-a-booking-at-marketplace-in-pointofsale-view
 cat: some
 ---
-
 
 ## **Шаг 1**
 
@@ -59,6 +55,6 @@ cat: some
 
 ## **Шаг 7**
 
-Во вновь открытой модалке "Checkout", убедиться что вся введенная информация верна. Подтвердить отправкку бронирования тура по клику на кнопку "Book Now" или кликнуть на кнопку "Continue Shopping" для продолжения бронирований других туров.
+Во открытой корзине убедиться, что вся введенная информация верна. Подтвердить отправкку бронирования тура по клику на кнопку "Book Now" или кликнуть на кнопку "Continue Shopping" для продолжения бронирований других туров.
 
 ![How_to_create_a_booking_at_marketplace_in_pointofsaleview3](/assets/images/how_to_create_a_booking_at_marketplace_in_pointofsaleview3.png)

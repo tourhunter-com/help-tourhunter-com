@@ -7,10 +7,7 @@ categories:
 subcategories:
     bookings: bookings-creation
 tags:
-- booking-pos
-- booking-lv
-- booking-wl
-- booking-mv
+- tour-booking
 lang: en
 permalink: "/en/:name/"
 ref: how-to-create-a-booking-at-bookings-in-manifest-view
@@ -25,7 +22,7 @@ Only users with subscription such as Supplier (all types) or Agent (only Premium
 
 ## **Step 2**
 
-Go to "Bookings > Manifest view" for create a booking of your tour or of a tour which has been added to "My Tours".
+Go to "Bookings > Manifest view" for create a booking of a personal tour or of a tour which has been added to "My Tours".
 
 ## **Step 3**
 
@@ -41,7 +38,7 @@ Choose date and time and fill out required fields on the opened booking modal wi
 
 ## **Step 5**
 
-Choose user in "Booked By" section or create a new Agent.
+Choose a seller in "Booked By" section or create a new Agent.
 
 ![How_to_create_a_booking_at_bookings_manifestview3](/assets/images/how_to_create_a_booking_at_bookings_manifestview3.png)
 

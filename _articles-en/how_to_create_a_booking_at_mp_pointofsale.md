@@ -6,10 +6,7 @@ category: marketplace
 subcategories:
     marketplace: bookings
 tags:
-- booking-pos
-- booking-lv
-- booking-wl
-- booking-mv
+- tour-booking
 lang: en
 permalink: "/en/:name/"
 ref: how-to-create-a-booking-at-marketplace-in-pointofsale-view

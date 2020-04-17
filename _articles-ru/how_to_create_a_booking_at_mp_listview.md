@@ -6,10 +6,7 @@ category: marketplace
 subcategories:
     marketplace: bookings
 tags:
-- booking-lv
-- booking-pos
-- booking-wl
-- booking-mv
+- tour-booking
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-create-a-booking-at-marketplace-in-list-view

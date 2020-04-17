@@ -6,10 +6,7 @@ category: marketplace
 subcategories:
     marketplace: bookings
 tags:
-- booking-lv
-- booking-pos
-- booking-wl
-- booking-mv
+- tour-booking
 lang: en
 permalink: "/en/:name/"
 ref: how-to-create-a-booking-at-marketplace-in-list-view
@@ -32,7 +29,7 @@ Choose tour that you needed for a booking.
 
 ## **Step 3**
 
-Use marketplace's filters in a left sidebar.
+Use marketplace's filters in the left sidebar.
 
 ![How_to_create_a_booking_at_marketplace_in_listview3](/assets/images/how_to_create_a_booking_at_marketplace_in_listview3.png)
 
