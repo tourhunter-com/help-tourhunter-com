@@ -3,6 +3,8 @@ title: Создание новых сезонных тарифов
 layout: article
 excerpt: Part of a post
 category: net-rates
+tags:
+- net-rates
 lang: ru
 permalink: "/ru/:name/"
 ref: net-rates-creation

@@ -3,6 +3,8 @@ title: Creating a new pricing seasonal rules
 layout: article
 excerpt: Part of a post
 category: net-rates
+tags:
+- net-rates
 lang: en
 permalink: "/en/:name/"
 ref: creating-a-new-pricing-seasonal-rules

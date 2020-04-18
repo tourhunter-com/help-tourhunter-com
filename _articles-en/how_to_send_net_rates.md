@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: marketplace
 subcategories:
     marketplace: net-rates
+tags:
+- net-rates	
 lang: en
 permalink: "/en/:name/"
 ref: how-to-send-net-rates
@@ -43,4 +45,3 @@ Create a new net rate or period for this tour and valid date for an Agent.
 
 ![How_to_send_net_rates3](/assets/images/how_to_send_net_rates3.png)
 
-More about creating net rates in the article [*“Creating a new net rate”*]({% link _articles-en/creating_net_rates.md %}).

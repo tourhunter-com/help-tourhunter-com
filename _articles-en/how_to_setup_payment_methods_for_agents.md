@@ -3,6 +3,8 @@ title: How to setup payment methods for an agents?
 layout: article
 excerpt: Part of a post
 category: net-rates
+tags:
+- payment-methods
 lang: en
 permalink: "/en/:name/"
 ref: how-to-setup-payment-methods-for-an-agents
@@ -36,7 +38,7 @@ Connect the PayPal payment method:
 
 ### **Step 4**
 
-Connect the Credit/Debit Cards payment method:
+Connect the credit/debit cards payment method:
 - click on the “Connect” button;
 - choose "Paypal Payments Pro" or “Paypal Payflow Pro”;
 - click on the “Connect” button and follow the instruction.
@@ -47,7 +49,7 @@ Connect the Credit/Debit Cards payment method:
 
 ### **Step 5**
 
-Connect the Bank Transfer payment method.
+Connect the bank transfer payment method.
 
 “Bank Transfer” - connectable if in "Top menu > Admin panel" configured "Banks" for company countries:
 - click on the “Connect” button;
@@ -60,7 +62,7 @@ Connect the Bank Transfer payment method.
 
 ### **Step 6**
 
-Connect the Cheque payment method.
+Connect the cheque payment method.
 
 “Cheque” - Supplier connects "Cheque" for Agents, works like “Bank Transfer”:
 - click on the “Connect” button;
