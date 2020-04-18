@@ -3,6 +3,8 @@ title: Создание сезонных правил ценообразован
 layout: article
 excerpt: Part of a post
 category: net-rates
+tags:
+- net-rates
 lang: ru
 permalink: "/ru/:name/"
 ref: creating-a-new-pricing-seasonal-rules

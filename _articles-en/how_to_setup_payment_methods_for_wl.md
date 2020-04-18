@@ -37,7 +37,7 @@ Connect PayPal payment method:
 
 ## **Step 4**
 
-Connect Credit/Debit cards payment method:
+Connect credit/debit cards payment method:
 
 - Click on "Connect" button.
 - Choose "Paypal Payments Pro" or "Paypal Payflow Pro" option.
@@ -47,7 +47,7 @@ Connect Credit/Debit cards payment method:
 
 ## **Step 5**
 
-Connect Bank Transfer payment method:
+Connect bank transfer payment method:
 
 - Click on "Connect" button.
 - Fill the required field "Bank transfer details".
@@ -57,7 +57,7 @@ Connect Bank Transfer payment method:
 
 ## **Step 6**
 
-Connect Cheque payment method.
+Connect cheque payment method.
 
 "Cheque" - Supplier connects "Cheque" for Agents, works like "Bank Transfer":
 
@@ -67,6 +67,6 @@ Connect Cheque payment method.
 
 ![How_to_setup_payment_methods_for_wl6](/assets/images/how_to_setup_payment_methods_for_wl6.png)
 
-If payment methods are not set up, then Customer books tour without payment, skipping the step of choosing payment methods. If methods were set up, then Customer can pick only one of them.
+If payment methods are not set up, then customer books tour without payment, skipping the step of choosing payment methods. If methods were set up, then customer can pick only one of them.
 
 ![How_to_setup_payment_methods_for_wl7](/assets/images/how_to_setup_payment_methods_for_wl7.png)

@@ -3,6 +3,8 @@ title: Как настроить методы оплаты для тураген
 layout: article
 excerpt: Part of a post
 category: net-rates
+tags:
+- payment-methods
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-setup-payment-methods-for-an-agents
@@ -15,7 +17,7 @@ cat: some
 
 ### **Шаг 2**
 
-Подключить метод оплаты “Cash”:
+Подключить метод оплаты - наличные:
 - кликнуть на кнопку “Connect” и заполнить обязательное поле "Let your customer know how to pay offline”;
 - кликнуть на кнопку “Save”.
 
@@ -25,7 +27,7 @@ cat: some
 
 ### **Шаг 3**
 
-Подключить метод оплаты “PayPal”:
+Подключить метод оплаты по PayPal:
 - кликнуть на кнопку “Connect” и заполнить обязательное поле "PayPal Account Email";
 - кликнуть на кнопку "Activate Account";
 - кликнуть на кнопку “Save”.
@@ -36,7 +38,7 @@ cat: some
 
 ### **Шаг 4**
 
-Подключить метод оплаты “Credit/Debit Cards”:
+Подключить метод оплаты - кредитная/дебетовая карта:
 - кликнуть на кнопку “Connect”;
 - выбрать "Paypal Payments Pro" или “Paypal Payflow Pro”;
 - кликнуть на кнопку “Connect” и следовать инструкции на экране.
@@ -47,7 +49,7 @@ cat: some
 
 ### **Шаг 5**
 
-Подключить метод оплаты “Bank Transfer”:
+Подключить метод оплаты - банковский перевод:
 
 “Bank Transfer” - возможно к подключению, если в "Top menu > Admin panel" настроены "Banks" для стран компании.
 - кликнуть на кнопку “Connect”;
@@ -60,11 +62,15 @@ cat: some
 
 ### **Шаг 6**
 
-Подключить метод оплаты “Cheque”:
+Подключить метод оплаты - чек.
+
+Метод оплаты "чек" подключается для Турагентов, работает так же как и банковские перевод:
 - кликнуть на кнопку “Connect”;
 - заполнить обязательное поле "Let your customer know how to pay with cheque";
 - кликнуть на кнопку “Save”.
 
 ![Agents_payment_methods9](/assets/images/agents_payment_methods9.png)
+
+Если способы оплаты не настроены, то пользователь бронирует тур без оплаты, пропуская шаг выбора способа оплаты. Если способы оплаты были настроены, то пользователь может выбрать только один из них.
 
 ![Agents_payment_methods10](/assets/images/agents_payment_methods10.png)

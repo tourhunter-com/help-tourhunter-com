@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: marketplace
 subcategories:
     marketplace: net-rates
+tags:
+- net-rates
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-send-net-rates
@@ -31,7 +33,7 @@ cat: some
 
 ### **Шаг 4**
 
-Управлять запросами от турагентов можно в разделе “My Agents > Agent Request”.
+Управлять запросами от Турагентов можно в разделе “My Agents > Agent Request”.
 
 ![How_to_send_net_rates2](/assets/images/how_to_send_net_rates2.png)
 
@@ -40,6 +42,4 @@ cat: some
 Создать новый тариф или период для данного тура с новой датой для Турагента.
 
 ![How_to_send_net_rates3](/assets/images/how_to_send_net_rates3.png)
-
-Подробнее о создании тарифов в статье [*“Создание новых сезонных тарифов”*]({% link _articles-ru/creating_net_rates.md %}).
 
