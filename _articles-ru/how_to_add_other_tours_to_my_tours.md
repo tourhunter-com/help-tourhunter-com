@@ -5,6 +5,8 @@ excerpt: "Part of a post"
 category: marketplace
 subcategories:
     marketplace: tours
+tags:
+- tour-creation
 lang: ru
 permalink: "/ru/:name/"
 ref: how_to_add_other_tours_to_ my_tours

@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: bookings
 subcategories:
     bookings: booking-view
+tags:
+- booking-view
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-get-a-booking-voucher
@@ -45,7 +47,7 @@ cat: some
 
 ![How_to_get_a_booking_voucher4](/assets/images/how_to_get_a_booking_voucher4.png)
 
-## **Шаг 6 (не обязательный)**
+## **Шаг 6**
 
 Пользователь так же может получить ваучер букинга в следующих разделах системы:
 - "Bookings > Manifest view";
