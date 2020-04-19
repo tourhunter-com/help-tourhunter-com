@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: bookings
 subcategories:
     bookings: booking-view
+tags:
+- booking-view
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-get-a-bookings-database
@@ -17,7 +19,7 @@ cat: some
 
 ## **Шаг 2**
 
-Отфильтровать букинги путем настройки нужных фильтров, которые расположены в хедере. Более подробная информация о сортировке и фильтре букингов описано в статье ["*Как отсортировать букинги?*"]({% link _articles-ru/how_to_sort_a_bookings.md %}).
+Отфильтровать букинги путем настройки нужных фильтров, которые расположены в хедере.
 
 ![How_to_get_a_bookings_database1](/assets/images/how_to_get_a_bookings_database1.png)
 

@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: bookings
 subcategories:
     bookings: booking-view
+tags:
+- booking-view
 lang: en
 permalink: "/en/:name/"
 ref: how-to-sort-a-bookings
@@ -19,7 +21,7 @@ Go to "Bookings > Booking view".
 
 Filter out bookings by tour name using "All tours":
 - in the "Bookings> Booking view" section only those tours are shown that have ever been booked for the current company. Bookings will be stored for 2 years. After this period, the booking is deleted and the tour disappears from the there;
-- if Premium Agent is review this section, then are shown those tours that were added to "My tours" (if they have a bookings) for him;
+- if Agent Premium is review this section, then are shown those tours that were added to "My tours" (if they have a bookings) for him;
 - for other types of Agent accounts, show only those tours for which there are bookings;
 - if Supplier is review this section, then are shown those tours which exists in "Bookings > Manifest view" and which there are bookings.
 
@@ -77,7 +79,7 @@ Bookings are displayed according to their payment status:
 
 ## **Step 7**
 
-Filter out bookings using a "Booked By" filter
+Filter out bookings using a "Booked By" filter.
 
 Filter for displaying bookings, taking into account the company/user who booked. If at least one company is selected from the dropdown list, the first item "None" appears at the top, when clicked on it, all bookings are displayed.
 
