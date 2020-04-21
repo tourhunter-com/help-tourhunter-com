@@ -17,7 +17,7 @@ Go to "Bookings > Manifest view".
 
 ## **Step 2**
 
-Define which type of data export you need:
+Define which type of data export is need:
 - for one booking;
 
 ![Booking_data_export1](/assets/images/booking_data_export1.png)
@@ -40,7 +40,7 @@ Select type of "Export" menu item in the elipsis menu.
 
 ## **Directions**
 
-You can export the booking data from the "Export" menu item, which is added to the ellipsis menu of each booking, for each tour option, for each session and for each day, to export all fields of the selected booking and all its participants.
+Export of a booking data can be performed from the "Export" menu item, which is added to the ellipsis menu of each booking, for each tour option, for each session and for each day, to export all fields of the selected booking and all its participants.
 
 "Export" menu item contains of the options: 
 - "Manifest details" - exports data as it is and displayed;

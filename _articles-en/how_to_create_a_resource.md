@@ -3,6 +3,8 @@ title: How to create a resource?
 layout: article
 excerpt: Part of a post
 category: resources
+tags:
+- resource-settings
 lang: en
 permalink: "/en/:name/"
 ref: how-to-create-a-resource
@@ -21,8 +23,7 @@ Click on the "+ Add Resource Type" button or on the familiar "+ Add New Resource
 
 ## **Step 3**
 
-Fill out required fields "Name" and "Type".
-
+Fill out required fields:
 - "Name" - resource type name;
 - "Type" - custom or transfer resource types.
 
@@ -32,16 +33,15 @@ And click on "Add" button for resource category creation.
 
 ## **Step 4**
 
-Click on the "+ Add Resource" button or on the familiar "+ Add New Resource" card.
+Click on the "+ Add Resource" button or on the same "+ Add New Resource" card.
 
 ![How_to_create_a_resource3](/assets/images/how_to_create_a_resource3.png)
 
 ## **Step 5**
 
 Setup required information:
-
 - "Name" - resource name;
-- "Code" - alias for resource name. It is shows in "Bookings > Manifest view" section code when "Code" filled out;
+- "Code" - allias for resource name. It is shows in "Bookings > Manifest view" section code when "Code" filled out;
 
 ![How_to_create_a_resource4](/assets/images/how_to_create_a_resource4.png)
 

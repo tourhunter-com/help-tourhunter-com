@@ -3,6 +3,8 @@ title: Создание ресурса
 layout: article
 excerpt: Part of a post
 category: resources
+tags:
+- resource-settings
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-create-a-resource
@@ -21,8 +23,7 @@ cat: some
 
 ## **Шаг 3**
 
-Заполнить обязательные поля "Name" и "Type".
-
+Заполнить обязательные поля:
 - "Name" - название типа ресурса;
 - "Type" - тип ресурса.
 
@@ -39,7 +40,6 @@ cat: some
 ## **Шаг 5**
 
 Добавить обязательную информацию:
-
 - "Name" - название ресурса;
 - "Code" - никнейм для названия ресурса. Он отображается в "Bookings > Manifest view", когда поле "Code" заполнено;
 
@@ -50,7 +50,7 @@ cat: some
 
 ![How_to_create_a_resource5](/assets/images/how_to_create_a_resource5.png)
 
-- "This resource has different types of equipment?" - активация этой опции позволяет использовать дополнительные типы ресурса (ресурс опции);
+- "This resource has different types of equipment?" - активация этой опции позволяет использовать дополнительные типы ресурса (ресурс-опции);
 
 ![How_to_create_a_resource6](/assets/images/how_to_create_a_resource6.png)
 
@@ -59,7 +59,7 @@ cat: some
 ![How_to_create_a_resource7](/assets/images/how_to_create_a_resource7.png)
 
 - "This resource can be used between different bookings at the same time" - активация этой опции позволяет использовать ресурс в других букингах. Чекбокс не разрешается изменять, если ресурс уже используется;
-- "Link To Staff" - активация этой опции позволяет привязать сотрудника к ресурсу. Показывается дропдаун со значением, если роль имеет привязанного к ней сотрудника.
+- "Link To Staff" - активация этой опции позволяет привязать сотрудника к ресурсу. Показывается выпадающее меню со значением, если роль имеет привязанного к ней сотрудника.
 - "Note" - эта опция используется для создания заметок.
 
 ![How_to_create_a_resource8](/assets/images/how_to_create_a_resource8.png)

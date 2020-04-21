@@ -31,7 +31,7 @@ Enter custom manifest name and then click on "Add" button.
 
 When a new custom manifest view is saved, a clone of the system manifest view with all its settings creates. After that, it can be configured, and all changes to it will be saved. 
 
-Created custom manifest view are accessible to everyone like the system ones and only the name of the custom manifest view is allowed to be edited. 
+Created custom manifest view are accessible to everyone as well as the system ones and only the name of the custom manifest view is allowed to be edited. 
 
 Custom manifest view is available on all pages of the "Bookings" section, where there is a switch for views.
 
@@ -39,5 +39,5 @@ Custom manifest view is available on all pages of the "Bookings" section, where 
 
 Custom manifest view is displayed only when the user is in the sections "Bookings > Manifest view", "Bookings > Booking view" (only on those that are within the system for those user roles for which the custom view is available) and "Bookings > Transfer view".
 
-If the user is in a custom manifest view, then such a view is not shown in the dropdown of the view selection.
+If the user is in a custom manifest view, then those type of a view is not shown in the dropdown.
 

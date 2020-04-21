@@ -2,12 +2,11 @@
 title: How to assign employee for a session?
 layout: article
 excerpt: Part of a post
-category: bookings
+category: getting-started
 subcategories:
-    bookings: manifest-view
+    getting-started: employees
 tags:
-- assign-role
-- assign-employee
+- employee-settings
 lang: en
 permalink: "/en/:name/"
 ref: how-to-assign-employee-for-a-session
@@ -16,7 +15,7 @@ cat: some
 
 ## **Step 1**
 
-Create a session or schedule for a tour according to the articles ["*Creating a tour session*"]({% link _articles-en/how_to_create_a_tour_session.md %}) or ["*Creating a tour schedules*"]({% link _articles-en/creating_a_tour_schedules.md %}).
+Create a session or schedule for a tour.
 
 ## **Step 2**
 
@@ -70,8 +69,8 @@ Choose staff type in the opened modal window.
 
 ## **Step 11**
 
-Setup non required information in other fields such as:
-- "Staff type" - dropdown with choice of role. Only previously created roles from "Manage> Employees > Roles & Permissions" are selected. The field is required;
+Setup:
+- "Staff type" - dropdown with list of roles. Only previously created roles from "Manage > Employees > Roles & Permissions" are selected. The field is required;
 - "Name label" - optional field for input the nickname of the created card. If nickname is specified for employee, then it is displayed in the employee card;
 - "Auto select" - dropdown with the choice of counting employees: "TBD", "Select staff in alphabetical order", "Random select", "Select the least recently used staff", "Allow customer to select this staff";
 - "Apply to" - dropdown with a choice: "All sessions" (enabled by default), "This session only". There is no empty value. If "This session only" is selected, then the card is displayed only in the current session.
