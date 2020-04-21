@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: bookings
 subcategories:
     bookings: managing-a-bookings
+tags:
+- managing-booking
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-send-message-image-for-a-booking
@@ -17,7 +19,7 @@ cat: some
 
 ## **Шаг 2**
 
-Найти букинг, используя фильтры, и открыть по клику на него.
+Найти букинг, используя фильтры, и открыть, кликнув на него.
 
 ## **Шаг 3**
 

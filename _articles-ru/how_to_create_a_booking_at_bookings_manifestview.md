@@ -2,10 +2,9 @@
 title: Как создать букинг в "Bookings" в режиме "Manifest view"?
 layout: article
 excerpt: Part of a post
-categories: 
-- bookings
+category: bookings
 subcategories:
-    bookings: bookings-creation
+    bookings: manifest-view
 tags:
 - tour-booking
 lang: ru
