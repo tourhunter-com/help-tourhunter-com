@@ -4,7 +4,9 @@ layout: article
 excerpt: Part of a post
 category: bookings
 subcategories:
-    bookings: bookings-cancelation
+    bookings: managing-a-bookings
+tags:
+- managing-booking
 lang: en
 permalink: "/en/:name/"
 ref: how-to-cancel-a-booking
@@ -13,7 +15,7 @@ cat: some
 
 ## **Step 1**
 
-Autorize as Supplier (owner or employee). Or as an Agent whom have an access for editing a Supplier's bookings. See also the article [*"How to setup an Agent profile?"*]({% link _articles-en/how_to_setup_an_agent_profile.md %}) for setup an access for an Agent for editing a Supplier's bookings.
+Autorize as Supplier (owner or employee). Or as an Agent (owner or employee) who have an access for editing a Supplier's bookings.
 
 ## **Step 2**
 
@@ -35,7 +37,7 @@ Click on the session card.
 
 ## **Step 5**
 
-Open booking modal window by clicking on booking card if you authorized as Owner or an employee.
+Open booking modal window by clicking on booking card if you authorized as an owner or an employee.
 
 Choose dropdown menu item "Canceled" in the dropdown "Booking Status" and click "Save" button in the modal window.
 
@@ -43,13 +45,13 @@ Choose dropdown menu item "Canceled" in the dropdown "Booking Status" and click 
 
 ## **Step 6**
 
-You can use this step not only for a Supplier (owner and his employee) but also for an Agent (owner and his employee) if they have an access for editing a Supplier's bookings.
+User of a Supplier company (owner or his employee) and also user of an Agent company (owner or his employee who have an access for editing a Supplier's bookings) may cancell a booking.
 
-You can also cancel a booking by choosing a "Set Status" menu item in the elipsis menu for a booking card.
+A booking may be cancelled by choosing a "Set Status" menu item in the elipsis menu for a booking card.
 
 ![How_to_cancel_a_booking5](/assets/images/how_to_cancel_a_booking5.png)
 
-And then set "Canceled" status for a booking and click "Save" button.
+And then selecting "Canceled" status for a booking and clicking on "Save" button.
 
 ![How_to_cancel_a_booking6](/assets/images/how_to_cancel_a_booking6.png)
 
