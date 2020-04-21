@@ -53,12 +53,7 @@ categories:
       en: "Here you can find answers on how to manage a bookings for a tours."
       ru: "Здесь вы найдете информацию о том как управлять бронированием туров."
     subcategories:
-      bookings-creation:
-        en: "Bookings creation"
-        ru: "Создание букингов"
       bookings-cancelation:
-        en: "Bookings cancelation"
-        ru: "Отмена букингов"
       managing-a-bookings:
         en: "Managing a bookings"
         ru: "Управление букингами"
@@ -71,9 +66,6 @@ categories:
       transfer-view:
         en: "Transfer view section"
         ru: "Раздел Transfer view"
-      custom-view:
-        en: "Custom view section"
-        ru: "Раздел Custom view"
 
   customers:
     title:
