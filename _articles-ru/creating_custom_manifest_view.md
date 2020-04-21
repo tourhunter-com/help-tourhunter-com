@@ -17,7 +17,7 @@ cat: some
 
 ## **Шаг 2**
 
-Выбрать пункт "+ Create New" в дропдауне в хедере.
+Выбрать пункт "+ Create New" в выпадающем меню в хедере.
 
 ![Creating_custom_manifest_view1](/assets/images/creating_custom_manifest_view1.png)
 
