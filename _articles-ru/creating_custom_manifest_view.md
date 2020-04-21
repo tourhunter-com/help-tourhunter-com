@@ -4,7 +4,7 @@ layout: article
 excerpt: Part of a post
 category: bookings
 subcategories:
-    bookings: custom-view
+    bookings: manifest-view
 lang: ru
 permalink: "/ru/:name/"
 ref: creating-a-custom-manifest-view
@@ -33,10 +33,10 @@ cat: some
 
 Созданный пользовательский "Manifest View" доступен всем, как и системный, и разрешается редактировать только имя пользовательского "Manifest View". 
 
-Пользовательский "Manifest view" доступен на всех страницах раздела "Bookings", где есть дропдаун-переключатель для views. При наведении на него в дропдауне, отображается иконка, по клику на которую открывается модалка редактирования/удаления.
+Пользовательский "Manifest view" доступен на всех страницах раздела "Bookings", где есть выпадающее меню с выбором вида отображения. При наведении на него в выпадающем меню, отображается иконка, по клику на которую открывается модалка редактирования/удаления.
 
 ![Creating_custom_manifest_view3](/assets/images/creating_custom_manifest_view3.png)
 
 Пользовательский "Manifest view" отображается только при нахождении пользователя в разделах "Bookings > Manifest view", "Bookings > Booking view" (только на тех, которые внутри системы и тех ролей пользователей, для которых доступно отображение "Manifest view"), "Bookings > Transfer view". 
 
-Выбранный пользовательский "Manifest view" не показывается в списке дропдауна.
+Выбранный пользовательский "Manifest view" не показывается в выпадающем списке.

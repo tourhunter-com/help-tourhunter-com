@@ -4,7 +4,7 @@ layout: article
 excerpt: Part of a post
 category: bookings
 subcategories:
-    bookings: custom-view
+    bookings: manifest-view
 lang: en
 permalink: "/en/:name/"
 ref: creating-a-custom-manifest-view
@@ -33,7 +33,7 @@ When a new custom manifest view is saved, a clone of the system manifest view wi
 
 Created custom manifest view are accessible to everyone like the system ones and only the name of the custom manifest view is allowed to be edited. 
 
-Custom manifest view is available on all pages of the "Bookings" section, where there is a switch for views. When you hover over the created custom manifest view, an icon is displayed, by clicking on which the module opens.
+Custom manifest view is available on all pages of the "Bookings" section, where there is a switch for views.
 
 ![Creating_custom_manifest_view3](/assets/images/creating_custom_manifest_view3.png)
 
