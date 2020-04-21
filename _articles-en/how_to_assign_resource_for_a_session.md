@@ -2,12 +2,9 @@
 title: How to assign resource for a session?
 layout: article
 excerpt: Part of a post
-category: bookings
-subcategories:
-    bookings: manifest-view
+category: resources
 tags:
-- assign-role
-- assign-employee
+- resource-settings
 lang: en
 permalink: "/en/:name/"
 ref: how-to-assign-resource-for-a-session
@@ -16,11 +13,11 @@ cat: some
 
 ## **Step 1**
 
-Create a session or schedule for a tour according to the articles ["*Creating a tour session?*"]({% link _articles-en/how_to_create_a_tour_session.md %}) or ["*Creating a tour schedules?*"]({% link _articles-en/creating_a_tour_schedules.md %}).
+Create a session or schedule for a tour.
 
 ## **Step 2**
 
-Create a resource at "Manage > Resource" according to the article ["*How to create a resource?*"]({% link _articles-en/how_to_create_a_resource.md %}). 
+Create a resource at "Manage > Resource". 
 
 ## **Step 3**
 
@@ -44,9 +41,9 @@ Choose resource category in the opened modal window.
 
 ## **Step 7**
 
-Setup non required information in other fields such as:
+Setup:
 - "Name Label" - nickname for resource category which will be added;
-- "Use for" - the type of a transfer resource;
+- "Use for" - the type of a resource;
 - "Auto select" - the type of calculating of a resource while booking is creates;
 - "Apply to" - resource will be applied only for present session or for all sessions of that tour.
 
@@ -58,6 +55,6 @@ Click on "Add" button for add a resource category for a session.
 
 ## **Step 9**
 
-Click on the dropdown field in the resource card which have been created and choose a resource option you needed.
+Click on the dropdown field in the resource card which have been created and choose a resource option which is needed.
 
 ![How_to_assign_resource_for_a_session4](/assets/images/how_to_assign_resource_for_a_session4.png)

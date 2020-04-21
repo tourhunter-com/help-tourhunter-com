@@ -2,12 +2,9 @@
 title: Как назначить ресурс на сессию?
 layout: article
 excerpt: Part of a post
-category: bookings
-subcategories:
-    bookings: manifest-view
+category: resources
 tags:
-- assign-role
-- assign-employee
+- resource-settings
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-assign-resource-for-a-session
@@ -16,11 +13,11 @@ cat: some
 
 ## **Шаг 1**
 
-Создать сессию или расписание тура согласно статье ["*Создание сессии тура*"]({% link _articles-ru/how_to_create_a_tour_session.md %}) или ["*Создание расписаний тура*"]({% link _articles-ru/creating_a_tour_schedules.md %}).
+Создать сессию или расписание тура.
 
 ## **Шаг 2**
 
-Создать категорию ресурса в "Manage > Resource" согласно статье ["*Создание ресурса*"]({% link _articles-ru/how_to_create_a_resource.md %}). 
+Создать категорию ресурса в "Manage > Resource". 
 
 ## **Шаг 3**
 
@@ -44,9 +41,9 @@ cat: some
 
 ## **Шаг 7**
 
-Настроить оставшиеся не обязательные поля: 
+Настроить: 
 - "Name Label" - никнейм для категории ресурса, которая будет добавляться;
-- "Use for" - выбор типа трансфер ресурса;
+- "Use for" - выбор типа ресурса;
 - "Auto select" - выбор типа расчета ресурса при создании букинга;
 - "Apply to" - выбор применения ресурса только для текущей сессии или для всех сессий тура.
 
@@ -58,6 +55,6 @@ cat: some
 
 ## **Шаг 9**
 
-Кликнуть на дропдаун в карточке категории ресурса, которая появилась, и выбрать опцию ресурса.
+Кликнуть на выпадающее меню в карточке категории ресурса, которая появилась, и выбрать опцию ресурса.
 
 ![How_to_assign_resource_for_a_session4](/assets/images/how_to_assign_resource_for_a_session4.png)
