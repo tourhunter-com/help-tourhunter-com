@@ -2,10 +2,9 @@
 title: How to create a booking at "Bookings" in "Manifest view"?
 layout: article
 excerpt: Part of a post
-categories: 
-- bookings
+category: bookings
 subcategories:
-    bookings: bookings-creation
+    bookings: manifest-view
 tags:
 - tour-booking
 lang: en

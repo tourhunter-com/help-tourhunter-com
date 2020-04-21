@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: bookings
 subcategories:
     bookings: managing-a-bookings
+tags:
+- managing-booking
 lang: en
 permalink: "/en/:name/"
 ref: how-to-change-a-booking-status
@@ -13,7 +15,7 @@ cat: some
 
 ## **Step 1**
 
-Autorize as Supplier (owner or employee). Or as an Agent whom have an access for editing a Supplier's bookings. See also the article [*"How to setup an Agent profile?"*]({% link _articles-en/how_to_setup_an_agent_profile.md %}) for setup an access for an Agent for editing a Supplier's bookings.
+Autorize as Supplier (owner or employee).
 
 ## **Step 2**
 
@@ -35,7 +37,7 @@ Click on the session card.
 
 ## **Step 5**
 
-Open booking modal window by clicking on booking card if you authorized as Owner or an employee.
+Open booking modal window by clicking on booking card.
 
 Choose dropdown menu item with status you needed in the one of three dropdowns: "Booking Status", "Transfer Status", "Check-in Status" and click "Save" button in the modal window.
 
@@ -43,9 +45,7 @@ Choose dropdown menu item with status you needed in the one of three dropdowns: 
 
 ## **Step 6**
 
-You can use this step not only for a Supplier (owner and his employee) but also for an Agent (owner and his employee) if they have an access for editing a Supplier's bookings.
-
-You can also change a booking status by choosing a "Set Status" menu item in the elipsis menu for a booking card.
+Booking status may be changed by choosing a "Set Status" menu item in the elipsis menu for a booking card.
 
 ![How_to_cancel_a_booking5](/assets/images/how_to_cancel_a_booking5.png)
 

@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: bookings
 subcategories:
     bookings: managing-a-bookings
+tags:
+- managing-booking
 lang: en
 permalink: "/en/:name/"
 ref: how-to-edit-a-booking
@@ -15,11 +17,9 @@ cat: some
 
 Authorize in the system.
 
-Supplier can edit bookings of his own tours or tours which had been added to "My Tours" (if he has permission to do it) at "Bookings > Manifest view" or "Booking view".
+Supplier can edit bookings of his own tours at "Bookings > Manifest view" or "Booking view".
 
-Agent Premium can also edit his bookings of a tours which had been added to "My Tours" at "Bookings > Manifest view" or "Booking view".
-
-Agent with any type of subscription can change the booking data only if he is allowed to do this (Supplier had setup permissions for Agent). See also [*"How to setup an Agent profile?"*]({% link _articles-en/how_to_setup_an_agent_profile.md %}).
+It is not allowed to change a confirmed booking. But it is allowed to change the booking, which is waiting for confirmation in the "Pending Request", and only if the option "Can modify bookings" is set to Agent.
 
 ## **Step 2**
 
@@ -27,7 +27,7 @@ For edit booking at "Bookings > Manifest view" go to that section.
 
 ## **Step 3**
 
-Find a booking you need to edit using calendar and filters at the header or select a tour in the left sidebar.
+Find a booking to edit using calendar and filters at the header or select a tour in the left sidebar.
 
 ![How_to_edit_a_booking1](/assets/images/how_to_edit_a_booking1.png)
 
@@ -49,7 +49,7 @@ For edit booking at "Bookings > Booking view" go to that section.
 
 ## **Step 7**
 
-Find a booking you need to edit using filters or searchbar at the header.
+Find a booking to edit using filters or searchbar at the header.
 
 ![How_to_edit_a_booking4](/assets/images/how_to_edit_a_booking4.png)
 
