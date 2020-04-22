@@ -10,17 +10,14 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 ## Contributing
 
-Please read through our [Contributing Guidelines](CONTRIBUTING.md).
-
-## Installation
-
-Please read through our [Installation Instructions](INSTALL.md).
+Please read through our [Contributing Guidelines](CONTRIBUTING.md) and [Installation Instructions](INSTALL.md).
 
 ## How it works
 
 ### Internationalization
 
 Has the following components:
+
 - fields in front matter
 - directory structure similar for different languages (i.e. you create files for every translation under their own language directory `/en/_posts/post1`, `/ru/_posts/post1`, etc.)
 - config values
@@ -32,6 +29,7 @@ Has the following components:
 #### Fields in front matter to use in layouts (filtering)
 
 All posts and pages have 2 fields:
+
 - `ref` (effectively unique id of the page or post)
 - `lang` (2 letter language code in [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) format)
 
@@ -40,8 +38,10 @@ And the layouts use these fields to, for example, show only the language already
 #### Directory structure
 
 For every supported language you have a dir:
-- _en/
-- _ru/
+
+- `_en/`
+- `_ru/`
+
 (Under the hood these are [Jekyll collections](https://jekyllrb.com/docs/collections/), see also: `_config.yml`.
 
 #### Config values
@@ -75,7 +75,7 @@ I've put them under `_data/i18n`. They contain translations used in pages, i.e. 
 
 (Your old en.yml, ru.yml, etc.)
 
- Example part of such file:
+Example part of such file:
 
  ```ruby
 main:
@@ -86,6 +86,7 @@ main:
 ```
 
 And these values are used in templates like this:
+
 ```ruby
 {{site.data.i18n[page.lang].categories.category}}:
 ```
