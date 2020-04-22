@@ -3,9 +3,11 @@ title: Как удалить Туроператора?
 layout: article
 excerpt: Part of a post
 category: suppliers
+tags:
+- supplier-company
 lang: ru
 permalink: "/ru/:name/"
-ref: how-to-remove-a-supplier-from-my-suppliers
+ref: how-to-remove-a-supplier
 cat: some
 ---
 
