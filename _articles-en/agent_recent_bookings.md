@@ -3,6 +3,8 @@ title: Agent recent bookings
 layout: article
 excerpt: Part of a post
 category: agents
+tags:
+- agent-profile
 lang: en
 permalink: "/en/:name/"
 ref: agent-recent-bookings

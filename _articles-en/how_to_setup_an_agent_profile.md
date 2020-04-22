@@ -3,6 +3,8 @@ title: How to setup an Agent profile?
 layout: article
 excerpt: Part of a post
 category: agents
+tags:
+- agent-profile
 lang: en
 permalink: "/en/:name/"
 ref: how-to-setup-an-agent-profile
@@ -11,11 +13,11 @@ cat: some
 
 ## **Step 1**
 
-Go to "My Agents".
+Go to "My Agents" section.
 
 ## **Step 2**
 
-Open an Agent profile by clicking on Agent card.
+Open an Agent profile by clicking on the card.
 
 ![How_to_setup_an_agent_profile1](/assets/images/how_to_setup_an_agent_profile1.png)
 

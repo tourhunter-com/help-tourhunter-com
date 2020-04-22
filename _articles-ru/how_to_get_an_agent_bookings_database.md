@@ -3,6 +3,8 @@ title: Как получить базу букингов Турагента?
 layout: article
 excerpt: Part of a post
 category: agents
+tags:
+- agent-profile
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-get-an-agent-bookings-database
@@ -25,4 +27,4 @@ cat: some
 
 ![How_to_get_an_agent_bookings_database1](/assets/images/how_to_get_an_agent_bookings_database1.png)
 
-Файл с базой букингов Турагента будет загружен на ваше устройство.
+Файл с базой букингов Турагента будет загружен на устройство.
