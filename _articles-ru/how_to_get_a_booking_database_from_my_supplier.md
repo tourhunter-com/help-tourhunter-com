@@ -3,6 +3,8 @@ title: Как получить базу букингов Туроператор�
 layout: article
 excerpt: Part of a post
 category: suppliers
+tags:
+- supplier-profile
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-get-a-bookings-database-from-my-supplier

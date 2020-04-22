@@ -3,6 +3,8 @@ title: Suppliers recent bookings
 layout: article
 excerpt: Part of a post
 category: suppliers
+tags:
+- supplier-profile
 lang: en
 permalink: "/en/:name/"
 ref: suppliers-recent-bookings
@@ -15,7 +17,7 @@ Go to “My partners > My Suppliers”.
 
 ### **Step 2**
 
-Click on the Supplier’s card you want to see recent bookings.
+Click on the Supplier’s card to see recent bookings.
 
 ![Suppliers_recent_bookings1](/assets/images/suppliers_recent_bookings1.png)
 

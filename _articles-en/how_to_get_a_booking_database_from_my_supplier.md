@@ -3,6 +3,8 @@ title: How to get a bookings database from my Supplier?
 layout: article
 excerpt: Part of a post
 category: suppliers
+tags:
+- supplier-profile
 lang: en
 permalink: "/en/:name/"
 ref: how-to-get-a-bookings-database-from-my-supplier
@@ -15,7 +17,7 @@ Go to “My partners > My Suppliers”.
 
 ### **Step 2**
 
-Click on the Supplier’s card whom bookings you want to download.
+Click on the Supplier’s card whose bookings will be download.
 
 ![Suppliers_recent_bookings1](/assets/images/suppliers_recent_bookings1.png)
 
@@ -27,6 +29,6 @@ Go to the “Recent bookings” tab.
 
 ### **Step 4**
 
-Select bookings you want to download by clicking on the checkboxes next to them and click on the “Download” menu item in the dropdown menu “Selected”.
+Select bookings to download by clicking on the checkboxes next to them and click on the “Download” menu item in the dropdown menu “Selected”.
 
 ![How_to_get_a_bookings_database_from_my_supplier1](/assets/images/how_to_get_a_bookings_database_from_my_supplier1.png)
