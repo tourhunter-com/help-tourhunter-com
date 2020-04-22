@@ -7,6 +7,7 @@ subcategories:
     bookings: transfer-view
 tags:
 - pick-ups
+- resource-settings
 lang: ru
 permalink: "/ru/:name/"
 ref: private-and-group-transfer

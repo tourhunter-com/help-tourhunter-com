@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: bookings
 subcategories:
     bookings: transfer-view
+tags:
+- resource-settings
 lang: en
 permalink: "/en/:name/"
 ref: how-to-add-a-transfer-resource
@@ -31,7 +33,7 @@ Fill out name of the resource type and choose "Vehicle" type for the resource. C
 
 ## **Step 4**
 
-Click on "+ Add New Resource" block or "+ Add Resource" button for add a transfer resource. See also [*"How to create a resource?"*]({% link _articles-en/how_to_create_a_resource.md %}).
+Click on "+ Add New Resource" block or "+ Add Resource" button for add a transfer resource.
 
 ![How_to_add_a_transfer_resource3](/assets/images/how_to_add_a_transfer_resource3.png)
 
@@ -55,6 +57,6 @@ Choose vehicle resource type category at the opened modal window. Click on "Add 
 
 ## **Step 8**
 
-Click on the dropdown field in the resource card which have been created and choose a resource option you needed.
+Click on the dropdown field in the resource card which have been created and choose a resource option.
 
 ![How_to_add_a_transfer_resource7](/assets/images/how_to_add_a_transfer_resource7.png)
