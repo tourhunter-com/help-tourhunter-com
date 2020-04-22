@@ -3,6 +3,8 @@ title: Как добавить Туроператора?
 layout: article
 excerpt: Part of a post
 category: suppliers
+tags:
+- supplier-company
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-add-a-supplier
@@ -29,6 +31,6 @@ cat: some
 
 ![How_to_add_a_supplier2](/assets/images/how_to_add_a_supplier2.png)
 
-Эта кнопка доступна только если компания-Туроператор предоставила доступ к своим тарифам. В случае частных тарифов, будет отображаться кнопка “Request Rates”.
+Эта кнопка доступна только если компания-Туроператор предоставила доступ к своим тарифам (настроила публичные сезонные тарифы). В случае частных тарифов, будет отображаться кнопка “Request Rates”.
 
 ![How_to_add_a_supplier3](/assets/images/how_to_add_a_supplier3.png)

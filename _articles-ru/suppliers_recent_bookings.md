@@ -3,6 +3,8 @@ title: Последние букинги Туроператора
 layout: article
 excerpt: Part of a post
 category: suppliers
+tags:
+- supplier-profile
 lang: ru
 permalink: "/ru/:name/"
 ref: suppliers-recent-bookings

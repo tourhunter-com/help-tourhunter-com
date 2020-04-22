@@ -5,6 +5,7 @@ excerpt: Part of a post
 category: suppliers
 tags:
 - company-creation
+- supplier-company
 lang: en
 permalink: "/en/:name/"
 ref: supplier-company
