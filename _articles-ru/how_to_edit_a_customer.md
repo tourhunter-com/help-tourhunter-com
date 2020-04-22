@@ -3,6 +3,8 @@ title: Как отредактировать профиль клиента?
 layout: article
 excerpt: Part of a post
 category: customers
+tags:
+- customer-profile
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-edit-a-customer-profile

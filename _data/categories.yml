@@ -2,7 +2,7 @@ categories:
   getting-started:
     top: true
     title:
-      en: "Getting Started"
+      en: "Getting started"
       ru: "Начало работы"
     desc:
       en: "Hit the ground running by completing these simple steps: Create a product, schedule calendar sessions, customise your online storefront and start selling online in less than 15 minutes! Let's get started..."
@@ -24,7 +24,7 @@ categories:
       en: "What's new in TourHunter"
       ru: "Что нового в TourHunter"
     desc:
-      en: "Our Product & Development teams are regularly adding improvements and enhancing TourHunter. You will find a list of our most recent enhancements here."
+      en: "Our product & development teams are regularly adding improvements and enhancing TourHunter. You will find a list of our most recent enhancements here."
       ru: "Наши команды по продукту и разработке регулярно улучшают и добавляют новые возможности в TouHunter. Вы найдете список наших последних улучшений здесь."
 
   marketplace:
@@ -32,8 +32,8 @@ categories:
       en: "Marketplace"
       ru: "Маркетплейс"
     desc:
-      en: "Information about the place of buying and selling tours, where suppliers and agents are cooperate."
-      ru: "Информация о рынке, где приобретают и продают туры, где сотрудничают поставщики и агенты."
+      en: "Information about the place of buying and selling tours, where Suppliers and Agents are cooperate."
+      ru: "Информация о рынке, где покупают и продают туры, где сотрудничают Туроператоры и Турагенты."
     subcategories:
       bookings:
         en: "Bookings"
@@ -73,23 +73,23 @@ categories:
       ru: "Клиенты"
     desc:
       en: "Information about who are a customers and how to manage their profiles."
-      ru: "Информация про то, кто такие клиенты и как работать с профилями клиентов"
+      ru: "Информация о том, кто такие клиенты и как работать с их профилями."
 
   agents:
     title:
       en: "Agents"
       ru: "Турагенты"
     desc:
-      en: "Information about how to be a TourHunter agent and cooperate with other suppliers and agents."
-      ru: "Информация о том как быть Турагентом TourHunter и сотрудничать с другими туроператорами и турагентами."
+      en: "Information about how to be an Agent and cooperate with other companies."
+      ru: "Информация о том как быть Турагентом и сотрудничать с другими компаниями."
       
   suppliers:
     title:
       en: "Suppliers"
       ru: "Туроператоры"
     desc:
-      en: "Information about how to be a TourHunter Supplier and cooperate with other companies."
-      ru: "Информация о том как быть Туроператором TourHunter и сотрудничать с другими компаниями."
+      en: "Information about how to be a Supplier and cooperate with other companies."
+      ru: "Информация о том как быть Туроператором и сотрудничать с другими компаниями."
 
   tours:
     title:
@@ -131,7 +131,7 @@ categories:
       
   billing-payments:
     title:
-      en: "Billing & Payments"
+      en: "Billing & payments"
       ru: "Оплата и счета"
     desc:
       en: "Information about billing and payments processes. Manage billing, payments, invoices."
@@ -147,7 +147,7 @@ categories:
 
   company-details:
     title:
-      en: "Company Details"
+      en: "Company details"
       ru: "Сведения о компании"
     desc:
       en: "Find info such as how to edit and manage your company's location, open hours, contacts etc."
@@ -155,7 +155,7 @@ categories:
 
   visual-preferences:
     title:
-      en: "Visual Preferences"
+      en: "Visual preferences"
       ru: "Визуальные предпочтения"
     desc:
       en: "Get information about how you can setup custom names on different setings."
@@ -171,7 +171,7 @@ categories:
 
   net-rates:
     title:
-      en: "Net Rates"
+      en: "Net rates"
       ru: "Сезонные тарифы"
     desc:
       en: "Get all instructions how to setup and manage complex price & rates options for your product."
@@ -179,7 +179,7 @@ categories:
 
   fees-taxes:
     title:
-      en: "Fees & Taxes"
+      en: "Fees & taxes"
       ru: "Сборы и налоги"
     desc:
       en: "Information about charging fees and taxes aplicable to your prices. Add fees or tax to your tour."
@@ -211,19 +211,19 @@ categories:
 
   regional-settings:
     title:
-      en: "Regional Settings"
+      en: "Regional settings"
       ru: "Региональные настройки"
     desc:
       en: "Find information such as how to edit and manage your company's timezone, currency etc."
-      ru: "Найдите информацию, например, как редактировать и управлять временной зоной компании, валютой и т.д." 
+      ru: "Найдите информацию о том, как редактировать и управлять временной зоной компании, валютой и т.д." 
 
   white-label:
     title:
-      en: "White Label"
+      en: "White label"
       ru: "Ваш вебсайт"
     desc:
-      en: "Use this instructions and provide a website. Make it easier for people to find you online."
-      ru: "Используйте эту инструкцию и предоставьте веб-сайт. Сделайте так, чтобы людям было проще найти вас в интернете."
+      en: "Use this instructions to set up your website. Make it easier for people to find you online."
+      ru: "Используйте эту инструкцию чтобы настроить свой веб-сайт. Сделайте так, чтобы людям было проще найти вас в интернете."
 
   tags:
     title:

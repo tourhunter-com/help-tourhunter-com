@@ -3,6 +3,8 @@ title: Как удалить Турагента?
 layout: article
 excerpt: Part of a post
 category: agents
+tags:
+- agent-company
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-remove-an-agent
@@ -15,7 +17,7 @@ cat: some
 
 ### **Шаг 2**
 
-Выбрать пункт "Remove from my Agents" в эллипсис меню.
+Выбрать пункт "Remove from my Agents" в меню-троеточии.
 
 ![How_to_remove_an_agent1](/assets/images/how_to_remove_an_agent1.png)
 
@@ -32,6 +34,6 @@ cat: some
 Существует возможность вернуть Турагента к себе в раздел "My Agents", выполнив следующие шаги:
 - перейти в "My Agents > Inactive Agents";
 - выбрать компанию Турагента, которую необходимо восстановить и открыть её профиль по клику на карточку;
-- выбрать пункт "Restore in My Agents" в эллипсис меню.
+- выбрать пункт "Restore in My Agents" в меню-троеточии.
 
 ![How_to_remove_an_agent3](/assets/images/how_to_remove_an_agent3.png)

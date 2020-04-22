@@ -3,6 +3,8 @@ title: How to add an Agent?
 layout: article
 excerpt: Part of a post
 category: agents
+tags:
+- agent-company
 lang: en
 permalink: "/en/:name/"
 ref: how-to-add-an-agent

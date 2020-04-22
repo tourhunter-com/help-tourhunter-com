@@ -3,6 +3,8 @@ title: Последние букинги Турагента
 layout: article
 excerpt: Part of a post
 category: agents
+tags:
+- agent-profile
 lang: ru
 permalink: "/ru/:name/"
 ref: agent-recent-bookings

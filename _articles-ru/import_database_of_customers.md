@@ -3,6 +3,8 @@ title: Импорт данных клиентов
 layout: article
 excerpt: Part of a post
 category: customers
+tags:
+- customer-database
 lang: ru
 permalink: "/ru/:name/"
 ref: import-database-of-customers
@@ -22,8 +24,8 @@ cat: some
 ### **Шаг 3**
 
 Следовать инструкциям в появившемся окне:
-- Выбрать файл;
-- Кликнуть на кнопку “Upload”.
+- выбрать файл;
+- кликнуть на кнопку “Upload”.
 
 ![Import_database_of_customers2](/assets/images/import_database_of_customers2.png)
 

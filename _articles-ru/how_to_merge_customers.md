@@ -3,6 +3,8 @@ title: Как объединить профили клиентов?
 layout: article
 excerpt: Part of a post
 category: customers
+tags:
+- customer-database
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-merge-customers

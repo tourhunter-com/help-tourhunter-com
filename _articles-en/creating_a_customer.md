@@ -3,6 +3,8 @@ title: Creating a customer
 layout: article
 excerpt: Part of a post
 category: customers
+tags:
+- customer-profile
 lang: en
 permalink: "/en/:name/"
 ref: creating-a-customer
@@ -22,7 +24,7 @@ Click on the “+ Add New Customer” button.
 ### **Step 3**
 
 Fill the required fields:
-- “First name” and “Last name” - customer name. At least one field must be filled;
+- “First name” and “Last name” - customer name. At least one field must be filled out;
 - “Phone” - customer phone number. You can also add customers’ messengers;
 - “Date Of Birth” - customer birthday (“DD/MM/YYYY”);
 - “Country” - dropdown to choose a customer country;
@@ -37,7 +39,7 @@ Fill the required fields:
 - “State/Province” - text field to write a customer state or province. Maximum 50 characters;
 - “Address” - text field to write a customer address. Maximum 255 characters;
 - “ZIP/Postcode” - customer postcode. Maximum 11 characters;
-- “Language” -  dropdown to choose a customer language.
+- “Language” - dropdown to choose a customer language.
 
 ![Creating_a_customer2](/assets/images/creating_a_customer2.png)
 

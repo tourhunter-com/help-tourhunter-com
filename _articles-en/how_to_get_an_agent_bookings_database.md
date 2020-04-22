@@ -3,6 +3,8 @@ title: How to get an Agent bookings database?
 layout: article
 excerpt: Part of a post
 category: agents
+tags:
+- agent-profile
 lang: en
 permalink: "/en/:name/"
 ref: how-to-get-an-agent-bookings-database
@@ -21,8 +23,8 @@ Go to "Recent bookings" tab.
 
 ### **Step 3**
 
-Select a bookings you want to download by clicking on checkboxes and choose a "Download" menu item in the dropdown menu "Selected".
+Select a bookings to download by clicking on checkboxes and choose a "Download" menu item in the dropdown menu "Selected".
 
 ![How_to_get_an_agent_bookings_database1](/assets/images/how_to_get_an_agent_bookings_database1.png)
 
-File with an Agent bookings' database will be downloaded to your device.
+File with an Agent bookings' database will be downloaded to the device.

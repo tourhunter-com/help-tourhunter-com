@@ -1,5 +1,5 @@
 ---
-title: Private and group tranfer
+title: Private and group transfer
 layout: article
 excerpt: Part of a post
 category: bookings
@@ -7,6 +7,7 @@ subcategories:
     bookings: transfer-view
 tags:
 - pick-ups
+- resource-settings
 lang: en
 permalink: "/en/:name/"
 ref: private-and-group-transfer

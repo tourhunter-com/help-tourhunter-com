@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: bookings
 subcategories:
     bookings: transfer-view
+tags:
+- resource-settings
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-add-a-transfer-resource
@@ -13,7 +15,7 @@ cat: some
 
 ## **Шаг 1**
 
-Трансфер ресурс - вид транспортного средства (пикап ресурс), который назначается в карточку ресурса в разделах "Bookings > Manifest view", "Bookings > Transfer view".
+Трансфер ресурс - вид транспортного средства, который назначается в карточку ресурса в разделах "Bookings > Manifest view", "Bookings > Transfer view".
 
 Перейти в "Manage > Resources".
 
@@ -31,7 +33,7 @@ cat: some
 
 ## **Шаг 4**
 
-Кликнуть на блок "+ Add New Resource" или на кнопку "+ Add Resource" для добавления трансфер ресурса. Добавление ресурса описано в статье [*"How to create a resource?"*]({% link _articles-ru/how_to_create_a_resource.md %}).
+Кликнуть на блок "+ Add New Resource" или на кнопку "+ Add Resource" для добавления трансфер ресурса.
 
 ![How_to_add_a_transfer_resource3](/assets/images/how_to_add_a_transfer_resource3.png)
 
@@ -55,6 +57,6 @@ cat: some
 
 ## **Шаг 8**
 
-Кликнуть на дропдаун в карточке трансфер ресурса, которая была добавлена и выбрать нужную опцию ресурса.
+Кликнуть на выпадающее меню в карточке трансфер ресурса, которая была добавлена, и выбрать нужную опцию ресурса.
 
 ![How_to_add_a_transfer_resource7](/assets/images/how_to_add_a_transfer_resource7.png)
