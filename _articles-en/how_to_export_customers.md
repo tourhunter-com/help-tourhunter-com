@@ -3,6 +3,8 @@ title: How to export customers?
 layout: article
 excerpt: Part of a post
 category: customers
+tags:
+- customer-database
 lang: en
 permalink: "/en/:name/"
 ref: how-to-export-customers

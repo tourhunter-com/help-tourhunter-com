@@ -3,6 +3,8 @@ title: How to edit a customer profile?
 layout: article
 excerpt: Part of a post
 category: customers
+tags:
+- customer-profile
 lang: en
 permalink: "/en/:name/"
 ref: how-to-edit-a-customer-profile

@@ -3,6 +3,8 @@ title: Import database of customers
 layout: article
 excerpt: Part of a post
 category: customers
+tags:
+- customer-database
 lang: en
 permalink: "/en/:name/"
 ref: import-database-of-customers
