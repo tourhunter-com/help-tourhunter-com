@@ -3,6 +3,8 @@ title: How to see an Agent requests?
 layout: article
 excerpt: Part of a post
 category: agents
+tags:
+- agent-company
 lang: en
 permalink: "/en/:name/"
 ref: how-to-see-an-agent-requests

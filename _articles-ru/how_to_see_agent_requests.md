@@ -3,6 +3,8 @@ title: Как просмотреть запросы от Турагентов?
 layout: article
 excerpt: Part of a post
 category: agents
+tags:
+- agent-company
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-see-an-agent-requests

@@ -5,6 +5,7 @@ excerpt: Part of a post
 category: agents
 tags:
 - company-creation
+- agent-company
 lang: en
 permalink: "/en/:name/"
 ref: agent-company
@@ -13,7 +14,7 @@ cat: some
 
 ### **Definition**
 
-Agent is one of two types of companies available in the system. Agent is a company selling tours formed by the tour provider - Supplier.
+Agent is one of two types of companies available in the system. Agent is a company which is selling tours formed by the tour provider - Supplier.
 
 Agent can create tour bookings of other Suppliers, add Suppliers to "My Suppliers".
 

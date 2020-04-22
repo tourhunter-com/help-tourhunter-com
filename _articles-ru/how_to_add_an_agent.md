@@ -3,6 +3,8 @@ title: Как добавить Турагента?
 layout: article
 excerpt: Part of a post
 category: agents
+tags:
+- agent-company
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-add-an-agent
@@ -15,7 +17,7 @@ cat: some
 
 ### **Шаг 2**
 
-Найти Турагента, которого небходимо добавить,Find an Agent you want to add by enter his in a searchbar.
+Найти Турагента, которого небходимо добавить, введя его имя в поле поиска.
 
 ### **Шаг 3**
 

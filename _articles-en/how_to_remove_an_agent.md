@@ -3,6 +3,8 @@ title: How to remove an Agent?
 layout: article
 excerpt: Part of a post
 category: agents
+tags:
+- agent-company
 lang: en
 permalink: "/en/:name/"
 ref: how-to-remove-an-agent
@@ -29,9 +31,9 @@ Agent which have been removed displays there.
 
 ### **Suggestions**
 
-You can restore your Agent by following the next steps:
+Agent can be restored to "My Agents" section by following the next steps:
 - go to "My Agents > Inactive Agents";
-- choose the Agent company you want to restore and open it by clicking on the card;
+- choose the Agent company to restore and open it profile by clicking on the card;
 - choose "Restore in My Agents" menu item in the elipsis menu.
 
 ![How_to_remove_an_agent3](/assets/images/how_to_remove_an_agent3.png)
