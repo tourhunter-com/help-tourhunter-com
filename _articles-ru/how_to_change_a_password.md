@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: account
 subcategories:
     account: my-account
+tags:
+- change-account
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-change-a-passport
@@ -26,9 +28,9 @@ cat: some
 ### **Шаг 3**
 
 Заполнить требуемые поля:
-- “Current password”;
-- “New Password;
-- “Repeat New Password”.
+- “Current password” - текущий пароль;
+- “New Password - новый пароль;
+- “Repeat New Password” - повторный ввод нового пароля.
 
 ![How_to_change_a_password2](/assets/images/how_to_change_a_password2.png)
 
