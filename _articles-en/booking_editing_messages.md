@@ -21,7 +21,7 @@ After saving the edited booking, the owner (his employees) of the Supplier compa
 
 The Agent (owner and his employees) can only edit bookings.
 
-The Agent is not allowed to change a confirmed booking. But allowed to change the booking, which is waiting for confirmation in the “Pending Request” section, and only if the option “Can modify bookings” is turned on for Agent at the Supplier section “My Agent > Agent Profile”.
+The Agent is not allowed to change a confirmed booking. But allowed to change the booking, which is waiting for confirmation in the “Pending Request” section, and only if the option “Can modify bookings” is turned on for Agent at the “My Agent > Agent Profile” section.
 
 After the Supplier has edited the booking, the Agent will receive a message: “Booking modified”.
 

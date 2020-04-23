@@ -23,7 +23,7 @@ When clicked, a window opens in the right sidebar. The user can send a text mess
  
 ![Session_messages2](/assets/images/session_messages2.png)
 
-After sending a message, a notification about it is displayed to all users of the current company who have display configured in "Manage > Notifications > System Notifications".
+After sending a message, a notification about it is displayed to all users of the current company who have configured notifications at "Manage > Notifications > System Notifications".
 
 ![Session_messages3](/assets/images/session_messages3.png)
 

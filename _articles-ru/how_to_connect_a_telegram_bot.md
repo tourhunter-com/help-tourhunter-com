@@ -5,7 +5,9 @@ excerpt: Part of a post
 category: account
 subcategories:
     account: my-account
-lang: en
+tags:
+- setup-notifications
+lang: ru
 permalink: "/ru/:name/"
 ref: how-to-connect-a-telegram bot
 cat: some
@@ -33,7 +35,7 @@ cat: some
 
 ### **Рекомендации**
 
-Когда телеграмм-бот подключен, показывается ссылка, чтобы отключить бота.
+Когда телеграмм-бот подключен, показывается ссылка для отключения бота.
 
 ![How_to_connect_a_telegram_bot3](/assets/images/how_to_connect_a_telegram_bot3.png)
 
