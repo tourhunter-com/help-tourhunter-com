@@ -3,6 +3,8 @@ title: How to pay for subscription by bank transfer?
 layout: article
 excerpt: Part of a post
 category: billing-payments
+tags:
+- billing
 lang: en
 permalink: "/en/:name/"
 ref: how-to-pay-for-subscription-by-bank-transfer
@@ -29,7 +31,7 @@ Click on the “Pay by Bank Transfer” item on the left sidebar.
 
 ### **Step 4**
 
-Select a bank account by clicking on the radio button and click on the “Proceed to Payment” button.
+Select a bank by clicking on the radio button and click on the “Proceed to Payment” button.
 
 ![How_to_pay_for_subscription_by_bank_transfer4](/assets/images/how_to_pay_for_subscription_by_bank_transfer4.png)
 

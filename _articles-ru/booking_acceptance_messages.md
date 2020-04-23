@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: notifications
 subcategories:
     notifications: messages
+tags:
+- tour-booking
 lang: ru
 permalink: "/ru/:name/"
 ref: booking-acceptance-messages

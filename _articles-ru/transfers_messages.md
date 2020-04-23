@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: notifications
 subcategories:
     notifications: messages
+tags:
+- resource-settings
 lang: ru
 permalink: "/ru/:name/"
 ref: transfers-messages

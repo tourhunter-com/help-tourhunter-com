@@ -3,6 +3,8 @@ title: Как оплатить подписку с помощью банковс
 layout: article
 excerpt: Part of a post
 category: billing-payments
+tags:
+- billing
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-pay-for-subscription-by-bank-transfer
@@ -29,7 +31,7 @@ cat: some
 
 ### **Шаг 4**
 
-Выбрать банковский аккаунт, кликнуть на кнопку “Proceed to Payment”.
+Выбрать банк, кликнуть на кнопку “Proceed to Payment”.
 
 ![How_to_pay_for_subscription_by_bank_transfer4](/assets/images/how_to_pay_for_subscription_by_bank_transfer4.png)
 

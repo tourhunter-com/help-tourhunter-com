@@ -3,6 +3,8 @@ title: Управление счетом
 layout: article
 excerpt: Part of a post
 category: billing-payments
+tags:
+- billing
 lang: ru
 permalink: "/ru/:name/"
 ref: managing-a-billing
@@ -11,7 +13,7 @@ cat: some
 
 Управлять счетом можно в разделе “Top menu > Billing & Payments”.
 
-Страница “Billing & Payments” включает в себя информацию о текущей подписке и статусе платежа для туроператоров и турагентов, если нажать на кнопку “Manage” напротив названия компании.
+Страница “Billing & Payments” включает в себя информацию о текущей подписке и статусе платежа для Туроператоров и Турагентов, если кликнуть на кнопку “Manage” напротив названия компании.
 
 ### **Раздел "Current Bill"**
 
@@ -29,7 +31,7 @@ cat: some
 
 ![Managing_a_billing2](/assets/images/managing_a_billing2.png)
 
-Квитанция может быть распечатана или загружена на компьютер в формате “.pdf” с данной страницы.
+Квитанция может быть распечатана или загружена на устройство в формате “.pdf” с данной страницы.
 
 Квитанция будет иметь следующие данные:
 - иконка компании;
@@ -52,24 +54,16 @@ cat: some
 
 ![Managing_a_billing4](/assets/images/managing_a_billing4.png)
 
-### **Раздел "Pay with PayPal"**
+Оплата подписки может быть выполнена при помощи:
 
-Оплата подписки с помощью PayPal.
-
-Информация об оплате подписки с помощью PayPal описана в статье [*“Как оплатить подписку с помощью PayPal?”*]({% link _articles-ru/how_to_pay_for_subscription_by_paypal.md %}).
+- аккаунта PayPal;
 
 ![Managing_a_billing5](/assets/images/managing_a_billing5.png)
 
-### **Раздел "Pay with Credit Card"**
-
-Оплата подписки с помощью карты.
+- кредитной карты;
 
 ![Managing_a_billing6](/assets/images/managing_a_billing6.png)
 
-### **Раздел "Pay via Bank Transfer"**
-
-Оплата подписки с помощью банковского платежа.
-
-Информация об оплате подписки с помощью банковского платежа описана в статье [*“Как оплатить подписку с помощью банковского платежа?”*]({% link _articles-ru/how_to_pay_for_subscription_by_bank_transfer.md %}).
+- банковского перевода.
 
 ![Managing_a_billing7](/assets/images/managing_a_billing7.png)

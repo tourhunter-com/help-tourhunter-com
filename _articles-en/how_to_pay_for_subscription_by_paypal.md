@@ -3,6 +3,8 @@ title: How to pay for subscription by PayPal?
 layout: article
 excerpt: Part of a post
 category: billing-payments
+tags:
+- billing
 lang: en
 permalink: "/en/:name/"
 ref: how-to-pay-for-subscription-by-paypal
