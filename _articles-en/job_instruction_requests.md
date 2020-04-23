@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: notifications
 subcategories:
     notifications: pending-requests
+tags:
+- employee-settings
 lang: en
 permalink: "/en/:name/"
 ref: job-instruction-requests
@@ -15,11 +17,9 @@ cat: some
 
 After a user submits a job instruction for an employee, in the “Top menu > Pending actions” section, for an employee, displays a notification about a sent job instruction.
 
-The notification card is as follows below:
-
 ![Job_instruction_requests1](/assets/images/job_instruction_requests1.png)
 
-When you click on the link, the employee’s profile opens with the first tab “Public info” displayed. When you go to the tab “Job Instructions”, a card with a job instruction is displayed. By clicking on the card, a block with the job instruction text appears below.
+When user click on the link, the employee’s profile opens with the first tab “Public info” displayed. When user go to the tab “Job Instructions”, a card with a job instruction is displayed. By clicking on the card, a block with the job instruction text appears below.
 
 ![Job_instruction_requests2](/assets/images/job_instruction_requests2.png)
 
