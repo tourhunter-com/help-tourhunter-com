@@ -19,7 +19,7 @@ And in the "Top menu > Messages" the owner and employees of the Supplier company
 
 ![Transfer_messages1](/assets/images/transfer_messages1.png)
 
-If the booking has been moved to the transfer resource (in "Bookings > Transfer view > Drop-off" section) and the transfer type "drop-off only" is set in the booking module, and the transfer value in the booking module changes to "pick-up only" , then the booking is deleted from the old transfer resource.
+If the booking has been moved to the transfer resource (in "Bookings > Transfer view > Drop-off" section) and the transfer type "drop-off only" is set in the booking module, and the transfer value in the booking module changes to "pick-up only", then the booking is deleted from the old transfer resource.
 
 And in the "Top menu > Messages" the owner and employees of the Supplier company are shown an additional notification that the booking has been removed from the transfer resource.
 
