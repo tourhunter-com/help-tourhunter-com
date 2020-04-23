@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: account
 subcategories:
     account: my-account
+tags:
+- account-creation
 lang: en
 permalink: "/en/:name/"
 ref: how-to-create-an-account-using-google

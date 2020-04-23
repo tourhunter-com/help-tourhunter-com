@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: account
 subcategories:
     account: my-account
+tags:
+- account-creation
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-create-an-account-using-an-email
@@ -18,9 +20,9 @@ cat: some
 ### **Шаг 2**					
 
 Кликнуть на вкладку “Sign up” и заполнить требуемые поля:
-- “Email”;
-- “Password”;
-- “Confirm password”.
+- “Email” - электронная почта;
+- “Password” - пароль;
+- “Confirm password” - повторный ввод пароля.
 
 ![How_to_create_an_account_using_an_email1](/assets/images/how_to_create_an_account_using_an_email1.png)
 

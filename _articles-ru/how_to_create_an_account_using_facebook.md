@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: account
 subcategories:
     account: my-account
+tags:
+- account-creation
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-create-an-account-using-facebook
@@ -13,11 +15,11 @@ cat: some
 
 ### **Шаг 1**
 
-Кликнуть на кнопку “Log in” в правой верхней части сайта.
+Кликнуть на кнопку “Log in” в хедере сайта.
 
 ### **Шаг 2**
 
-Кликнуть на иконку Facebook в правой нижней части появившейся модалки.
+Кликнуть на иконку Facebook в появившейся модалки.
 
 ![How_to_create_an_account_using_google1](/assets/images/how_to_create_an_account_using_google1.png)
 
@@ -28,8 +30,8 @@ cat: some
 ### **Шаг 4**
 
 Заполнить требуемые поля:
-- “Password”;
-- “Repeat password”.
+- “Password” - пароль;
+- “Repeat password” - повторный ввод пароля.
 
 ![How_to_create_an_account_using_google2](/assets/images/how_to_create_an_account_using_google2.png)
 
