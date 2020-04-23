@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: account
 subcategories:
     account: my-account
+tags:
+- setup-notifications
 lang: en
 permalink: "/en/:name/"
 ref: how-to-connect-a-telegram bot
@@ -23,7 +25,7 @@ Or click on  "Show code (message bot)” link and copy the code to telegram bot.
 
 ![How_to_connect_a_telegram_bot1](/assets/images/how_to_connect_a_telegram_bot1.png)
 
-The code is valid for 24 hours, the validity period is re-calculated if you open the page again.
+The code is valid for 24 hours, the validity period is re-calculated if the page is opens again.
 
 ### **Step 3**
 

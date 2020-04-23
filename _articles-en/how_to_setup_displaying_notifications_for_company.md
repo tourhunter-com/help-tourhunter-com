@@ -3,6 +3,8 @@ title: How to setup displaying notifications for a company?
 layout: article
 excerpt: Part of a post
 category: notifications
+tags:
+- setup-notifications
 lang: en
 permalink: "/en/:name/"
 ref: how-to-setup-displaying-notifications-for-a-company
@@ -15,7 +17,7 @@ Go to "Manage > Notifications".
 
 ### **Step 2**
 
-Turn on which type of notifications you want to be displayed:
+Turn on which type of notifications will be displayed:
 - "Email Notifications". If this block is configured, then notifications are sent to the user's email;
 - "System Notifications". If this block is configured, then notifications are displayed in the "Top menu" of the user.
 - "Telegram Notifications". If this block is configured, then notifications are displayed in the telegram bot. To display this block, a telegram bot must be connected in "Top menu > My Account".
@@ -24,7 +26,7 @@ Turn on which type of notifications you want to be displayed:
 
 ### **Step 3**
 
-Click on "Save" button for save your changes.
+Click on "Save" button for accept changes.
 
 ### **Suggestions**
 

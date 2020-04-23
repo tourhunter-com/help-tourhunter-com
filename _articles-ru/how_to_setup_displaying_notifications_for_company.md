@@ -3,6 +3,8 @@ title: Как настроить отображение уведомлений �
 layout: article
 excerpt: Part of a post
 category: notifications
+tags:
+- setup-notifications
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-setup-displaying-notifications-for-a-company
@@ -28,8 +30,7 @@ cat: some
 
 ### **Рекомендации**
 
-Каждый тип уведомлений содержит 3 чекбокса
-
+Каждый тип уведомлений содержит 3 чекбокса:
 - "Updates - Notify me about new features and tips". Отображается всегда;
 - "Bookings - Notify me for any booking (if has permission for it)". Отображается в "Manage > Notifications" для владельцев компаний и менеджеров, для других сотрудников - только если в сетапе роли в "Manage > Employees > Roles & Permissions"включен блок "Bookings";
 - "Payments - Notify me when important actions happen with my payments, such as when an invoice is overdue or paid". Отображается всегда.
