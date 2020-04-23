@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: notifications
 subcategories:
     notifications: pending-requests
+tags:
+- tour-booking
 lang: en
 permalink: "/en/:name/"
 ref: booking-requests
@@ -27,8 +29,6 @@ Suppliers employees have buttons to confirm or decline a booking if they have pe
 
 The “Revise” button is shown if the picture has been uploaded in the “Upload Voucher” field, or some required fields are not filled.
 
-When the Agent (owner and his employees) makes a booking to the Supplier, the Agent (owner and his employees) receives a notification about pending booking.
-
-If a notification about the new booking comes, then Agent (his employee) receives a notification in the “Top menu > Pending Requests”.
+When the Agent (owner and his employees) makes a booking to the Supplier, then those users receive a notification about pending booking in the “Top menu > Pending Requests”.
 
 ![Bookings_requests4](/assets/images/bookings_requests4.png)
