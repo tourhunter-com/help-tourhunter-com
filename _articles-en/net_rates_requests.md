@@ -5,6 +5,9 @@ excerpt: Part of a post
 category: notifications
 subcategories:
     notifications: pending-requests
+tags:
+- supplier-company
+- agent-company
 lang: en
 permalink: "/en/:name/"
 ref: net-rates-requests
@@ -45,6 +48,6 @@ When hovering over a notification, two buttons are displayed:
 
 ![Net_rates_requests6](/assets/images/net_rates_requests1.png)
 
-When Agent requests for net rates from the “Marketplace > Find Suppliers” section, the Supplier, instead of the “Manage Rates” button, has the “Send Rates” button in the notifications in the “Top menu > Pending requests” and there is no date and name of the tour.
+When Agent requests a net rates from the “Marketplace > Find Suppliers” section, the Supplier, instead of the “Manage Rates” button, has the “Send Rates” button in the notifications in the “Top menu > Pending requests” and there is no date and name of the tour.
 
 ![Net_rates_requests7](/assets/images/net_rates_requests2.png)
