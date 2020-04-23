@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: notifications
 subcategories:
     notifications: pending-requests
+tags:
+- billing
 lang: en
 permalink: "/en/:name/"
 ref: subscription-notifications
@@ -21,7 +23,7 @@ For the company owner, such a notification is displayed with the "Update" which 
 
 ![Subscription_notifications2](/assets/images/subscription_notifications2.png)
 
-For Manager and other employees, only a notification without buttons is displayed, since employees cannot pay for the subscription.
+For manager and other employees, only a notification without buttons is displayed, since employees cannot pay for the subscription.
 
 ![Subscription_notifications3](/assets/images/subscription_notifications3.png)
 
@@ -43,4 +45,4 @@ If his payment is declined, the message "Your subscription payment was declined"
 
 ![Subscription_notifications5](/assets/images/subscription_notifications5.png)
 
-When you click on a message, the user is redirected to the corresponding page "Pay via bank transfer".
+The user redirects to the corresponding page "Pay via bank transfer" when he click on notification.

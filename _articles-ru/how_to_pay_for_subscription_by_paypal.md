@@ -3,6 +3,8 @@ title: Как оплатить подписку с помощью PayPal?
 layout: article
 excerpt: Part of a post
 category: billing-payments
+tags:
+- billing
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-pay-for-subscription-by-paypal
