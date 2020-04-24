@@ -3,6 +3,8 @@ title: How to connect a custom domain?
 layout: article
 excerpt: Part of a post
 category: white-label
+tags:
+- domain
 lang: en
 permalink: "/en/:name/"
 ref: how-to-connect-a-custom-domain
@@ -21,7 +23,7 @@ Go to "Connect a Domain" section.
 
 ## **Step 3**
 
-Fill the field "Your Domain Name".
+Fill out the field "Your Domain Name".
 
 The field may contain letters, numbers and special characters("-" and "_"). The total domain name length is 255 characters.
 
@@ -40,7 +42,7 @@ After completing the settings, click “Next”.
 
 ## **Step 5**
 
-Domain confirmation from the website occurs every 10 minutes. After confirmation User can go to the “White Label” with a new domain name.
+Domain confirmation from the website occurs every 10 minutes. After confirmation user can go to the “White Label” with a new domain name.
 
 User have three days to confirm the domain, then it deletes itself.
 
