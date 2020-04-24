@@ -3,6 +3,8 @@ title: Как удалить район?
 layout: article
 excerpt: Part of a post
 category: pick-ups
+tags:
+- pick-up-removing
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-delete-an-area
