@@ -11,11 +11,11 @@ cat: some
 
 ### **Шаг 1**
 
-Перейти к букингу тура в “Marketplace > Point-of-sale” или на “White Label”.
+Перейти к букингу тура в “Marketplace > Point of sale” или на “White Label”.
 
 ### **Шаг 2**
 
-Кликнуть на ссылку “Have a code?” в модалке “Checkout”.
+Когда букинг будет добавлен в корзину, кликнуть на ссылку “Have a code?” в модалке.
 
 ![How_to_use_coupons_for_a_tours1](/assets/images/how_to_use_coupons_for_a_tours1.png)
 
