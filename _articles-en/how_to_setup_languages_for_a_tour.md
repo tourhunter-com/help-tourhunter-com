@@ -137,7 +137,7 @@ Click on "Save" button for saving a changes or click on "Next >" button for savi
 
 ### **Step 14**
 
-At the “Booking Info” step set up a language for custom fields in the "Booking Details" section.
+Set up a language for custom fields in the "Booking Details" section at the “Booking Info” step.
 
 Click on the “+ Select Booking Details” button. And then click on the “+ New Field” button for add new custom field with translation or click on "Edit" icon for add translation for existing one.
 

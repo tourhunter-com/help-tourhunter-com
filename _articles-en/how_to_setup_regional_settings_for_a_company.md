@@ -3,6 +3,8 @@ title: How to setup regional settings for a company?
 layout: article
 excerpt: Part of a post
 category: regional-settings
+tags:
+- regional-settings
 lang: en
 permalink: "/en/:name/"
 ref: how-to-setup-regional-settings-for-a-company
