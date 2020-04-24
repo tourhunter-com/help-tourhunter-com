@@ -3,13 +3,15 @@ title: Что такое "White Label"?
 layout: article
 excerpt: Part of a post
 category: white-label
+tags:
+- wl
 lang: ru
 permalink: "/ru/:name/"
 ref: what-is-wl
 cat: some
 ---
 
-"White Label" это личное пространство для Туроператоров и Премиум Турагентов, где они могут публиковать не только свои личные туры, но и туры, добавленные в "My Tours".
+"White Label" это личное пространство для Туроператоров и Турагентов c подпиской премиум, где они могут публиковать не только свои личные туры, но и туры, добавленные в "My Tours".
 
 "White Label" содержит 3 раздела:
 

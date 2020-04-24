@@ -3,6 +3,8 @@ title: How to login at "White Label"?
 layout: article
 excerpt: Part of a post
 category: white-label
+tags:
+- wl
 lang: en
 permalink: "/en/:name/"
 ref: wl-autorization
@@ -17,9 +19,9 @@ Click on "Log In" button at header at "White Label".
 
 ### **Step 2**
 
-If you are a system user, enter your e-mail address and password which you set up during registration in the system. Click "Next" to complete authorisation. 
+To login as a system user, enter e-mail address and password which are set up during registration in the system. Click "Next" to complete authorisation. 
 
-If you are an Agent, enter your agent code in the "Email or Login" field and your agent password in the "Password" field (if it is). Agent code and agent password are assigned to an Agent by a Supplier.
+To login as an Agent, enter agent code in the "Email or Login" field and agent password in the "Password" field. Agent code and agent password are assigned to an Agent by a Supplier.
 
 ![Login_at_wl2](/assets/images/how_to_login_at_wl2.png)
 
@@ -29,16 +31,15 @@ Click on "Next" button for autorization to "White Label".
 
 ### **Step 4**
 
-If an Agent is authorized with the agent code, an additional step must be performed.
+For exit on the "White Label" as an authorized user, click on the "Log Out" link in the header (if an Agent is authorized) or select the "Log Out" menu item in the account menu (if the system user is authorized).
 
-Choose a seller name in opened modal and then click on "Log In" button.
+### **Suggestions**
 
-![Login_at_wl3](/assets/images/how_to_login_at_wl3.png)
+User of an Agent company can authorize without the agent password.
 
-Choosing a seller name is an optional step and you can skip that click on "Log In" button.
+Just enter an agent code and click on "Log In" button. Agent password will be ignored.
 
 Company name will be showed at footer when user is autorized with the text "Logged in as: [Agent company name or user name]".
 
-### **Step 5**
+![Login_at_wl3](/assets/images/how_to_login_at_wl3.png)
 
-For exit on the "White Label" as an authorized user, click on the "Log Out" link in the header (if an Agent is authorized) or select the "Log Out" menu item in the account menu (if the system user is authorized).

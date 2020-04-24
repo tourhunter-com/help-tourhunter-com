@@ -3,6 +3,8 @@ title: Как ограничить доступ к “White Label”?
 layout: article
 excerpt: Part of a post
 category: white-label
+tags:
+- wl
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-restrict-an-access-to-wl
