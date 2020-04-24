@@ -3,6 +3,8 @@ title: Как запросить другой район?
 layout: article
 excerpt: Part of a post
 category: pick-ups
+tags:
+- area-request
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-request-other-area
@@ -11,7 +13,7 @@ cat: some
 
 Эта опция доступна, если в настройках пикап-листа включен чекбокс "Allow customer to request other Area". 
 
-Клиенты и турагенты могут пользоваться данной функцией при букинге тура в поле “Pick-up area”. 
+Клиенты и Турагенты могут пользоваться данной функцией при букинге тура в поле “Pick-up area”. 
 
 ### **Шаг 1**
 

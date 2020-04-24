@@ -3,6 +3,8 @@ title: How to request other location?
 layout: article
 excerpt: Part of a post
 category: pick-ups
+tags:
+- area-request
 lang: en
 permalink: "/en/:name/"
 ref: how-to-request-other-location
