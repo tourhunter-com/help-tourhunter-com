@@ -3,6 +3,8 @@ title: Общие ресурсы
 layout: article
 excerpt: Part of a post
 category: resources
+tags:
+- resource-settings
 lang: ru
 permalink: "/ru/:name/"
 ref: shared-resources
@@ -19,4 +21,3 @@ cat: some
 
 ![Shared_resources2](/assets/images/shared_resources2.png)
 
-Более подробно о создании ресурсов описано в статье [*“Создание ресурса”*]({% link _articles-ru/how_to_create_a_resource.md %}).
