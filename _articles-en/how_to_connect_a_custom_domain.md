@@ -25,7 +25,7 @@ Go to "Connect a Domain" section.
 
 Fill out the field "Your Domain Name".
 
-The field may contain letters, numbers and special characters("-" and "_"). The total domain name length is 255 characters.
+The field may contain letters, numbers and special characters ("-" and "_"). The total domain name length is 255 characters.
 
 ## **Step 4**
 
