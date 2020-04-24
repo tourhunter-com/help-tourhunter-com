@@ -3,6 +3,8 @@ title: How to disconnect a custom domain?
 layout: article
 excerpt: Part of a post
 category: white-label
+tags:
+- domain
 lang: en
 permalink: "/en/:name/"
 ref: how-to-disconnect-a-custom-domain

@@ -3,6 +3,8 @@ title: How to restrict an access to “White Label”?
 layout: article
 excerpt: Part of a post
 category: white-label
+tags:
+- wl
 lang: en
 permalink: "/en/:name/"
 ref: how-to-restrict-an-access-to-wl

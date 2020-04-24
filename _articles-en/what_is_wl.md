@@ -3,6 +3,8 @@ title: What is "White Label"?
 layout: article
 excerpt: Part of a post
 category: white-label
+tags:
+- wl
 lang: en
 permalink: "/en/:name/"
 ref: what-is-wl

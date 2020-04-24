@@ -3,6 +3,8 @@ title: Как отключить пользовательский домен?
 layout: article
 excerpt: Part of a post
 category: white-label
+tags:
+- domain
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-disconnect-a-custom-domain
