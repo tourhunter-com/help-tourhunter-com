@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: account
 subcategories:
     account: my-account
+tags:
+- change-account
 lang: en
 permalink: "/en/:name/"
 ref: how-to-change-an-email

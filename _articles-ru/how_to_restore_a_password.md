@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: account
 subcategories:
     account: my-account
+tags:
+- change-account
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-restore-a-password
@@ -13,7 +15,7 @@ cat: some
 
 ### **Шаг 1**
 
-Кликнуть на кнопку “Log in” в правой верхней части сайта.
+Кликнуть на кнопку “Log in” в хедере сайта.
 
 ### **Шаг 2**
 
@@ -23,7 +25,7 @@ cat: some
 
 ### **Шаг 3**
 
-Заполнить требуемое поле “Email”, установить, что пользователь компьютера является человеком, и кликнуть на кнопку “Reset”.
+Заполнить требуемое поле “Email”, установить, что пользователь является человеком, и кликнуть на кнопку “Reset”.
 
 ![How_to_restore_a_password2](/assets/images/how_to_restore_a_password2.png)
 

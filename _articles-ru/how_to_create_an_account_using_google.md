@@ -5,6 +5,8 @@ excerpt: Part of a post
 category: account
 subcategories:
     account: my-account
+tags:
+- account-creation
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-create-an-account-using-google
@@ -28,8 +30,8 @@ cat: some
 ### **Шаг 4**
 
 Заполнить требуемые поля:
-- “Password”;
-- “Repeat password”.
+- “Password” - пароль;
+- “Repeat password” - повторный ввод пароля.
 
 ![How_to_create_an_account_using_google2](/assets/images/how_to_create_an_account_using_google2.png)
 

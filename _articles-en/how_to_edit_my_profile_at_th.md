@@ -81,4 +81,4 @@ Edit “Settings” block.
 
 In this section, you can configure, will an employee be assigned to sessions and bookings. Settings are displayed if you set up the role of this profile in "Manage > Employees > Roles & Permissions > Edit > User can be assigned to tours". 
 
-![Information_in_my_profile5](/assets/images/information_in_my_profile5.png)
+![How_to_edit_my_profile_at_tourhunter6](/assets/images/how_to_edit_my_profile_at_tourhunter6.png)
