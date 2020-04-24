@@ -3,6 +3,8 @@ title: How to delete a pick-up list?
 layout: article
 excerpt: Part of a post
 category: pick-ups
+tags:
+- pick-up-removing
 lang: en
 permalink: "/en/:name/"
 ref: how-to-delete-a-pick-up-list
