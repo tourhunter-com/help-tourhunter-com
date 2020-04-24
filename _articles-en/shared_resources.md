@@ -3,6 +3,8 @@ title: Shared resources
 layout: article
 excerpt: Part of a post
 category: resources
+tags:
+- resource-settings
 lang: en
 permalink: "/en/:name/"
 ref: shared-resources
@@ -18,5 +20,3 @@ In order to create a shared resource for sessions, enable the checkbox “This r
 In the same way, in order to create a shared resource for bookings, enable the checkbox “This resource can be used between different bookings at the same time” in the resource setup in the “Manage > Resources” section.
 
 ![Shared_resources2](/assets/images/shared_resources2.png)
-
-More information about creation a resource describes in the article [*“How to create a resource?”*]({% link _articles-en/how_to_create_a_resource.md %}).

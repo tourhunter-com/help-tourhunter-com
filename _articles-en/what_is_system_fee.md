@@ -11,13 +11,13 @@ cat: some
 
 For Suppliers with subscription "FLEX" in "Manage > Fees & Taxes" there are system fees for a tours.
 
-You can’t delete them in "Manage > Fees & Taxes".
+System fees can’t be deleted at "Manage > Fees & Taxes".
 
 System fees include:
 - "Internal Booking fee" - counted inside the system = $0.33;
 - "Online Booking fee" - counted in "White Label" = $0.89.
 
-For system fees you can choose: “Apply to Supplier” or “Apply to Customer” (by default “Apply to Supplier”). You can edit it following this path: “Edit > Update Fee > Apply to > Supplier or Customer”.
+System fees have two options: “Apply to Supplier” or “Apply to Customer” (by default “Apply to Supplier”).
 
 ![What_is_system_fee1](/assets/images/what_is_system_fee1.png)
 

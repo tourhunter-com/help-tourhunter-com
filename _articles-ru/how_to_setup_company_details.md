@@ -20,7 +20,7 @@ cat: some
 - “Website” - ссылка на вебсайт компании;
 - “Company URL on TourHunter” - ссылка на “White Label” компании. Обязательное поле;
 - “Tourism Destinations” - туристические направления. Обязательное поле;
-- “Business category” (только для турагента) - выпадающее меню со следующими категориями:
+- “Business category” (только для Турагента) - выпадающее меню со следующими категориями:
 	- “Travel Agent”;
 	- “Visitors Information Centre”;
 	- “Online Travel Agency”;
@@ -35,7 +35,7 @@ cat: some
 
 ![How_to_setup_company_details1](/assets/images/how_to_setup_company_details1.png)
 	
-- “Email” - e-mail компании. Обязательное поле;
+- “Email” - электронная почта компании. Обязательное поле;
 - “Phone number” - мессенджеры компании с номером телефона (IMessage, Telegram, WeChat, LINE, Viber, WhatsApp);
 - “Fax” - номер факса компании;
 - “Other Contact Methods” - дополнительные аккаунты компании для связи (Skype, Facebook Messenger);

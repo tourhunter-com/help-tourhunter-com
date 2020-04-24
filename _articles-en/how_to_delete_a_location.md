@@ -3,6 +3,8 @@ title: How to delete a location?
 layout: article
 excerpt: Part of a post
 category: pick-ups
+tags:
+- pick-up-removing
 lang: en
 permalink: "/en/:name/"
 ref: how-to-delete-a-location
@@ -15,9 +17,9 @@ Go to “Manage > Pick-ups > Locations”.
 
 ### **Step 2**
 
-Choose locations you want to delete by clicking on the checkbox next to them.
+Choose locations to delete by clicking on the checkbox.
 
-Choose locations you want to delete. Removing of location can be performed one of the following ways:
+Removing of location can be performed one of the following ways:
 - by clicking on the checkbox next to them and choosing menu item "Delete" on the dropdown “n Selected”, that appeared on the header;
 
 ![How_to_delete_a_location1](/assets/images/how_to_delete_a_location1.png)

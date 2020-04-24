@@ -3,6 +3,8 @@ title: How to delete an area?
 layout: article
 excerpt: Part of a post
 category: pick-ups
+tags:
+- pick-up-removing
 lang: en
 permalink: "/en/:name/"
 ref: how-to-delete-an-area
@@ -15,7 +17,7 @@ Go to “Manage > Pick-ups > Areas”.
 
 ### **Step 2**
 
-Choose areas you want to delete. Removing of area can be performed one of the following ways:
+Choose areas to delete. Removing of area can be performed one of the following ways:
 - by clicking on the checkbox next to them and choosing menu item "Delete" on the dropdown “n Selected”, that appeared on the header;
 - by clicking on the editing icon and in the appeared editing module click on the delete button;
 - by clicking on the removing icon.
