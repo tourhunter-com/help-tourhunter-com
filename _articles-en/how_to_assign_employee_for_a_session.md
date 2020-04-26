@@ -55,11 +55,13 @@ On the opened "Settings" tab choose the tours where employee will be assigned. A
 
 Go to "Bookings > Manifest view".
 
+![How_to_assign_employee_for_a_session6](/assets/images/how_to_assign_employee_for_a_session6.png)
+
 ## **Step 9**
 
 Click on the session card. And in the opened "Resources & Staff" block click on the "+" icon and choose "+ Staff" menu item.
 
-![How_to_assign_employee_for_a_session6](/assets/images/how_to_assign_employee_for_a_session6.png)
+![How_to_assign_employee_for_a_session10](/assets/images/how_to_assign_employee_for_a_session10.png)
 
 ## **Step 10**
 
