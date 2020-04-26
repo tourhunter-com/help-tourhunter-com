@@ -55,11 +55,13 @@ cat: some
 
 Перейти в "Bookings > Manifest view".
 
+![How_to_assign_employee_for_a_session6](/assets/images/how_to_assign_employee_for_a_session6.png)
+
 ## **Шаг 9**
 
 Кликнуть на плашку сессии. Затем в появившемся блоке "Resources & Staff" кликнуть на иконку "+" и выбрать пункт "+ Staff".
 
-![How_to_assign_employee_for_a_session6](/assets/images/how_to_assign_employee_for_a_session6.png)
+![How_to_assign_employee_for_a_session10](/assets/images/how_to_assign_employee_for_a_session10.png)
 
 ## **Шаг 10**
 
