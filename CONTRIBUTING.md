@@ -102,7 +102,7 @@ There should not be unnecessary actions and movements of the mouse in the image 
 
 4. Change description into `_data/categories.yml` for add subcategory, i.e.
     ```
-  category-name:
+   category-name:
     title:
       en: "Name of category"
       ru: "Название категории"
