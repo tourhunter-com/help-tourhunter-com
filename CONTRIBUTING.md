@@ -10,10 +10,12 @@ When contributing to this repository, please first discuss the change you wish t
 
 - Make sure you have a [GitHub account](https://github.com/login).
 - Submit a GitHub issue for your issue if one does not already exist.
-  - A issue is not necessary for trivial changes.
+  - An issue is not necessary for trivial changes.
 - Create a new branch (preferred, if it is available) or [fork](https://help.github.com/en/articles/working-with-forks) the repository on GitHub.
 - Make your change. Add tests for your change. Make the tests pass.
 - Create a [pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) to the repository.
+  - Pull request may contain several commits with a changes.
+  - Every commit should consists of changes related to every separate article.
 
 ### Tips and tricks for using the Git
 
@@ -63,6 +65,8 @@ permalink: "/ru/:name/"
 ref: article-name
 ```
 
+`Tags` option in the front matter is need for making a relation between the articles. Add unique tag name for two or more articles for making a relation between them.
+
 3. Put links inside the article on other articles if it's necessary ([Documentation on links](https://jekyllrb.com/docs/liquid/tags/#links)). All links should be relative and not absolute, i.e.
 
     ```
@@ -97,9 +101,8 @@ There should not be unnecessary actions and movements of the mouse in the image 
     ```
 
 4. Change description into `_data/categories.yml` for add subcategory, i.e.
-
     ```
-  category-name:
+   category-name:
     title:
       en: "Name of category"
       ru: "Название категории"
