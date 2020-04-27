@@ -1,5 +1,5 @@
 ---
-title: How to create a booking at "Marketplace" in "Point-of-sale view"?
+title: How to create a booking at "Marketplace" in "Point of sale view"?
 layout: article
 excerpt: Part of a post
 category: marketplace
@@ -26,7 +26,7 @@ And select "Point-of-sale" on the "Top menu" in the header.
 
 ## **Step 2**
 
-Choose tour that you needed for a booking.
+Choose tour for a booking.
 
 ## **Step 3**
 
