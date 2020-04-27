@@ -1,5 +1,5 @@
 ---
-title: How to get a booking's database?
+title: How to get a booking database?
 layout: article
 excerpt: Part of a post
 category: bookings
