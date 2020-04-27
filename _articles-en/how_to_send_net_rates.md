@@ -23,17 +23,15 @@ Select a request notification and hover over it.
 
 ### **Step 3**
 
-Click on the “Manage Rates” button in the displayed menu.
+Click on the “Manage Rates” button in the displayed menu. And the “Manage > Net Rates” section will be opened. 
 
 ![How_to_send_net_rates1](/assets/images/how_to_send_net_rates1.png)
 
-You will be redirected to the “Manage > Net Rates” section. 
-
-You can decline request by clicking on the “Decline button”.
+Request can be declined by clicking on the “Decline button”.
 
 ### **Step 4**
 
-You can also manage requests from Agents in the “My Agents > Agent Request” section.
+Managing of the requests from Agents can be performed at the “My Agents > Agent Request” section.
 
 ![How_to_send_net_rates2](/assets/images/how_to_send_net_rates2.png)
 
