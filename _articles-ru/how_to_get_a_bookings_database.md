@@ -29,7 +29,7 @@ cat: some
 
 ## **Шаг 4**
 
-Выбрать пункт "Download" в появившемся дропдауне "Selected" в хедере.
+Выбрать пункт "Download" в появившемся выпадающем меню "Selected" в хедере.
 
 ![How_to_get_a_bookings_database2](/assets/images/how_to_get_a_bookings_database2.png)
 

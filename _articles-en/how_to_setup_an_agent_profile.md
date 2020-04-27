@@ -62,3 +62,13 @@ Setup the next information for Agent such as:
 ## **Step 5**
   
 Click on "Save" button for accept information that had been changed.
+
+## **Step 6**
+
+Set label for an Agent. Choose a "Set Label" menu item in the ellipsis menu.
+
+![How_to_setup_an_agent_profile7](/assets/images/how_to_setup_an_agent_profile7.png)
+
+Input a label name and click on "Save" button.
+
+![How_to_setup_an_agent_profile8](/assets/images/how_to_setup_an_agent_profile8.png)

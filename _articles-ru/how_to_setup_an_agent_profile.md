@@ -63,3 +63,13 @@ cat: some
 ## **Шаг 5**
   
 Кликнуть на кнопку "Save" для подтверждения сохранения измененной информации.
+
+## **Step 6**
+
+Установить метку для Турагента при необходимости. Выбрать пункт "Set Label" в меню-троеточии.
+
+![How_to_setup_an_agent_profile7](/assets/images/how_to_setup_an_agent_profile7.png)
+
+Ввести название и кликнуть на кнопку "Save".
+
+![How_to_setup_an_agent_profile8](/assets/images/how_to_setup_an_agent_profile8.png)

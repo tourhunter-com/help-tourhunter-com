@@ -1,5 +1,5 @@
 ---
-title: Как создать букинг на "Marketplace" в режиме "Point-of-sale view"?
+title: Как создать букинг на "Marketplace" в режиме "Point of sale view"?
 layout: article
 excerpt: Part of a post
 category: marketplace

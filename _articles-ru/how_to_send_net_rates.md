@@ -23,11 +23,9 @@ cat: some
 
 ### **Шаг 3**
 
-Кликнуть на кнопку “Manage Rates” в появившемся меню.
+Кликнуть на кнопку “Manage Rates” в появившемся меню. Осуществится перенаправление в раздел “Manage > Net Rates”. 
 
 ![How_to_send_net_rates1](/assets/images/how_to_send_net_rates1.png)
-
-Осуществится перенаправление в раздел “Manage > Net Rates”. 
 
 Отклонить запрос можно нажав на кнопку “Decline”.
 
