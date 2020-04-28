@@ -1,5 +1,5 @@
 ---
-title: Creating a new net rates
+title: Creating a new price list
 layout: article
 excerpt: Part of a post
 category: net-rates
@@ -7,7 +7,7 @@ tags:
 - net-rates
 lang: en
 permalink: "/en/:name/"
-ref: net-rates-creation
+ref: price-list-creation
 cat: some
 ---
 

@@ -7,7 +7,7 @@ tags:
 - net-rates
 lang: ru
 permalink: "/ru/:name/"
-ref: net-rates-creation
+ref: price-list-creation
 cat: some
 ---
 
