@@ -31,7 +31,7 @@ Choose the company in the dropdown.
 
 ![How_to_merge_an_Agent](/assets/images/how_to_merge_an_Agent3.png)
 
-##**Suggestions**
+## **Suggestions**
 
 It is no opportunity to merge Internal Agent with the other Internal Agent. When merge Internal Agent with Online Agent it is allowed to set the same agent code that is used by internal Agent. If the Online Agent has no agent code or password it is filled by the data of Internal Agent.  
 
