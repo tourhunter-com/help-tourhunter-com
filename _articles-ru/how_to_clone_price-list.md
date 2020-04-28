@@ -1,5 +1,5 @@
 ---
-title: Как клонировать прайс-лист?
+title: Как клонировать прайс лист?
 layout: article
 excerpt: Part of a post
 category: net-rates
@@ -9,14 +9,13 @@ ref: how-to-clone-price-list
 cat: some
 ---
 
-
 ## **Шаг 1**
 
-Перейти в  “Manage > Net rates > My rates”. 
+Перейти в “Manage > Net rates > My rates”. 
 
 ## **Шаг 2**
 
-Кликнуть на иконку клонирования прайс-листа. 
+Кликнуть на пункт меню "Clone" в меню-троеточии. 
 
 ![How_to_clone_price-list1](/assets/images/how_to_clone_price-list1.png)
 
