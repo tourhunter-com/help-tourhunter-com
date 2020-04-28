@@ -2,7 +2,7 @@
 title: Как клонировать прайс-лист?
 layout: article
 excerpt: Part of a post
-category: net rates
+category: net-rates
 lang: ru
 permalink: "/ru/:name/"
 ref: how-to-clone-price-list
