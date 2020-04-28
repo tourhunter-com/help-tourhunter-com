@@ -15,7 +15,7 @@ cat: some
 
 ## **Шаг 2**
 
-Кликнуть на опцию “Clone” в меню-троеточии. 
+Кликнуть на пункт “Clone” в меню-троеточии. 
 
 ![How_to_clone_a_resources](/assets/images/how_to_clone_a_resources1.png)
 
