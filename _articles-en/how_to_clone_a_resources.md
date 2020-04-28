@@ -15,7 +15,7 @@ Go to “Manage > Resources”.
 
 ## **Step 2**
 
-Click on “Clone” option in the ellipsis menu. 
+Click on “Clone” menu item in the ellipsis menu. 
 
 ![How_to_clone_a_resources](/assets/images/how_to_clone_a_resources1.png)
 
