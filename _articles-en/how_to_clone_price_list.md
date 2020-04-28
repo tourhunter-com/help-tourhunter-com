@@ -1,5 +1,5 @@
 ---
-title: How to clone price-list?
+title: How to clone price list?
 layout: article
 excerpt: Part of a post
 category: net-rates
@@ -15,12 +15,12 @@ Go to “Manage > Net rates > My rates”.
 
 ## **Step 2**
 
-Click on icon cloning price-list. 
+Click on "Сlone" menu item in the ellipsis menu. 
 
 ![How_to_clone_price-list1](/assets/images/how_to_clone_price-list1.png)
 
 ## **Step 3**
 
-Click “Continue” button in the “Clone Price List” proceed modal. 
+Click on “Continue” button in the “Clone Price List” proceed modal. 
 
 ![How_to_clone_price-list2](/assets/images/how_to_clone_price-list2.png)
