@@ -2,7 +2,7 @@
 title: How to clone price-list?
 layout: article
 excerpt: Part of a post
-category: net rates
+category: net-rates
 lang: en
 permalink: "/en/:name/"
 ref: how-to-clone-price-list
