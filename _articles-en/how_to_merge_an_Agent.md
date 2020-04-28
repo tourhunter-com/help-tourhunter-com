@@ -5,7 +5,7 @@ excerpt: Part of a post
 category: agents
 lang: en
 permalink: "/en/:name/"
-ref: how-to-clone-price-list
+ref: how-to-merge-an-Agent
 cat: some
 ---
 
