@@ -17,7 +17,7 @@ Go to "Bookings > Transfer view"
 
 ## **Step 2**
 
-choose “Export” menu item in the elipsis menu
+Сhoose “Export” menu item in the elipsis menu.
 
 ![How_to_export__a_transfer_resource1](/assets/images/how_to_export_a_transfer_resource1.png)
 
