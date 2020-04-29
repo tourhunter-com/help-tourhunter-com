@@ -49,7 +49,7 @@ Applied to the total booking amount. Taxes, fees, and extras are added to the bo
  
 - “Coupon Code” - code, that will be used to activate a discount;
 - “Coupon Name” - name, that will be used for a coupon;
-- “Discount” - discount amount for a tour(s);
+- “Discount” - discount amount for a tour;
 - “Apply to” - which tour apply the discount;
 - “Valid” - discount period;
 - “Travel date must be” (optional) - date range when сoupon is active. The date of the tour should fall into this range. For coupon operation according to "Travel date must be", the conditions for the date range from the "Valid" block must also be performed;
