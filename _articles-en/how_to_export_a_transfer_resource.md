@@ -13,7 +13,7 @@ cat: some
 
 ## **Step 1**
 
-Go to "Bookings > Transfer view"
+Go to "Bookings > Transfer view".
 
 ## **Step 2**
 
