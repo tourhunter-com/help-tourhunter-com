@@ -21,4 +21,4 @@ Go to "Bookings > Transfer view"
 
 ![How_to_export__a_transfer_resource1](/assets/images/how_to_export_a_transfer_resource1.png)
 
-
+The transfer resource will be downloaded in “.xlsx” format.
