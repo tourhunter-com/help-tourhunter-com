@@ -20,7 +20,7 @@ The "Messages block" in "Bookings > Manifest view > Session" is intended for exc
 ### **Messages reviewing**
 
 When clicked, a window opens in the right sidebar. The user can send a text message or image in any of the available formats.
- 
+
 ![Session_messages2](/assets/images/session_messages2.png)
 
 After sending a message, a notification about it is displayed to all users of the current company who have configured notifications at "Manage > Notifications > System Notifications".
