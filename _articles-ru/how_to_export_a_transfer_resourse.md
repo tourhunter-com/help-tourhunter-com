@@ -1,3 +1,4 @@
+---
 title: Как экспортировать трансфер-ресурс?
 layout: article
 excerpt: Part of a post
