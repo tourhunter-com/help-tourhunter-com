@@ -17,6 +17,9 @@ cat: some
 
 ## **Шаг 2**
 
-Выбрать пункт меню “Export” в меню-троеточии трансфер-ресурса.
+Выбрать пункт меню “Export” в меню-троеточии.
 
 ![How_to_export__a_transfer_resource1](/assets/images/how_to_export_a_transfer_resource1.png)
+
+Трансфер-ресурс будет загружен в формате “.xlsx”.
+
