@@ -33,4 +33,4 @@ cat: some
 
 ## **Предложения**
 
-Запрещается соединять между собой Internal-компании. При слиянии Internal Agent c Online Agent разрешается установить тот же agent code, который настроен у Internal Agent. При слиянии Internal и Online Agent, если у Online Agent'а не заданы agent code или пароль, то эти поля заполняются данными из настроек Internal Agent.
+Запрещается делать слияние между собой Internal-компании. При слиянии Internal Agent c Online Agent разрешается установить тот же agent code, который настроен у Internal Agent. При слиянии Internal и Online Agent, если у Online Agent'а не заданы agent code или пароль, то эти поля заполняются данными из настроек Internal Agent.
