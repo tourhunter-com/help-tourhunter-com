@@ -17,6 +17,6 @@ Go to “Manage > Pick-ups > Pick-up Lists”.
 
 Choose “Export” in the ellipsis menu.
 
-![How_to_export_a_pick-up_list1](/assets/images/how_to_export_a_pick_up_list1.png)
+![How_to_export_a_pick_up_list1](/assets/images/how_to_export_a_pick_up_list1.png)
 
 The pick-up list will be downloaded in ".csv" format.
