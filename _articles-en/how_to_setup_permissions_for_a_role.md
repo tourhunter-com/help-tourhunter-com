@@ -2,9 +2,7 @@
 title: How to setup permissions for a role?
 layout: article
 excerpt: Part of a post
-category: getting-started
-subcategories:
-    getting-started: employees
+category: employees
 tags:
 - employee-settings
 lang: en

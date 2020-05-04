@@ -2,7 +2,9 @@
 title: How to invite an employee?
 layout: article
 excerpt: Part of a post
-category: getting-started
+categories: 
+- getting-started
+- employees
 subcategories:
     getting-started: employees
 tags:

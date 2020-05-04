@@ -53,7 +53,6 @@ categories:
       en: "Here you can find answers on how to manage a bookings for a tours."
       ru: "Здесь вы найдете информацию о том как управлять бронированием туров."
     subcategories:
-      bookings-cancelation:
       managing-a-bookings:
         en: "Managing a bookings"
         ru: "Управление букингами"
@@ -176,6 +175,14 @@ categories:
     desc:
       en: "Get all instructions how to setup and manage complex price & rates options for your product."
       ru: "Получите все инструкции о том как настроить и управлять комплексными ценами и вариантами тарифов для вашего продукта."
+
+  employees:
+    title:
+      en: "Employees"
+      ru: "Сотрудники"
+    desc:
+      en: "Configure and manage your employees and also roles, instructions for them."
+      ru: "Настройте и управляйте своими сотрудниками, а так же ролями и инструкциями для них."
 
   fees-taxes:
     title:
