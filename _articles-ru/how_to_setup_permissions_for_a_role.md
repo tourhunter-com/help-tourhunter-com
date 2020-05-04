@@ -2,9 +2,7 @@
 title: Как настроить ограничения для роли?
 layout: article
 excerpt: Part of a post
-category: getting-started
-subcategories:
-    getting-started: employees
+category: employees
 tags:
 - employee-settings
 lang: ru
