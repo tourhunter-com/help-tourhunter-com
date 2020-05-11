@@ -4,7 +4,7 @@ layout: article
 excerpt: Part of a post
 category: bookings
 subcategories:
-bookings: manifest-view
+    bookings: manifest-view
 tags:
 - manifest-view
 lang: ru
