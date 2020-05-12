@@ -8,7 +8,7 @@ subcategories:
 tags:
 - manifest-view
 lang: ru
-permalink: "/en/:name/"
+permalink: "/ru/:name/"
 ref: how-to-block-seats-for-the-session
 cat: some
 ---
