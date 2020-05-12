@@ -4,7 +4,7 @@ layout: article
 excerpt: Part of a post
 category: employees
 lang: ru
-permalink: "/en/:name/"
+permalink: "/ru/:name/"
 ref: how-to-change-employees-status
 cat: some
 ---
