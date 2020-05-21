@@ -1,5 +1,7 @@
 # Installation
 
+Please read through our [Contributing Guidelines](CONTRIBUTING.md).
+
 ## General setup
 
 - Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
