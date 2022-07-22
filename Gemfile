@@ -27,7 +27,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "1.2.7"
+  gem "tzinfo", "1.2.10"
   gem "tzinfo-data", "1.2020.1"
 end
 
